@@ -5,4 +5,4 @@
 - [herbert3000](https://github.com/herbert3000) - CSFFBS Script Decoder
 ###
 - IMPORTANT NOTE
-- Levels are using custom BDD's, some scripts might be working not as it should be.
+- Levels are using custom BDD's, some scripts may not work as they should.
