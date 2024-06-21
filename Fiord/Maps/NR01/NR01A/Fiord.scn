@@ -1,0 +1,6435 @@
+[
+	.VERSION 17
+	.PLAYER 1
+	.MUNDOVIS
+	[
+		.RWS "Maps\NR01\NR01A\NR01A.rws"
+		.SIMPLIFICADO "Maps\NR01\NR01A\NR01A_col.rws"
+		.TEXTURAS "Maps\NR01\NR01A\Textures\"
+		.PUNTERIA "NR01"
+		.SONIDO_AMBIENTE -1
+		.CIELO "Maps\Deco\cielo_NR01.dff"
+		.CIELOSPEED1 0.0
+		.CIELOSPEED2 0.0
+		.CIELOSPEED3 0.0
+		.CIELO_MODULATE2X 0
+		.MODULATE2X 1
+		.AMBESCENA -16777216
+		.AMBIENTE 4342351
+		.VIEWPORT_AMB_ADD 0.0
+		.CAMERANEAR 35.0
+		.CAMERAFAR 35000.0
+		.CAMERAFOV -1.0
+		.FOGENABLED 1
+		.FOGTYPE 0
+		.FOGCOLOR 6444365
+		.FOGALPHA 255
+		.FOGDENSITY 1.0
+		.FOGDISTANCE 10000.0
+		.AGUA_FOGTYPE 0
+		.AGUA_FOGCOLOR 1973537
+		.AGUA_FOGALPHA 255
+		.AGUA_FOGDENSITY 80000.0
+		.AGUA_FOGDISTANCE -100000.0
+		.ATMOSFERICFX 0
+		.VAHOENABLED 0
+		.ELIMINAR_MUERTOS 0
+		.MINIMAPA_RTS 0
+		.RADIO_RTS 10000.0
+		.MTACTICO_ORIGEN
+		(
+			23500.0
+			0.0
+			14000.0
+		) 
+		.MTACTICO_DESTINO
+		(
+			-19000.0
+			0.0
+			-27500.0
+		) 
+		.ORIGEN_RTS
+		(
+			-490.0
+			0.0
+			3510.0
+		) 
+		.DESTINO_RTS
+		(
+			551.0
+			0.0
+			4365.0
+		) 
+		.MTACTICO_TEXTURA "Gfx\MapaTactico_nr01.png"
+		.TEXTURA_RTS ""
+		.FLIS_ESCENARIO "Texts\Fiord.fli"
+		.SAVEGAME_DESCR "g112"
+		.SAVEGAME_SCENE "g112"
+		.GLOW_ON 1
+		.GLOW_CUTCOLOR 36
+		.GLOW_INTENSITY 44
+		.GLOW_DISPLACEMENT 38
+		.VIDEO_OPENING ""
+		.INVERTIR_NORTE_SUR 0
+		.INICIO_COMMANDO 0
+		.INICIO_SNIPER 0
+		.INICIO_SPY 0
+	] 
+	.BICHOS
+	(
+		[
+			.NOMBRE "GreenBeret"
+			.ID 1
+			.CLASSID 265
+			.POS
+			(
+				-13371.056
+				-134.68735
+				-8994.324
+			) 
+			.ANGULO 43.95293
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.CELDA
+			[
+				.GRUPO -1
+				.PUNTO -1
+			] 
+		]
+		[
+			.NOMBRE "pills"
+			.ID 2
+			.CLASSID 504
+			.POS
+			(
+				-11491.8
+				132.457
+				-9150.43
+			) 
+			.ANGULO 0.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.CELDA
+			[
+				.GRUPO -1
+				.PUNTO -1
+			] 
+		]
+		[
+			.NOMBRE "unter"
+			.ID 3
+			.CLASSID 142
+			.POS
+			(
+				-11968.1
+				70.0261
+				-10936
+			) 
+			.ANGULO 41.218
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.CELDA
+			[
+				.GRUPO -1
+				.PUNTO -1
+			] 
+		]
+		[
+			.NOMBRE "unter2"
+			.ID 4
+			.CLASSID 142
+			.POS
+			(
+				-11898.6
+				70.0261
+				-10859.1
+			) 
+			.ANGULO 222.323
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.CELDA
+			[
+				.GRUPO -1
+				.PUNTO -1
+			] 
+		]
+		[
+			.NOMBRE "norweg"
+			.ID 5
+			.CLASSID 226
+			.POS
+			(
+				-9001.22
+				1051.44
+				-8281.17
+			) 
+			.ANGULO -60.6935
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.BANDO "ALIADO"
+			.CELDA
+			[
+				.GRUPO -1
+				.PUNTO -1
+			] 
+		]
+		[
+			.NOMBRE "Camion_03"
+			.ID 6
+			.CLASSID 57
+			.POS
+			(
+				7205.57
+				698.675
+				3707.6
+			) 
+			.ANGULO 157.595
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.CELDA
+			[
+				.GRUPO -1
+				.PUNTO -1
+			] 
+		]
+		[
+			.NOMBRE "unterkms"
+			.ID 7
+			.CLASSID 142
+			.POS
+			(
+				9318.86
+				918.338
+				470.294
+			) 
+			.ANGULO 81.4232
+			.ANGULO_X 0.0
+			.COLISION 0
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.CELDA
+			[
+				.GRUPO -1
+				.PUNTO -1
+			] 
+		]
+	) 
+	.EFECTOS
+	(
+		[
+			.ID 195
+			.NOMBRE "Nuevo Efecto 0"
+			.CLASSID 97
+			.DUMMY 299
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 196
+			.NOMBRE "Nuevo Efecto 1"
+			.CLASSID 97
+			.DUMMY 300
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 197
+			.NOMBRE "Nuevo Efecto 2"
+			.CLASSID 97
+			.DUMMY 301
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 198
+			.NOMBRE "Nuevo Efecto 3"
+			.CLASSID 97
+			.DUMMY 302
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 199
+			.NOMBRE "Nuevo Efecto 4"
+			.CLASSID 97
+			.DUMMY 303
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 200
+			.NOMBRE "Nuevo Efecto 5"
+			.CLASSID 97
+			.DUMMY 304
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 201
+			.NOMBRE "Nuevo Efecto 6"
+			.CLASSID 97
+			.DUMMY 305
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 202
+			.NOMBRE "Nuevo Efecto 7"
+			.CLASSID 97
+			.DUMMY 306
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 203
+			.NOMBRE "Nuevo Efecto 8"
+			.CLASSID 97
+			.DUMMY 307
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 204
+			.NOMBRE "Nuevo Efecto 9"
+			.CLASSID 97
+			.DUMMY 308
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 205
+			.NOMBRE "Nuevo Efecto 0"
+			.CLASSID 184
+			.DUMMY 309
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 206
+			.NOMBRE "Nuevo Efecto 1"
+			.CLASSID 184
+			.DUMMY 310
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 207
+			.NOMBRE "Nuevo Efecto 2"
+			.CLASSID 184
+			.DUMMY 311
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 208
+			.NOMBRE "Nuevo Efecto 3"
+			.CLASSID 184
+			.DUMMY 312
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 209
+			.NOMBRE "Nuevo Efecto 4"
+			.CLASSID 184
+			.DUMMY 313
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 210
+			.NOMBRE "Nuevo Efecto 5"
+			.CLASSID 184
+			.DUMMY 314
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 211
+			.NOMBRE "Nuevo Efecto 6"
+			.CLASSID 183
+			.DUMMY 312
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 212
+			.NOMBRE "Nuevo Efecto 7"
+			.CLASSID 183
+			.DUMMY 313
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 213
+			.NOMBRE "Nuevo Efecto 8"
+			.CLASSID 183
+			.DUMMY 314
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 214
+			.NOMBRE "Nuevo Efecto 9"
+			.CLASSID 183
+			.DUMMY 311
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 215
+			.NOMBRE "Nuevo Efecto 10"
+			.CLASSID 183
+			.DUMMY 310
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 216
+			.NOMBRE "Nuevo Efecto 11"
+			.CLASSID 183
+			.DUMMY 309
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 217
+			.NOMBRE "Nuevo Efecto 13"
+			.CLASSID 160
+			.DUMMY 315
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 218
+			.NOMBRE "Nuevo Efecto 14"
+			.CLASSID 160
+			.DUMMY 316
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 219
+			.NOMBRE "Nuevo Efecto 15"
+			.CLASSID 160
+			.DUMMY 317
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 220
+			.NOMBRE "Nuevo Efecto 16"
+			.CLASSID 160
+			.DUMMY 318
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 221
+			.NOMBRE "Nuevo Efecto 22"
+			.CLASSID 180
+			.DUMMY 319
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 222
+			.NOMBRE "Nuevo Efecto 23"
+			.CLASSID 180
+			.DUMMY 320
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 223
+			.NOMBRE "Nuevo Efecto 24"
+			.CLASSID 180
+			.DUMMY 321
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 224
+			.NOMBRE "Nuevo Efecto 25"
+			.CLASSID 180
+			.DUMMY 322
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 225
+			.NOMBRE "Nuevo Efecto 26"
+			.CLASSID 180
+			.DUMMY 323
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 226
+			.NOMBRE "Nuevo Efecto 27"
+			.CLASSID 180
+			.DUMMY 324
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 227
+			.NOMBRE "Nuevo Efecto 28"
+			.CLASSID 180
+			.DUMMY 325
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 228
+			.NOMBRE "Nuevo Efecto 29"
+			.CLASSID 180
+			.DUMMY 326
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 229
+			.NOMBRE "Nuevo Efecto 31"
+			.CLASSID 180
+			.DUMMY 327
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 230
+			.NOMBRE "Nuevo Efecto 32"
+			.CLASSID 180
+			.DUMMY 328
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 231
+			.NOMBRE "Nuevo Efecto 33"
+			.CLASSID 181
+			.DUMMY 329
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 232
+			.NOMBRE "Nuevo Efecto 34"
+			.CLASSID 181
+			.DUMMY 330
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 233
+			.NOMBRE "Nuevo Efecto 35"
+			.CLASSID 181
+			.DUMMY 331
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 234
+			.NOMBRE "Nuevo Efecto 36"
+			.CLASSID 181
+			.DUMMY 332
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 235
+			.NOMBRE "Nuevo Efecto 37"
+			.CLASSID 181
+			.DUMMY 333
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+	) 
+	.AGUAS
+	(
+		[
+			.NOMBRE "MAR"
+			.AGUA_DIFFUSEADD 658960
+			.AGUA_DIFFUSEMOD 4213337
+			.AGUA_SPECULAR 16047539
+			.AGUA_BLUR 0.7
+			.AGUA_DISPLACEMENTVEL -0.005
+			.AGUA_ENVOSC 0.2
+			.AGUA_HEIGHTOSCSIZE 0.05
+			.AGUA_HEIGHTOSCVEL 0.05
+			.AGUA_NORMALPERT 0.0
+			.AGUA_SPECULARENV 1.0
+			.AGUA_SPECULARGLOSS 15.0
+			.AGUA_SPECULARLEVEL 1.0
+			.AGUA_TRANSPARENCY 0.0
+			.AGUA_UVOSC 0.2
+			.AGUA_UVSCALE 6.0
+			.AGUA_NORMALMAPZ 0.3
+			.AGUA_TEXNM "Gfx\Textures\NR01_Normal.png"
+		] 
+		[
+			.NOMBRE "RIO"
+			.AGUA_DIFFUSEADD 658960
+			.AGUA_DIFFUSEMOD 4344409
+			.AGUA_SPECULAR 16047539
+			.AGUA_BLUR 0.7
+			.AGUA_DISPLACEMENTVEL -0.01
+			.AGUA_ENVOSC 0.2
+			.AGUA_HEIGHTOSCSIZE 0.05
+			.AGUA_HEIGHTOSCVEL 0.05
+			.AGUA_NORMALPERT 0.0
+			.AGUA_SPECULARENV 1.0
+			.AGUA_SPECULARGLOSS 15.0
+			.AGUA_SPECULARLEVEL 1.0
+			.AGUA_TRANSPARENCY 0.0
+			.AGUA_UVOSC 0.01
+			.AGUA_UVSCALE 6.0
+			.AGUA_NORMALMAPZ 0.3
+			.AGUA_TEXNM "Gfx\Textures\NR01_Normal.png"
+		] 
+	) 
+	.MULTIPLAYER
+	[
+		.MPDEATHMATCH 0
+		.MPTDEATHMATCH 0
+		.MPPOSTMEN 0
+		.MPPOSTMEN_IDPOSTMAN -1
+		.MPFRANCOS 0
+	] 
+	.PUNTUACION_MAXIMA 4750
+	.PUNTUACION_MINIMA 1250
+	.MALLA_NAVEGACION
+	[
+		.GRUPOS
+		(
+			[
+				.ID 97
+				.NOMBRE "NemciRoute"
+				.TIPO 0
+				.PUNTOS
+				(
+					[
+						.ID 1
+						.NOMBRE ""
+						.POS
+						(
+							-11658.4
+							33.874
+							-11087
+						) 
+						.ROT 90.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 2
+						.NOMBRE ""
+						.POS
+						(
+							-11640.3
+							33.874
+							-10935.9
+						) 
+						.ROT 90.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 3
+						.NOMBRE ""
+						.POS
+						(
+							-10995.2
+							53.7836
+							-11068.9
+						) 
+						.ROT 90.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 4
+						.NOMBRE ""
+						.POS
+						(
+							-11898.6
+							70.0261
+							-10859.1
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 5
+						.NOMBRE ""
+						.POS
+						(
+							-11784.6
+							50.9698
+							-11067.3
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 6
+						.NOMBRE ""
+						.POS
+						(
+							-11968.1
+							70.0261
+							-10936
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 7
+						.NOMBRE ""
+						.POS
+						(
+							-11784.6
+							50.9698
+							-11067.3
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 8
+						.NOMBRE ""
+						.POS
+						(
+							-9001.22
+							1051.44
+							-8281.17
+						) 
+						.ROT -90.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 9
+						.NOMBRE ""
+						.POS
+						(
+							-9461.61
+							1051.44
+							-8281.17
+						) 
+						.ROT -120.6
+						.ROT_X 0.0
+					]
+				) 
+				.CONEXIONES
+				( 
+					[
+						.PUNTO_ORI 4
+						.PUNTO_DST 5
+					]
+					[
+						.PUNTO_ORI 5
+						.PUNTO_DST 2
+					]
+					[
+						.PUNTO_ORI 6
+						.PUNTO_DST 7
+					]
+					[
+						.PUNTO_ORI 7
+						.PUNTO_DST 1
+					]
+					[
+						.PUNTO_ORI 8
+						.PUNTO_DST 9
+					]
+				) 
+			]
+			[
+				.ID 98
+				.NOMBRE "TELEPORT"
+				.TIPO 0
+				.PUNTOS
+				(
+					[
+						.ID 1
+						.NOMBRE ""
+						.POS
+						(
+							-10074.6
+							515.99
+							-10340
+						) 
+						.ROT 172.495
+						.ROT_X 0.0
+					]
+					[
+						.ID 2
+						.NOMBRE ""
+						.POS
+						(
+							-10013.4
+							483.806
+							-10779.6
+						) 
+						.ROT -92.953
+						.ROT_X 0.0
+					]
+					[
+						.ID 3
+						.NOMBRE ""
+						.POS
+						(
+							-10984.3
+							48.762
+							-10984.9
+						) 
+						.ROT -90.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 4
+						.NOMBRE ""
+						.POS
+						(
+							8362.52
+							802.341
+							826.915
+						) 
+						.ROT -120.645
+						.ROT_X 0.0
+					]
+				) 
+				.CONEXIONES
+				( 
+				) 
+			]
+			[
+				.ID 99
+				.NOMBRE "GRUZOVIK"
+				.TIPO 0
+				.PUNTOS
+				(
+					[
+						.ID 1
+						.NOMBRE ""
+						.POS
+						(
+							7205.57
+							698.675
+							3707.6
+						) 
+						.ROT 157.595
+						.ROT_X 0.0
+					]
+					[
+						.ID 2
+						.NOMBRE ""
+						.POS
+						(
+							7461.65
+							692.333
+							1716.14
+						) 
+						.ROT 174.942
+						.ROT_X 0.0
+					]
+					[
+						.ID 3
+						.NOMBRE ""
+						.POS
+						(
+							7586.75
+							708.342
+							-1798.84
+						) 
+						.ROT 180
+						.ROT_X 0.0
+					]
+					[
+						.ID 4
+						.NOMBRE ""
+						.POS
+						(
+							9124.49
+							723.123
+							-4748.68
+						) 
+						.ROT 154.976
+						.ROT_X 0.0
+					]
+				) 
+				.CONEXIONES
+				( 
+					[
+						.PUNTO_ORI 1
+						.PUNTO_DST 2
+					]
+					[
+						.PUNTO_ORI 2
+						.PUNTO_DST 3
+					]
+					[
+						.PUNTO_ORI 3
+						.PUNTO_DST 4
+					]
+				) 
+			]
+		)  
+	] 
+	.MAPA_SECTORES "Maps\Secs\Fiord.sec"
+	.MALLA_DUMMIES
+	[
+		.DUMMIES
+		(
+			[
+				.ID 32
+				.NOMBRE "Muelle"
+				.POS
+				(
+					-12585.152
+					-184.91565
+					-5208.075
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 33
+				.NOMBRE "Camiones"
+				.POS
+				(
+					-12428.398
+					1295.146
+					-632.23816
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 34
+				.NOMBRE "Puesto_Carretera"
+				.POS
+				(
+					7744.302
+					708.21313
+					245.14886
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 36
+				.NOMBRE "Puente"
+				.POS
+				(
+					10597.839
+					856.0088
+					-10439.754
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 38
+				.NOMBRE ""
+				.POS
+				(
+					-12193.093
+					171.34644
+					-8905.955
+				) 
+				.ROT -0.995903
+				.ROT_X -0.004272
+			] 
+			[
+				.ID 39
+				.NOMBRE ""
+				.POS
+				(
+					-12272.95
+					144.34491
+					-8645.503
+				) 
+				.ROT 2.36563
+				.ROT_X -0.100448
+			] 
+			[
+				.ID 40
+				.NOMBRE ""
+				.POS
+				(
+					-13460.482
+					68.12086
+					-8550.29
+				) 
+				.ROT 1.901154
+				.ROT_X 0.063181
+			] 
+			[
+				.ID 41
+				.NOMBRE ""
+				.POS
+				(
+					-17220.957
+					1139.0173
+					-11438.157
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 42
+				.NOMBRE ""
+				.POS
+				(
+					-11778.968
+					26.988281
+					-8099.6367
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 43
+				.NOMBRE ""
+				.POS
+				(
+					-12592.348
+					-107.70816
+					-5955.158
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 44
+				.NOMBRE ""
+				.POS
+				(
+					-13731.778
+					-184.91562
+					-5351.2827
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 45
+				.NOMBRE ""
+				.POS
+				(
+					-11872.419
+					123.3111
+					-5698.9023
+				) 
+				.ROT -0.467171
+				.ROT_X -0.190084
+			] 
+			[
+				.ID 46
+				.NOMBRE ""
+				.POS
+				(
+					-11950.034
+					172.65561
+					-5380.366
+				) 
+				.ROT 2.934539
+				.ROT_X 0.0
+			] 
+			[
+				.ID 47
+				.NOMBRE ""
+				.POS
+				(
+					-11837.447
+					178.54507
+					-5416.134
+				) 
+				.ROT -2.771281
+				.ROT_X 0.0
+			] 
+			[
+				.ID 48
+				.NOMBRE ""
+				.POS
+				(
+					-12109.177
+					163.86948
+					-5518.777
+				) 
+				.ROT 1.277685
+				.ROT_X 0.0
+			] 
+			[
+				.ID 50
+				.NOMBRE ""
+				.POS
+				(
+					-7203.2827
+					-87.47327
+					967.44696
+				) 
+				.ROT -2.589045
+				.ROT_X 0.0
+			] 
+			[
+				.ID 51
+				.NOMBRE ""
+				.POS
+				(
+					-10627.036
+					95.93088
+					-6565.074
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 52
+				.NOMBRE ""
+				.POS
+				(
+					-11226.395
+					153.08041
+					-7159.0557
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 53
+				.NOMBRE ""
+				.POS
+				(
+					-407.92987
+					1195.7133
+					873.5681
+				) 
+				.ROT -1.756158
+				.ROT_X 0.0
+			] 
+			[
+				.ID 54
+				.NOMBRE ""
+				.POS
+				(
+					-821.59546
+					1199.6667
+					783.19104
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 65
+				.NOMBRE ""
+				.POS
+				(
+					-22821.342
+					-70.99585
+					-13337.849
+				) 
+				.ROT -1.882139
+				.ROT_X 0.029349
+			] 
+			[
+				.ID 66
+				.NOMBRE ""
+				.POS
+				(
+					-9800.164
+					-168.29681
+					-1720.374
+				) 
+				.ROT 0.799168
+				.ROT_X 0.07483
+			] 
+			[
+				.ID 67
+				.NOMBRE ""
+				.POS
+				(
+					-10864.747
+					1409.3132
+					1997.7532
+				) 
+				.ROT -2.339474
+				.ROT_X -0.22459
+			] 
+			[
+				.ID 69
+				.NOMBRE ""
+				.POS
+				(
+					-10077.744
+					1347.4253
+					2665.0115
+				) 
+				.ROT -1.206484
+				.ROT_X -0.108715
+			] 
+			[
+				.ID 70
+				.NOMBRE ""
+				.POS
+				(
+					-10216.926
+					1266.6892
+					2868.1133
+				) 
+				.ROT 1.953348
+				.ROT_X 0.0
+			] 
+			[
+				.ID 72
+				.NOMBRE ""
+				.POS
+				(
+					-12787.965
+					2168.8682
+					2005.4673
+				) 
+				.ROT 2.070046
+				.ROT_X 0.0
+			] 
+			[
+				.ID 74
+				.NOMBRE ""
+				.POS
+				(
+					-11991.549
+					2078.9312
+					1590.6648
+				) 
+				.ROT -2.285968
+				.ROT_X 0.156678
+			] 
+			[
+				.ID 75
+				.NOMBRE ""
+				.POS
+				(
+					6848.3613
+					1274.3497
+					1771.6702
+				) 
+				.ROT 1.947025
+				.ROT_X 0.067173
+			] 
+			[
+				.ID 76
+				.NOMBRE ""
+				.POS
+				(
+					-12133.982
+					2079.9248
+					1551.1172
+				) 
+				.ROT -2.178789
+				.ROT_X 0.104529
+			] 
+			[
+				.ID 77
+				.NOMBRE ""
+				.POS
+				(
+					-12279.832
+					1547.457
+					941.9691
+				) 
+				.ROT 1.054986
+				.ROT_X 0.206778
+			] 
+			[
+				.ID 78
+				.NOMBRE ""
+				.POS
+				(
+					-12477.917
+					1340.7349
+					382.09406
+				) 
+				.ROT 3.094855
+				.ROT_X -0.16585
+			] 
+			[
+				.ID 79
+				.NOMBRE ""
+				.POS
+				(
+					-12270.231
+					1409.9309
+					-507.5071
+				) 
+				.ROT -1.859929
+				.ROT_X 0.0
+			] 
+			[
+				.ID 80
+				.NOMBRE ""
+				.POS
+				(
+					-10605.044
+					1244.013
+					2616.2354
+				) 
+				.ROT 1.266453
+				.ROT_X 0.006811
+			] 
+			[
+				.ID 116
+				.NOMBRE ""
+				.POS
+				(
+					14994.007
+					-227.1966
+					-9003.016
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 117
+				.NOMBRE ""
+				.POS
+				(
+					14434.706
+					-245.72754
+					-9325.711
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 118
+				.NOMBRE ""
+				.POS
+				(
+					14186.967
+					-92.134125
+					-9200.302
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 119
+				.NOMBRE ""
+				.POS
+				(
+					15264.505
+					2.209595
+					-8569.97
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 120
+				.NOMBRE ""
+				.POS
+				(
+					15534.005
+					-88.34674
+					-8411.418
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 121
+				.NOMBRE ""
+				.POS
+				(
+					14746.963
+					-145.08194
+					-9198.662
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 122
+				.NOMBRE ""
+				.POS
+				(
+					14023.688
+					-93.88269
+					-9254.918
+				) 
+				.ROT 0.873018
+				.ROT_X 0.0
+			] 
+			[
+				.ID 123
+				.NOMBRE ""
+				.POS
+				(
+					15019.086
+					-245.72754
+					-8701.496
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 124
+				.NOMBRE ""
+				.POS
+				(
+					15736.362
+					-245.72778
+					-8276.815
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 125
+				.NOMBRE ""
+				.POS
+				(
+					15261.455
+					-245.72748
+					-8470.169
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 126
+				.NOMBRE ""
+				.POS
+				(
+					14735.939
+					-245.72778
+					-8777.076
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 127
+				.NOMBRE ""
+				.POS
+				(
+					14332.015
+					-245.72772
+					-8951.279
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 163
+				.NOMBRE ""
+				.POS
+				(
+					9397.839
+					853.87067
+					-9738.102
+				) 
+				.ROT 2.538139
+				.ROT_X 0.0
+			] 
+			[
+				.ID 164
+				.NOMBRE ""
+				.POS
+				(
+					15502.162
+					1026.6562
+					-12770.973
+				) 
+				.ROT 3.058754
+				.ROT_X 0.0
+			] 
+			[
+				.ID 165
+				.NOMBRE ""
+				.POS
+				(
+					14674.273
+					1001.9915
+					-13548.039
+				) 
+				.ROT 0.088459
+				.ROT_X 0.0
+			] 
+			[
+				.ID 166
+				.NOMBRE ""
+				.POS
+				(
+					14820.189
+					973.6102
+					-13241.719
+				) 
+				.ROT -1.935256
+				.ROT_X 0.0
+			] 
+			[
+				.ID 167
+				.NOMBRE ""
+				.POS
+				(
+					13998.373
+					928.8327
+					-13177.764
+				) 
+				.ROT 1.506221
+				.ROT_X 0.0
+			] 
+			[
+				.ID 168
+				.NOMBRE ""
+				.POS
+				(
+					-10350.032
+					1340.3
+					2562.3462
+				) 
+				.ROT 1.046893
+				.ROT_X -0.016881
+			] 
+			[
+				.ID 204
+				.NOMBRE "Rio01"
+				.POS
+				(
+					-13280.826
+					-245.72778
+					-10262.525
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 205
+				.NOMBRE "Rio02"
+				.POS
+				(
+					-13339.161
+					-245.72778
+					-7552.708
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 206
+				.NOMBRE "Rio03"
+				.POS
+				(
+					-14641.827
+					-251.5028
+					-8344.753
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 207
+				.NOMBRE "Rio04"
+				.POS
+				(
+					-14540.029
+					-251.50269
+					-10544.668
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 208
+				.NOMBRE "Rio05"
+				.POS
+				(
+					-12731.237
+					-245.72766
+					-5893.053
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 209
+				.NOMBRE "Rio06"
+				.POS
+				(
+					-13202.161
+					-251.50269
+					-5078.187
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 210
+				.NOMBRE "Rio07"
+				.POS
+				(
+					-12493.558
+					-245.72766
+					-4408.678
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 211
+				.NOMBRE "Rio08"
+				.POS
+				(
+					-6226.395
+					-251.50269
+					1087.287
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 212
+				.NOMBRE "Rio09"
+				.POS
+				(
+					-7990.964
+					-245.72748
+					555.8034
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 213
+				.NOMBRE "Rio10"
+				.POS
+				(
+					-6864.0366
+					-251.50262
+					346.90607
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 214
+				.NOMBRE "CViento01"
+				.POS
+				(
+					-13998.765
+					101.910095
+					-8860.037
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 215
+				.NOMBRE "CViento02"
+				.POS
+				(
+					-13421.577
+					-117.707886
+					-8610.446
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 216
+				.NOMBRE "CViento03"
+				.POS
+				(
+					-11673.94
+					27.840576
+					-8521.143
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 217
+				.NOMBRE "Maderas01"
+				.POS
+				(
+					-12721.777
+					-177.45517
+					-5307.13
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 218
+				.NOMBRE "Maderas02"
+				.POS
+				(
+					-12265.721
+					-184.91556
+					-4897.504
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 219
+				.NOMBRE "CViento04"
+				.POS
+				(
+					-6548.5913
+					-42.57422
+					1454.6372
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 220
+				.NOMBRE "Generador"
+				.POS
+				(
+					-13443.635
+					1397.3053
+					-873.6162
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 221
+				.NOMBRE "Goteo"
+				.POS
+				(
+					-13553.953
+					1373.8586
+					1981.9946
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 222
+				.NOMBRE "CViento05"
+				.POS
+				(
+					-12098.454
+					1909.3472
+					1596.5505
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 223
+				.NOMBRE "RIO_01"
+				.POS
+				(
+					-13969.547
+					-257.40662
+					-6732.544
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 224
+				.NOMBRE "RIO_02"
+				.POS
+				(
+					-13526.636
+					-239.06445
+					-4214.17
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 225
+				.NOMBRE "RIO_03"
+				.POS
+				(
+					-10002.133
+					-227.74353
+					-1642.7424
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 226
+				.NOMBRE "RIO_04"
+				.POS
+				(
+					-6450.8203
+					-246.25781
+					-426.93384
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 227
+				.NOMBRE "RIO_05"
+				.POS
+				(
+					-4440.576
+					-240.20166
+					-2215.3506
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 228
+				.NOMBRE "RIO_06"
+				.POS
+				(
+					-3918.0781
+					-247.2168
+					2208.31
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 229
+				.NOMBRE "RIO_07"
+				.POS
+				(
+					-1295.5742
+					-226.60352
+					4230.3237
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 230
+				.NOMBRE "RIO_08"
+				.POS
+				(
+					1694.9797
+					-227.06763
+					3366.515
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 231
+				.NOMBRE "RIO_09"
+				.POS
+				(
+					2735.4302
+					-248.96338
+					348.47058
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 232
+				.NOMBRE "RIO_10"
+				.POS
+				(
+					2992.3054
+					-251.86572
+					-2747.913
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 233
+				.NOMBRE "RIO_11"
+				.POS
+				(
+					3948.4048
+					-251.47937
+					-7679.1587
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 234
+				.NOMBRE "RIO_12"
+				.POS
+				(
+					5264.8267
+					-212.54004
+					-10214.226
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 235
+				.NOMBRE "RIO_13"
+				.POS
+				(
+					9611.418
+					-205.21484
+					-10509.832
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 236
+				.NOMBRE "RIO_14"
+				.POS
+				(
+					-14215.696
+					-232.82043
+					-7395.5483
+				) 
+				.ROT 0.0
+				.ROT_X -0.006188
+			] 
+			[
+				.ID 237
+				.NOMBRE "RIO_15"
+				.POS
+				(
+					-15063.939
+					-196.37012
+					-8235.197
+				) 
+				.ROT 0.647877
+				.ROT_X 0.0
+			] 
+			[
+				.ID 238
+				.NOMBRE "RIO_16"
+				.POS
+				(
+					-15753.028
+					-243.03125
+					-9760.377
+				) 
+				.ROT 0.471097
+				.ROT_X 0.0
+			] 
+			[
+				.ID 239
+				.NOMBRE "RIO_17"
+				.POS
+				(
+					-17664.111
+					-228.08887
+					-10724.774
+				) 
+				.ROT 1.192777
+				.ROT_X 0.0
+			] 
+			[
+				.ID 240
+				.NOMBRE "RIO_18"
+				.POS
+				(
+					-20258.031
+					-247.03613
+					-12029.275
+				) 
+				.ROT 1.202601
+				.ROT_X 0.0
+			] 
+			[
+				.ID 241
+				.NOMBRE "RIO_19"
+				.POS
+				(
+					-22617.025
+					-247.16089
+					-13217.201
+				) 
+				.ROT 1.133807
+				.ROT_X 0.0
+			] 
+			[
+				.ID 242
+				.NOMBRE ""
+				.POS
+				(
+					-13395.346
+					125.635864
+					-9566.371
+				) 
+				.ROT 1.200805
+				.ROT_X 0.0
+			] 
+			[
+				.ID 243
+				.NOMBRE "Estimulo_Alerta"
+				.POS
+				(
+					14684.087
+					856.0083
+					-8709.744
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 244
+				.NOMBRE "BarcoParado"
+				.POS
+				(
+					-13828.861
+					-30.739014
+					-9954.439
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 245
+				.NOMBRE "Goteo02"
+				.POS
+				(
+					-13750.653
+					1364.6516
+					-1849.5281
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 246
+				.NOMBRE "Farolillo"
+				.POS
+				(
+					-13267.28
+					1379.1102
+					-1856.2588
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 247
+				.NOMBRE "Metales01"
+				.POS
+				(
+					15930.767
+					-76.36835
+					-8377.315
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 249
+				.NOMBRE "Metales02"
+				.POS
+				(
+					14454.149
+					-228.33276
+					-9386.168
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 250
+				.NOMBRE "Metales03"
+				.POS
+				(
+					14612.504
+					-99.47693
+					-8604.2
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 251
+				.NOMBRE "Metales04"
+				.POS
+				(
+					-13790.221
+					111.546265
+					-9083.523
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 252
+				.NOMBRE "Metales05"
+				.POS
+				(
+					-14168.77
+					-39.8844
+					-10447.641
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 253
+				.NOMBRE "Metales06"
+				.POS
+				(
+					-13398.659
+					-91.09888
+					-8345.392
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 254
+				.NOMBRE ""
+				.POS
+				(
+					14609.013
+					-245.72766
+					-9268.126
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 255
+				.NOMBRE ""
+				.POS
+				(
+					14567.098
+					-237.06445
+					-8616.179
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 256
+				.NOMBRE ""
+				.POS
+				(
+					15336.688
+					-245.7273
+					-8810.019
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 257
+				.NOMBRE ""
+				.POS
+				(
+					15268.058
+					-245.72754
+					-8258.167
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 258
+				.NOMBRE ""
+				.POS
+				(
+					9970.785
+					1014.80786
+					-10786.438
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 259
+				.NOMBRE ""
+				.POS
+				(
+					10520.501
+					997.91254
+					-10640.464
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 295
+				.NOMBRE ""
+				.POS
+				(
+					12813.27
+					-245.72754
+					-10139.309
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 296
+				.NOMBRE ""
+				.POS
+				(
+					16231.926
+					-245.72754
+					-7276.1973
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 297
+				.NOMBRE ""
+				.POS
+				(
+					17711.375
+					-245.72754
+					-3372.248
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 298
+				.NOMBRE ""
+				.POS
+				(
+					4823.595
+					-245.72754
+					-11943.523
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 299
+				.NOMBRE ""
+				.POS
+				(
+					-13705.15
+					1548.6818
+					-1134.1438
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 300
+				.NOMBRE ""
+				.POS
+				(
+					-13208.561
+					1549.5769
+					-1734.7241
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 301
+				.NOMBRE ""
+				.POS
+				(
+					-14034.382
+					1647.5103
+					2076.2725
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 302
+				.NOMBRE ""
+				.POS
+				(
+					-13288.986
+					1818.9486
+					1714.5206
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 303
+				.NOMBRE ""
+				.POS
+				(
+					-12795.168
+					1605.1106
+					1740.9065
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 304
+				.NOMBRE ""
+				.POS
+				(
+					-13019.702
+					1651.3164
+					2928.3904
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 305
+				.NOMBRE ""
+				.POS
+				(
+					-12273.906
+					1606.5938
+					2177.6758
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 306
+				.NOMBRE ""
+				.POS
+				(
+					-12722.988
+					1608.3485
+					2197.3887
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 307
+				.NOMBRE ""
+				.POS
+				(
+					4983.11
+					279.08377
+					902.9677
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 308
+				.NOMBRE ""
+				.POS
+				(
+					7315.426
+					1270.4109
+					-12081.349
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 309
+				.NOMBRE ""
+				.POS
+				(
+					17735.074
+					-257.68018
+					-307.23938
+				) 
+				.ROT -2.719791
+				.ROT_X 0.0
+			] 
+			[
+				.ID 310
+				.NOMBRE ""
+				.POS
+				(
+					18025.521
+					-248.54367
+					-453.18475
+				) 
+				.ROT -2.612562
+				.ROT_X 0.0
+			] 
+			[
+				.ID 311
+				.NOMBRE ""
+				.POS
+				(
+					18326.195
+					-257.71484
+					-614.69666
+				) 
+				.ROT -2.668818
+				.ROT_X 0.0
+			] 
+			[
+				.ID 312
+				.NOMBRE ""
+				.POS
+				(
+					19625.828
+					-253.73901
+					-1139.6553
+				) 
+				.ROT -2.753513
+				.ROT_X 0.0
+			] 
+			[
+				.ID 313
+				.NOMBRE ""
+				.POS
+				(
+					19922.814
+					-253.46735
+					-1257.5969
+				) 
+				.ROT -2.750834
+				.ROT_X 0.0
+			] 
+			[
+				.ID 314
+				.NOMBRE ""
+				.POS
+				(
+					20194.145
+					-256.97754
+					-1399.6995
+				) 
+				.ROT -2.673442
+				.ROT_X 0.0
+			] 
+			[
+				.ID 315
+				.NOMBRE ""
+				.POS
+				(
+					19336.32
+					-139.01364
+					-1030.7085
+				) 
+				.ROT -2.746125
+				.ROT_X 0.0
+			] 
+			[
+				.ID 316
+				.NOMBRE ""
+				.POS
+				(
+					20323.9
+					0.0
+					-1458.4414
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 317
+				.NOMBRE ""
+				.POS
+				(
+					18581.873
+					-140.93268
+					-692.8296
+				) 
+				.ROT -2.644131
+				.ROT_X 0.0
+			] 
+			[
+				.ID 318
+				.NOMBRE ""
+				.POS
+				(
+					17533.287
+					0.0
+					-211.39398
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 319
+				.NOMBRE ""
+				.POS
+				(
+					-12899.993
+					-254.64322
+					-5612.7427
+				) 
+				.ROT -2.87458
+				.ROT_X 0.0
+			] 
+			[
+				.ID 320
+				.NOMBRE ""
+				.POS
+				(
+					-12873.925
+					-251.9143
+					-5370.5503
+				) 
+				.ROT -2.836492
+				.ROT_X 0.0
+			] 
+			[
+				.ID 321
+				.NOMBRE ""
+				.POS
+				(
+					-12774.519
+					-255.94559
+					-5182.1274
+				) 
+				.ROT -2.882516
+				.ROT_X 0.0
+			] 
+			[
+				.ID 322
+				.NOMBRE ""
+				.POS
+				(
+					-12836.151
+					-252.9739
+					-5640.0264
+				) 
+				.ROT -2.819591
+				.ROT_X 0.0
+			] 
+			[
+				.ID 323
+				.NOMBRE ""
+				.POS
+				(
+					-12743.264
+					-254.47514
+					-4873.1587
+				) 
+				.ROT -2.94684
+				.ROT_X 0.0
+			] 
+			[
+				.ID 324
+				.NOMBRE ""
+				.POS
+				(
+					-12910.173
+					-258.71826
+					-4855.597
+				) 
+				.ROT -2.863924
+				.ROT_X 0.0
+			] 
+			[
+				.ID 325
+				.NOMBRE ""
+				.POS
+				(
+					-12717.252
+					-254.6195
+					-4759.9644
+				) 
+				.ROT -2.821729
+				.ROT_X 0.0
+			] 
+			[
+				.ID 326
+				.NOMBRE ""
+				.POS
+				(
+					-12656.26
+					-253.69128
+					-4720.319
+				) 
+				.ROT -2.897892
+				.ROT_X 0.0
+			] 
+			[
+				.ID 327
+				.NOMBRE ""
+				.POS
+				(
+					-12415.031
+					-256.031
+					-3910.3171
+				) 
+				.ROT -2.419366
+				.ROT_X 0.0
+			] 
+			[
+				.ID 328
+				.NOMBRE ""
+				.POS
+				(
+					-12455.811
+					-258.22968
+					-3974.8342
+				) 
+				.ROT -2.516594
+				.ROT_X 0.0
+			] 
+			[
+				.ID 329
+				.NOMBRE ""
+				.POS
+				(
+					-14422.013
+					-250.90535
+					-6766.619
+				) 
+				.ROT -2.756955
+				.ROT_X 0.0
+			] 
+			[
+				.ID 330
+				.NOMBRE ""
+				.POS
+				(
+					-13849.488
+					-244.35547
+					-7061.783
+				) 
+				.ROT -2.781161
+				.ROT_X 0.0
+			] 
+			[
+				.ID 331
+				.NOMBRE ""
+				.POS
+				(
+					-13245.392
+					-253.70312
+					-6632.13
+				) 
+				.ROT -2.465362
+				.ROT_X 0.0
+			] 
+			[
+				.ID 332
+				.NOMBRE ""
+				.POS
+				(
+					-13343.335
+					-251.81879
+					-5840.8936
+				) 
+				.ROT -2.66928
+				.ROT_X 0.0
+			] 
+			[
+				.ID 333
+				.NOMBRE ""
+				.POS
+				(
+					-13967.988
+					-250.48914
+					-6130.121
+				) 
+				.ROT -2.645349
+				.ROT_X 0.0
+			]
+			[
+				.ID 334
+				.NOMBRE ""
+				.POS
+				(
+					-12195.1
+					575.189
+					-11011.2
+				) 
+				.ROT 140.0
+				.ROT_X 45.0
+			]
+			[
+				.ID 335
+				.NOMBRE ""
+				.POS
+				(
+					-11897.6
+					333.087
+					-11040.2
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			]
+			[
+				.ID 336
+				.NOMBRE ""
+				.POS
+				(
+					-11526.7
+					141.957
+					-9414.54
+				) 
+				.ROT -25.0
+				.ROT_X 25.1
+			]
+		) 
+		.CARPETAS
+		[
+			.RAIZ
+			(
+				[
+					.NOMBRE ""
+					.CARPETAS
+					(
+						[
+							.NOMBRE "Objetivos"
+							.ELEMENTOS
+							(
+								32
+								33
+								34
+								36
+							) 
+						]   
+						[
+							.NOMBRE "Explosiones_Barco"
+							.ELEMENTOS
+							(
+								116
+								117
+								118
+								119
+								120
+								121
+								122
+								123
+								243
+								254
+								255
+								256
+								257
+							) 
+						] 
+						[
+							.NOMBRE "Fuegos_Barco_Aleman"
+							.ELEMENTOS
+							(
+								124
+								125
+								126
+								127
+							) 
+						]  
+						[
+							.NOMBRE "ZSFX"
+							.ELEMENTOS
+							(
+								204
+								205
+								206
+								207
+								208
+								209
+								210
+								211
+								212
+								213
+								214
+								215
+								216
+								217
+								218
+								219
+								220
+								221
+								222
+								244
+								245
+								246
+								247
+								249
+								250
+								251
+								252
+								253
+							) 
+						] 
+						[
+							.NOMBRE "_RIO"
+							.ELEMENTOS
+							(
+								223
+								224
+								225
+								226
+								227
+								228
+								229
+								230
+								231
+								232
+								233
+								234
+								235
+								236
+								237
+								238
+								239
+								240
+								241
+								295
+								296
+								297
+								298
+							) 
+						]  
+						[
+							.NOMBRE "GLOWS_DIA"
+							.ELEMENTOS
+							(
+								299
+								300
+								301
+								302
+								303
+								304
+								305
+								306
+								307
+								308
+							) 
+						] 
+						[
+							.NOMBRE "Agua"
+							.ELEMENTOS
+							(
+								314
+								313
+								312
+								311
+								310
+								309
+								317
+								318
+								316
+								315
+								321
+								319
+								322
+								320
+								323
+								324
+								332
+								327
+								328
+								333
+								325
+								326
+								331
+								329
+								330
+							) 
+						]
+						[
+							.NOMBRE "Camera_Viewport"
+							.ELEMENTOS
+							(
+								334
+								335
+							) 
+						]
+					) 
+				] 
+			) 
+		] 
+	] 
+	.MALLA_AREAS
+	[
+		.AREAS
+		(
+			[
+				.ID 4
+				.FLAGS 3
+				.OCLUSION 1
+				.NOMBRE "Agua"
+				.HEIGHT 1170.0
+				.REVERB 23
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-32974.37
+							1080.5017
+							-1560.877
+						) 
+					] 
+					[
+						.POS
+						(
+							-33070.008
+							-1425.8499
+							-32566.352
+						) 
+					] 
+					[
+						.POS
+						(
+							-24838.953
+							1082.5857
+							-32125.953
+						) 
+					] 
+					[
+						.POS
+						(
+							21706.137
+							1630.5623
+							-14207.945
+						) 
+					] 
+					[
+						.POS
+						(
+							23389.887
+							641.50366
+							-3495.4426
+						) 
+					] 
+					[
+						.POS
+						(
+							-263.41064
+							31.04663
+							9224.8955
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 5
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Muelle_01"
+				.HEIGHT 200.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-12796.873
+							-245.72766
+							-8970.116
+						) 
+					] 
+					[
+						.POS
+						(
+							-12795.354
+							-235.15869
+							-8383.087
+						) 
+					] 
+					[
+						.POS
+						(
+							-13225.471
+							-251.50269
+							-8344.397
+						) 
+					] 
+					[
+						.POS
+						(
+							-13224.558
+							-156.25891
+							-8938.841
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 6
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Interior_Puerto_01"
+				.HEIGHT 200.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-11638.0
+							29.325928
+							-8469.283
+						) 
+					] 
+					[
+						.POS
+						(
+							-11179.76
+							29.326202
+							-8387.012
+						) 
+					] 
+					[
+						.POS
+						(
+							-11347.995
+							29.326202
+							-7438.7964
+						) 
+					] 
+					[
+						.POS
+						(
+							-11811.266
+							34.091553
+							-7520.718
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 7
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Ataque_Francos_Puerto_01"
+				.HEIGHT 2000.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-9557.997
+							596.38086
+							-5524.2754
+						) 
+					] 
+					[
+						.POS
+						(
+							-13355.079
+							665.1416
+							-2895.503
+						) 
+					] 
+					[
+						.POS
+						(
+							-14177.777
+							-164.19043
+							-3675.7988
+						) 
+					] 
+					[
+						.POS
+						(
+							-15891.572
+							-251.50293
+							-10446.973
+						) 
+					] 
+					[
+						.POS
+						(
+							-13344.531
+							-245.72705
+							-12001.261
+						) 
+					] 
+					[
+						.POS
+						(
+							-9723.953
+							637.50586
+							-11163.012
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 8
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Spawn_Puerto_02"
+				.HEIGHT 1200.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-9595.477
+							1189.4792
+							-9717.533
+						) 
+					] 
+					[
+						.POS
+						(
+							-9680.448
+							629.0194
+							-10056.669
+						) 
+					] 
+					[
+						.POS
+						(
+							-9714.71
+							647.42834
+							-10422.329
+						) 
+					] 
+					[
+						.POS
+						(
+							-9392.562
+							930.6166
+							-11239.448
+						) 
+					] 
+					[
+						.POS
+						(
+							-8941.317
+							1298.5186
+							-11247.171
+						) 
+					] 
+					[
+						.POS
+						(
+							-8579.924
+							1026.6179
+							-9870.315
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 9
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Spawn_Puerto_03"
+				.HEIGHT 1200.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-9705.956
+							577.6406
+							-7863.22
+						) 
+					] 
+					[
+						.POS
+						(
+							-10465.308
+							510.73584
+							-7921.0156
+						) 
+					] 
+					[
+						.POS
+						(
+							-10915.957
+							459.4919
+							-7822.0415
+						) 
+					] 
+					[
+						.POS
+						(
+							-11068.791
+							65.16797
+							-7359.9204
+						) 
+					] 
+					[
+						.POS
+						(
+							-11673.604
+							342.3617
+							-7461.4336
+						) 
+					] 
+					[
+						.POS
+						(
+							-11714.806
+							80.61304
+							-7254.1016
+						) 
+					] 
+					[
+						.POS
+						(
+							-11770.883
+							102.67798
+							-6657.0713
+						) 
+					] 
+					[
+						.POS
+						(
+							-12504.321
+							15.104492
+							-6629.576
+						) 
+					] 
+					[
+						.POS
+						(
+							-12927.041
+							-184.91724
+							-5669.449
+						) 
+					] 
+					[
+						.POS
+						(
+							-12675.982
+							-184.91577
+							-4700.133
+						) 
+					] 
+					[
+						.POS
+						(
+							-12381.797
+							-245.72656
+							-3879.5427
+						) 
+					] 
+					[
+						.POS
+						(
+							-10529.921
+							-245.72754
+							-2974.4172
+						) 
+					] 
+					[
+						.POS
+						(
+							-9328.132
+							537.426
+							-6014.4453
+						) 
+					] 
+					[
+						.POS
+						(
+							-9468.294
+							537.7793
+							-7369.086
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 10
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Huida_Barca"
+				.HEIGHT 800.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-10433.803
+							424.10254
+							-6216.0254
+						) 
+					] 
+					[
+						.POS
+						(
+							-10418.406
+							519.1875
+							-6477.3516
+						) 
+					] 
+					[
+						.POS
+						(
+							-10571.255
+							197.75464
+							-7254.7725
+						) 
+					] 
+					[
+						.POS
+						(
+							-11407.308
+							26.809814
+							-6652.7617
+						) 
+					] 
+					[
+						.POS
+						(
+							-12515.104
+							120.56177
+							-6638.55
+						) 
+					] 
+					[
+						.POS
+						(
+							-11577.039
+							-12.935303
+							-3999.8755
+						) 
+					] 
+					[
+						.POS
+						(
+							-10149.255
+							167.17749
+							-3145.0457
+						) 
+					] 
+					[
+						.POS
+						(
+							-10211.782
+							722.32605
+							-4591.38
+						) 
+					] 
+					[
+						.POS
+						(
+							-10747.414
+							572.05225
+							-4599.968
+						) 
+					] 
+					[
+						.POS
+						(
+							-11287.512
+							497.89917
+							-5684.3325
+						) 
+					] 
+					[
+						.POS
+						(
+							-11142.121
+							355.84863
+							-6067.553
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 11
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Senderos_Muelle_01"
+				.HEIGHT 600.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-9191.383
+							1103.7134
+							-11296.844
+						) 
+					] 
+					[
+						.POS
+						(
+							-9722.033
+							537.1482
+							-7860.4146
+						) 
+					] 
+					[
+						.POS
+						(
+							-10336.435
+							529.6638
+							-8243.032
+						) 
+					] 
+					[
+						.POS
+						(
+							-10836.529
+							248.27051
+							-9340.909
+						) 
+					] 
+					[
+						.POS
+						(
+							-10650.892
+							156.73798
+							-9819.252
+						) 
+					] 
+					[
+						.POS
+						(
+							-10292.806
+							323.58594
+							-10861.427
+						) 
+					] 
+					[
+						.POS
+						(
+							-9933.367
+							549.26807
+							-11324.535
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 12
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Ataque_Ventana_Puerto_03_A"
+				.HEIGHT 200.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-10502.945
+							449.65625
+							-7639.815
+						) 
+					] 
+					[
+						.POS
+						(
+							-10168.814
+							551.63135
+							-7609.271
+						) 
+					] 
+					[
+						.POS
+						(
+							-9946.415
+							545.81213
+							-7404.0693
+						) 
+					] 
+					[
+						.POS
+						(
+							-9821.764
+							534.8789
+							-7181.137
+						) 
+					] 
+					[
+						.POS
+						(
+							-9462.175
+							537.1714
+							-7353.3755
+						) 
+					] 
+					[
+						.POS
+						(
+							-9710.807
+							538.1172
+							-7860.767
+						) 
+					] 
+					[
+						.POS
+						(
+							-9937.344
+							561.5426
+							-8101.95
+						) 
+					] 
+					[
+						.POS
+						(
+							-10482.28
+							477.5161
+							-7809.8423
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 13
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Granja"
+				.HEIGHT 1200.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-10182.722
+							1108.4661
+							664.0392
+						) 
+					] 
+					[
+						.POS
+						(
+							-12599.685
+							1287.4348
+							3451.332
+						) 
+					] 
+					[
+						.POS
+						(
+							-16102.313
+							1429.5266
+							560.26447
+						) 
+					] 
+					[
+						.POS
+						(
+							-13762.746
+							1174.1189
+							-2388.7542
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 14
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Granja_Casa"
+				.HEIGHT 200.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-14154.758
+							1278.1196
+							-1363.8223
+						) 
+					] 
+					[
+						.POS
+						(
+							-13520.467
+							1302.5856
+							-2137.071
+						) 
+					] 
+					[
+						.POS
+						(
+							-12760.6045
+							1355.1846
+							-1486.618
+						) 
+					] 
+					[
+						.POS
+						(
+							-13403.212
+							1488.783
+							-737.36273
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 15
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Granja_Granero"
+				.HEIGHT 200.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-11803.217
+							1303.8556
+							2049.0007
+						) 
+					] 
+					[
+						.POS
+						(
+							-12724.597
+							1278.1196
+							3192.3235
+						) 
+					] 
+					[
+						.POS
+						(
+							-14232.602
+							1278.1198
+							1912.3552
+						) 
+					] 
+					[
+						.POS
+						(
+							-13261.436
+							1302.8938
+							782.35144
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 16
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Granja_Granero_Arriba"
+				.HEIGHT 200.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-12732.205
+							1933.3004
+							3191.9158
+						) 
+					] 
+					[
+						.POS
+						(
+							-13760.021
+							1925.9557
+							2327.8877
+						) 
+					] 
+					[
+						.POS
+						(
+							-12738.506
+							1956.7139
+							1152.1539
+						) 
+					] 
+					[
+						.POS
+						(
+							-11764.09
+							1911.5376
+							1977.436
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 17
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Spawn_Francos_Muelle_03"
+				.HEIGHT 200.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-11277.801
+							543.84076
+							-4429.417
+						) 
+					] 
+					[
+						.POS
+						(
+							-11434.36
+							543.8408
+							-4434.7607
+						) 
+					] 
+					[
+						.POS
+						(
+							-11436.096
+							543.8408
+							-5634.0205
+						) 
+					] 
+					[
+						.POS
+						(
+							-11280.691
+							543.8408
+							-5624.969
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 18
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Puesto_Control"
+				.HEIGHT 2000.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							9275.408
+							795.28174
+							-1940.0759
+						) 
+					] 
+					[
+						.POS
+						(
+							10123.073
+							1071.4688
+							805.7095
+						) 
+					] 
+					[
+						.POS
+						(
+							9249.172
+							833.7832
+							2846.5806
+						) 
+					] 
+					[
+						.POS
+						(
+							-3656.062
+							-245.72852
+							1742.249
+						) 
+					] 
+					[
+						.POS
+						(
+							-3548.4585
+							-245.72754
+							-1773.5912
+						) 
+					] 
+					[
+						.POS
+						(
+							7610.3896
+							698.4697
+							-2601.6375
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 20
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Puesto_Control_Barrera"
+				.HEIGHT 600.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							9256.197
+							1051.3618
+							2853.8872
+						) 
+					] 
+					[
+						.POS
+						(
+							9932.586
+							1053.4839
+							2173.7402
+						) 
+					] 
+					[
+						.POS
+						(
+							10293.829
+							1157.9102
+							956.80005
+						) 
+					] 
+					[
+						.POS
+						(
+							10196.654
+							1112.3237
+							-534.448
+						) 
+					] 
+					[
+						.POS
+						(
+							9486.13
+							802.36865
+							-1978.6792
+						) 
+					] 
+					[
+						.POS
+						(
+							7869.1353
+							707.07446
+							-3178.1047
+						) 
+					] 
+					[
+						.POS
+						(
+							6988.9043
+							623.145
+							-2372.0117
+						) 
+					] 
+					[
+						.POS
+						(
+							5512.6807
+							518.92334
+							500.43555
+						) 
+					] 
+					[
+						.POS
+						(
+							5343.466
+							657.2151
+							1866.925
+						) 
+					] 
+					[
+						.POS
+						(
+							4797.9443
+							600.2224
+							2446.876
+						) 
+					] 
+					[
+						.POS
+						(
+							4255.4395
+							556.15674
+							2580.8865
+						) 
+					] 
+					[
+						.POS
+						(
+							7774.8086
+							1080.4678
+							5127.903
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 21
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Puesto_Control_Muelle"
+				.HEIGHT 800.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							6653.857
+							520.5967
+							-2902.1646
+						) 
+					] 
+					[
+						.POS
+						(
+							6818.722
+							501.0315
+							-2347.282
+						) 
+					] 
+					[
+						.POS
+						(
+							5903.626
+							181.30127
+							-1202.7065
+						) 
+					] 
+					[
+						.POS
+						(
+							5216.8447
+							138.0708
+							482.5216
+						) 
+					] 
+					[
+						.POS
+						(
+							5040.3496
+							-50.413574
+							1869.9834
+						) 
+					] 
+					[
+						.POS
+						(
+							3850.772
+							-164.86914
+							2098.4172
+						) 
+					] 
+					[
+						.POS
+						(
+							3985.135
+							-80.96289
+							454.3955
+						) 
+					] 
+					[
+						.POS
+						(
+							4443.9414
+							-245.72754
+							-1027.5486
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 22
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Puesto_Control_Vigilancia"
+				.HEIGHT 2200.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-3061.5322
+							-146.31909
+							-1833.707
+						) 
+					] 
+					[
+						.POS
+						(
+							-3411.0798
+							-220.00879
+							-1681.4314
+						) 
+					] 
+					[
+						.POS
+						(
+							-3606.219
+							473.2827
+							-462.23267
+						) 
+					] 
+					[
+						.POS
+						(
+							-3491.2803
+							608.78394
+							550.69006
+						) 
+					] 
+					[
+						.POS
+						(
+							-2859.4146
+							841.0254
+							1448.9261
+						) 
+					] 
+					[
+						.POS
+						(
+							-2030.5488
+							1064.3096
+							1573.2317
+						) 
+					] 
+					[
+						.POS
+						(
+							-1570.6527
+							1061.7512
+							1459.7407
+						) 
+					] 
+					[
+						.POS
+						(
+							-636.3332
+							1048.7722
+							1611.971
+						) 
+					] 
+					[
+						.POS
+						(
+							-474.58282
+							995.23096
+							-653.25824
+						) 
+					] 
+					[
+						.POS
+						(
+							1051.0472
+							-245.72754
+							-1107.1259
+						) 
+					] 
+					[
+						.POS
+						(
+							1015.6693
+							-245.72754
+							-1609.215
+						) 
+					] 
+					[
+						.POS
+						(
+							-1044.26
+							738.051
+							-1752.6213
+						) 
+					] 
+					[
+						.POS
+						(
+							-1874.0122
+							1037.1646
+							-1513.0033
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 23
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Puesto_Control_Vigilante_Prismaticos"
+				.HEIGHT 2200.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							8528.063
+							705.7534
+							-4238.6157
+						) 
+					] 
+					[
+						.POS
+						(
+							9752.018
+							1021.5596
+							-2424.005
+						) 
+					] 
+					[
+						.POS
+						(
+							10126.718
+							1076.4414
+							-491.31055
+						) 
+					] 
+					[
+						.POS
+						(
+							9917.464
+							941.14746
+							2176.3386
+						) 
+					] 
+					[
+						.POS
+						(
+							7732.336
+							1054.2451
+							5109.827
+						) 
+					] 
+					[
+						.POS
+						(
+							2768.4492
+							-224.25659
+							3554.3467
+						) 
+					] 
+					[
+						.POS
+						(
+							953.5925
+							-245.72656
+							2832.154
+						) 
+					] 
+					[
+						.POS
+						(
+							1045.5527
+							-245.72754
+							-1608.2153
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 24
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Activar_Puesto_Control"
+				.HEIGHT 3200.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-3157.2295
+							-827.49304
+							10098.463
+						) 
+					] 
+					[
+						.POS
+						(
+							-12789.479
+							1602.0984
+							5590.588
+						) 
+					] 
+					[
+						.POS
+						(
+							-3538.043
+							-816.5974
+							590.391
+						) 
+					] 
+					[
+						.POS
+						(
+							-2761.0703
+							0.0
+							264.22852
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 25
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Limite_Etapa_01"
+				.HEIGHT 2000.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-14817.25
+							86.802246
+							-3642.1003
+						) 
+					] 
+					[
+						.POS
+						(
+							-11024.574
+							-586.36865
+							-908.62256
+						) 
+					] 
+					[
+						.POS
+						(
+							-9213.757
+							-105.061295
+							-2397.9014
+						) 
+					] 
+					[
+						.POS
+						(
+							-7567.741
+							-181.7544
+							-1723.2869
+						) 
+					] 
+					[
+						.POS
+						(
+							-6017.6094
+							-245.72803
+							-2645.521
+						) 
+					] 
+					[
+						.POS
+						(
+							-5270.7476
+							241.90576
+							-2943.6377
+						) 
+					] 
+					[
+						.POS
+						(
+							-3797.9258
+							1388.831
+							-2711.119
+						) 
+					] 
+					[
+						.POS
+						(
+							-2258.3076
+							1633.3877
+							-2133.8452
+						) 
+					] 
+					[
+						.POS
+						(
+							-2011.8842
+							1050.564
+							-1113.9601
+						) 
+					] 
+					[
+						.POS
+						(
+							1344.6252
+							-266.45972
+							-2676.4844
+						) 
+					] 
+					[
+						.POS
+						(
+							4571.9126
+							-161.48999
+							-1910.8762
+						) 
+					] 
+					[
+						.POS
+						(
+							5855.5654
+							852.7754
+							2018.3522
+						) 
+					] 
+					[
+						.POS
+						(
+							-536.4133
+							1332.3866
+							6715.249
+						) 
+					] 
+					[
+						.POS
+						(
+							-7679.963
+							1317.4463
+							7297.548
+						) 
+					] 
+					[
+						.POS
+						(
+							-12748.174
+							1299.5498
+							4873.8955
+						) 
+					] 
+					[
+						.POS
+						(
+							-16447.232
+							1259.6621
+							2406.0276
+						) 
+					] 
+					[
+						.POS
+						(
+							-15944.181
+							1411.0508
+							543.4282
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 26
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Limite_Mar_01"
+				.HEIGHT 1200.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-33136.914
+							-958.1492
+							-7246.583
+						) 
+					] 
+					[
+						.POS
+						(
+							-27079.332
+							-958.1492
+							-32746.955
+						) 
+					] 
+					[
+						.POS
+						(
+							-17629.621
+							-908.3312
+							-19051.484
+						) 
+					] 
+					[
+						.POS
+						(
+							-18344.352
+							-505.6458
+							-7285.79
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 27
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Puente"
+				.HEIGHT 1500.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							10536.42
+							866.99023
+							-8484.44
+						) 
+					] 
+					[
+						.POS
+						(
+							11406.974
+							845.41113
+							-12509.917
+						) 
+					] 
+					[
+						.POS
+						(
+							16346.713
+							979.1345
+							-12393.201
+						) 
+					] 
+					[
+						.POS
+						(
+							18468.887
+							861.42236
+							-8789.598
+						) 
+					] 
+					[
+						.POS
+						(
+							24057.15
+							1459.6326
+							-7993.8364
+						) 
+					] 
+					[
+						.POS
+						(
+							25868.414
+							1526.3936
+							-9421.372
+						) 
+					] 
+					[
+						.POS
+						(
+							16890.445
+							916.0049
+							-13252.318
+						) 
+					] 
+					[
+						.POS
+						(
+							14867.77
+							904.19824
+							-14009.3545
+						) 
+					] 
+					[
+						.POS
+						(
+							13521.818
+							1883.2026
+							-15136.651
+						) 
+					] 
+					[
+						.POS
+						(
+							12117.272
+							2019.1277
+							-15193.469
+						) 
+					] 
+					[
+						.POS
+						(
+							11007.25
+							2156.126
+							-15145.423
+						) 
+					] 
+					[
+						.POS
+						(
+							10156.065
+							2327.0999
+							-15016.596
+						) 
+					] 
+					[
+						.POS
+						(
+							9150.613
+							1975.4238
+							-14773.491
+						) 
+					] 
+					[
+						.POS
+						(
+							8749.726
+							893.58545
+							-13754.614
+						) 
+					] 
+					[
+						.POS
+						(
+							8087.223
+							891.6797
+							-13528.207
+						) 
+					] 
+					[
+						.POS
+						(
+							7021.843
+							873.55176
+							-12340.186
+						) 
+					] 
+					[
+						.POS
+						(
+							7021.436
+							707.77637
+							-11802.127
+						) 
+					] 
+					[
+						.POS
+						(
+							8149.312
+							838.5486
+							-11850.749
+						) 
+					] 
+					[
+						.POS
+						(
+							9814.9375
+							856.0088
+							-8675.778
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 51
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Area_Activacion_MotoSDK"
+				.HEIGHT 200.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							8287.077
+							838.7185
+							-11973.875
+						) 
+					] 
+					[
+						.POS
+						(
+							8000.165
+							990.59686
+							-13577.341
+						) 
+					] 
+					[
+						.POS
+						(
+							12171.1
+							860.6322
+							-13750.267
+						) 
+					] 
+					[
+						.POS
+						(
+							12345.258
+							815.6166
+							-12954.703
+						) 
+					] 
+					[
+						.POS
+						(
+							11186.308
+							856.0082
+							-11503.245
+						) 
+					] 
+					[
+						.POS
+						(
+							10453.436
+							856.00806
+							-11694.802
+						) 
+					] 
+					[
+						.POS
+						(
+							10595.259
+							859.50464
+							-12414.788
+						) 
+					] 
+					[
+						.POS
+						(
+							9355.889
+							937.14233
+							-12653.396
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 52
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Puente_Control_Vigilante_Prismaticos"
+				.HEIGHT 200.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							8288.838
+							283.20654
+							-9157.877
+						) 
+					] 
+					[
+						.POS
+						(
+							5127.931
+							-124.32617
+							-7542.0005
+						) 
+					] 
+					[
+						.POS
+						(
+							3263.5034
+							-245.7273
+							-8794.969
+						) 
+					] 
+					[
+						.POS
+						(
+							3211.597
+							440.583
+							-11819.123
+						) 
+					] 
+					[
+						.POS
+						(
+							3535.967
+							677.5508
+							-12864.391
+						) 
+					] 
+					[
+						.POS
+						(
+							8847.06
+							-211.89331
+							-11666.165
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 53
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Activar_Puente"
+				.HEIGHT 2000.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							4870.8096
+							-734.78906
+							-7112.7754
+						) 
+					] 
+					[
+						.POS
+						(
+							3107.3972
+							-650.0786
+							-8520.509
+						) 
+					] 
+					[
+						.POS
+						(
+							3210.5796
+							55.490234
+							-12172.98
+						) 
+					] 
+					[
+						.POS
+						(
+							11878.805
+							866.18945
+							-13985.011
+						) 
+					] 
+					[
+						.POS
+						(
+							18162.084
+							859.9082
+							-10198.619
+						) 
+					] 
+					[
+						.POS
+						(
+							14787.762
+							-72.46826
+							-7015.551
+						) 
+					] 
+					[
+						.POS
+						(
+							10088.276
+							579.9199
+							-4545.2246
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 54
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Recodo_Rio"
+				.HEIGHT 600.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							15405.664
+							-126.24609
+							-11275.383
+						) 
+					] 
+					[
+						.POS
+						(
+							16159.715
+							-94.12537
+							-10486.201
+						) 
+					] 
+					[
+						.POS
+						(
+							16781.44
+							115.30176
+							-9624.453
+						) 
+					] 
+					[
+						.POS
+						(
+							16956.252
+							-216.15735
+							-9228.817
+						) 
+					] 
+					[
+						.POS
+						(
+							15023.255
+							-245.7273
+							-6847.2695
+						) 
+					] 
+					[
+						.POS
+						(
+							12610.826
+							-245.72803
+							-8419.846
+						) 
+					] 
+					[
+						.POS
+						(
+							14736.376
+							-245.72766
+							-11035.572
+						) 
+					] 
+					[
+						.POS
+						(
+							14977.587
+							-203.88483
+							-11427.271
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 78
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Entrada_Camiones_Cutscene_Fin"
+				.HEIGHT 200.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							14079.219
+							872.8982
+							-12790.944
+						) 
+					] 
+					[
+						.POS
+						(
+							13446.75
+							869.26953
+							-12830.498
+						) 
+					] 
+					[
+						.POS
+						(
+							13455.766
+							881.04956
+							-13387.868
+						) 
+					] 
+					[
+						.POS
+						(
+							14096.314
+							897.2197
+							-13729.34
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 79
+				.FLAGS 17
+				.OCLUSION 1
+				.NOMBRE "OCLUSOR_01"
+				.HEIGHT 550.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-10609.092
+							0.0
+							-7310.064
+						) 
+					] 
+					[
+						.POS
+						(
+							-11796.268
+							0.0
+							-7534.8203
+						) 
+					] 
+					[
+						.POS
+						(
+							-11627.22
+							0.0
+							-8456.898
+						) 
+					] 
+					[
+						.POS
+						(
+							-10424.677
+							0.0
+							-8255.193
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 80
+				.FLAGS 17
+				.OCLUSION 1
+				.NOMBRE "OCLUSOR_02"
+				.HEIGHT 500.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-11746.502
+							0.0
+							-6757.782
+						) 
+					] 
+					[
+						.POS
+						(
+							-11649.18
+							0.0
+							-7449.8555
+						) 
+					] 
+					[
+						.POS
+						(
+							-11337.747
+							0.0
+							-7384.973
+						) 
+					] 
+					[
+						.POS
+						(
+							-11448.046
+							0.0
+							-6708.0396
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 81
+				.FLAGS 17
+				.OCLUSION 1
+				.NOMBRE "OCLUSOR_03"
+				.HEIGHT 500.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-11787.759
+							0.0
+							-10758.374
+						) 
+					] 
+					[
+						.POS
+						(
+							-12085.782
+							0.0
+							-10757.124
+						) 
+					] 
+					[
+						.POS
+						(
+							-12085.782
+							0.0
+							-10777.236
+						) 
+					] 
+					[
+						.POS
+						(
+							-11787.759
+							0.0
+							-10778.227
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 82
+				.FLAGS 17
+				.OCLUSION 1
+				.NOMBRE "OCLUSOR_04"
+				.HEIGHT 550.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-12262.79
+							0.0
+							-10758.948
+						) 
+					] 
+					[
+						.POS
+						(
+							-12282.596
+							0.0
+							-10759.361
+						) 
+					] 
+					[
+						.POS
+						(
+							-12284.245
+							0.0
+							-11257.792
+						) 
+					] 
+					[
+						.POS
+						(
+							-12265.266
+							0.0
+							-11257.379
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 83
+				.FLAGS 17
+				.OCLUSION 1
+				.NOMBRE "OCLUSOR_05"
+				.HEIGHT 550.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-11782.812
+							0.0
+							-11234.876
+						) 
+					] 
+					[
+						.POS
+						(
+							-12281.742
+							0.0
+							-11237.81
+						) 
+					] 
+					[
+						.POS
+						(
+							-12281.742
+							0.0
+							-11257.877
+						) 
+					] 
+					[
+						.POS
+						(
+							-11782.812
+							0.0
+							-11255.146
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 84
+				.FLAGS 17
+				.OCLUSION 1
+				.NOMBRE "OCLUSOR_06"
+				.HEIGHT 500.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-9185.432
+							914.3422
+							-8128.0737
+						) 
+					] 
+					[
+						.POS
+						(
+							-9475.71
+							914.3422
+							-9641.041
+						) 
+					] 
+					[
+						.POS
+						(
+							-8631.264
+							914.3422
+							-9790.578
+						) 
+					] 
+					[
+						.POS
+						(
+							-8355.6455
+							914.3422
+							-8286.407
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 85
+				.FLAGS 17
+				.OCLUSION 1
+				.NOMBRE "OCLUSOR_07"
+				.HEIGHT 550.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-10783.488
+							489.19272
+							-4650.055
+						) 
+					] 
+					[
+						.POS
+						(
+							-11226.837
+							489.19272
+							-4650.055
+						) 
+					] 
+					[
+						.POS
+						(
+							-11230.247
+							489.19272
+							-5594.7285
+						) 
+					] 
+					[
+						.POS
+						(
+							-10786.898
+							489.19272
+							-5594.7285
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 86
+				.FLAGS 17
+				.OCLUSION 1
+				.NOMBRE "OCLUSOR_08"
+				.HEIGHT 600.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-13514.062
+							1191.773
+							-2142.2874
+						) 
+					] 
+					[
+						.POS
+						(
+							-13513.587
+							1191.773
+							-2143.713
+						) 
+					] 
+					[
+						.POS
+						(
+							-12737.646
+							1191.773
+							-1494.8634
+						) 
+					] 
+					[
+						.POS
+						(
+							-12738.419
+							1191.773
+							-1494.0901
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 87
+				.FLAGS 17
+				.OCLUSION 1
+				.NOMBRE "OCLUSOR_09"
+				.HEIGHT 430.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-14175.609
+							1204.0457
+							-1360.0912
+						) 
+					] 
+					[
+						.POS
+						(
+							-14177.04
+							1204.0457
+							-1360.5148
+						) 
+					] 
+					[
+						.POS
+						(
+							-13525.6
+							1204.0457
+							-2139.4763
+						) 
+					] 
+					[
+						.POS
+						(
+							-13524.533
+							1204.0457
+							-2138.5425
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 88
+				.FLAGS 17
+				.OCLUSION 1
+				.NOMBRE "OCLUSOR_10"
+				.HEIGHT 430.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-13902.774
+							1199.9159
+							-1140.6136
+						) 
+					] 
+					[
+						.POS
+						(
+							-13898.235
+							1199.9159
+							-1145.4696
+						) 
+					] 
+					[
+						.POS
+						(
+							-13396.899
+							1199.9159
+							-724.7126
+						) 
+					] 
+					[
+						.POS
+						(
+							-13401.267
+							1199.9159
+							-719.5151
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 89
+				.FLAGS 17
+				.OCLUSION 1
+				.NOMBRE "OCLUSOR_11"
+				.HEIGHT 810.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-12725.478
+							1247.6216
+							3215.0068
+						) 
+					] 
+					[
+						.POS
+						(
+							-12733.61
+							1247.6216
+							3211.249
+						) 
+					] 
+					[
+						.POS
+						(
+							-11747.309
+							1247.6216
+							2035.2103
+						) 
+					] 
+					[
+						.POS
+						(
+							-11742.346
+							1247.6216
+							2042.6556
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 90
+				.FLAGS 17
+				.OCLUSION 1
+				.NOMBRE "OCLUSOR_12"
+				.HEIGHT 420.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-12718.473
+							1245.58
+							3204.8313
+						) 
+					] 
+					[
+						.POS
+						(
+							-12725.749
+							1245.58
+							3214.1448
+						) 
+					] 
+					[
+						.POS
+						(
+							-14266.9795
+							1245.58
+							1920.102
+						) 
+					] 
+					[
+						.POS
+						(
+							-14259.882
+							1245.58
+							1911.2301
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 91
+				.FLAGS 17
+				.OCLUSION 1
+				.NOMBRE "OCLUSOR_13"
+				.HEIGHT 370.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-15250.209
+							1238.2913
+							-73.66626
+						) 
+					] 
+					[
+						.POS
+						(
+							-15271.14
+							1238.2913
+							-91.18933
+						) 
+					] 
+					[
+						.POS
+						(
+							-14226.1455
+							1238.2913
+							-1334.0637
+						) 
+					] 
+					[
+						.POS
+						(
+							-14205.854
+							1238.2913
+							-1316.5706
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 92
+				.FLAGS 17
+				.OCLUSION 1
+				.NOMBRE "OCLUSOR_14"
+				.HEIGHT 355.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-15825.807
+							1253.4741
+							613.2688
+						) 
+					] 
+					[
+						.POS
+						(
+							-15846.653
+							1253.4741
+							595.0277
+						) 
+					] 
+					[
+						.POS
+						(
+							-15540.324
+							1253.4741
+							230.92361
+						) 
+					] 
+					[
+						.POS
+						(
+							-15519.979
+							1253.4741
+							248.5565
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 93
+				.FLAGS 17
+				.OCLUSION 1
+				.NOMBRE "OCLUSOR_15"
+				.HEIGHT 355.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-14287.095
+							1254.8564
+							1869.585
+						) 
+					] 
+					[
+						.POS
+						(
+							-14303.768
+							1254.8564
+							1890.4253
+						) 
+					] 
+					[
+						.POS
+						(
+							-15846.439
+							1254.8564
+							596.17456
+						) 
+					] 
+					[
+						.POS
+						(
+							-15829.641
+							1254.8564
+							575.42645
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 94
+				.FLAGS 17
+				.OCLUSION 1
+				.NOMBRE "OCLUSOR_16"
+				.HEIGHT 480.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							4819.804
+							0.0
+							1585.4485
+						) 
+					] 
+					[
+						.POS
+						(
+							4820.1245
+							0.0
+							1598.895
+						) 
+					] 
+					[
+						.POS
+						(
+							4139.5015
+							0.0
+							1598.5781
+						) 
+					] 
+					[
+						.POS
+						(
+							4139.5015
+							0.0
+							1586.5132
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 95
+				.FLAGS 17
+				.OCLUSION 1
+				.NOMBRE "OCLUSOR_17"
+				.HEIGHT 400.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-1638.224
+							1021.52515
+							1401.2241
+						) 
+					] 
+					[
+						.POS
+						(
+							-1651.985
+							1021.52515
+							1397.4089
+						) 
+					] 
+					[
+						.POS
+						(
+							-1477.6467
+							1021.52515
+							415.182
+						) 
+					] 
+					[
+						.POS
+						(
+							-1461.0386
+							1021.52515
+							416.4276
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 96
+				.FLAGS 17
+				.OCLUSION 1
+				.NOMBRE "OCLUSOR_18"
+				.HEIGHT 225.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-13547.135
+							-132.48389
+							-8743.517
+						) 
+					] 
+					[
+						.POS
+						(
+							-13868.381
+							-132.48389
+							-8719.126
+						) 
+					] 
+					[
+						.POS
+						(
+							-13936.214
+							-132.48389
+							-9392.328
+						) 
+					] 
+					[
+						.POS
+						(
+							-13597.204
+							-132.48389
+							-9423.621
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 97
+				.FLAGS 17
+				.OCLUSION 1
+				.NOMBRE "OCLUSOR_19"
+				.HEIGHT 500.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-16168.038
+							2193.8467
+							-3940.2625
+						) 
+					] 
+					[
+						.POS
+						(
+							-16499.291
+							2193.8467
+							-3995.8574
+						) 
+					] 
+					[
+						.POS
+						(
+							-16415.898
+							2193.8467
+							-4449.883
+						) 
+					] 
+					[
+						.POS
+						(
+							-16091.595
+							2193.8467
+							-4387.3384
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 98
+				.FLAGS 17
+				.OCLUSION 1
+				.NOMBRE "OCLUSOR_20"
+				.HEIGHT 305.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-12509.503
+							-45.854515
+							-9656.457
+						) 
+					] 
+					[
+						.POS
+						(
+							-12657.569
+							-45.854515
+							-9658.603
+						) 
+					] 
+					[
+						.POS
+						(
+							-12656.496
+							-45.854515
+							-9804.523
+						) 
+					] 
+					[
+						.POS
+						(
+							-12511.648
+							-45.854515
+							-9806.669
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 99
+				.FLAGS 17
+				.OCLUSION 1
+				.NOMBRE "OCLUSOR_21"
+				.HEIGHT 595.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							8069.3394
+							819.9239
+							-11834.682
+						) 
+					] 
+					[
+						.POS
+						(
+							7378.832
+							819.9239
+							-11832.756
+						) 
+					] 
+					[
+						.POS
+						(
+							7378.1953
+							819.9239
+							-11861.401
+						) 
+					] 
+					[
+						.POS
+						(
+							8067.371
+							819.9239
+							-11856.987
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 100
+				.FLAGS 17
+				.OCLUSION 1
+				.NOMBRE "OCLUSOR_22"
+				.HEIGHT 580.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							7079.084
+							828.657
+							-11833.532
+						) 
+					] 
+					[
+						.POS
+						(
+							7054.366
+							828.657
+							-11833.007
+						) 
+					] 
+					[
+						.POS
+						(
+							7058.601
+							828.657
+							-12336.396
+						) 
+					] 
+					[
+						.POS
+						(
+							7079.0127
+							828.657
+							-12336.396
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 101
+				.FLAGS 17
+				.OCLUSION 1
+				.NOMBRE "OCLUSOR_23"
+				.HEIGHT 600.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							7393.6113
+							808.72754
+							-12314.813
+						) 
+					] 
+					[
+						.POS
+						(
+							7393.517
+							808.72754
+							-12335.098
+						) 
+					] 
+					[
+						.POS
+						(
+							8072.6235
+							808.72754
+							-12339.457
+						) 
+					] 
+					[
+						.POS
+						(
+							8072.6235
+							808.72754
+							-12319.454
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 102
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Area_Segura_Granada"
+				.HEIGHT 200.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-9753.717
+							680.3567
+							-10880.457
+						) 
+					] 
+					[
+						.POS
+						(
+							-9843.593
+							560.13745
+							-10553.926
+						) 
+					] 
+					[
+						.POS
+						(
+							-10054.644
+							472.60327
+							-11331.937
+						) 
+					] 
+					[
+						.POS
+						(
+							-9834.206
+							604.4934
+							-11294.202
+						) 
+					] 
+					[
+						.POS
+						(
+							-9677.49
+							705.46423
+							-11178.673
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 103
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Ataque_Ventana_Puerto_03_B"
+				.HEIGHT 200.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-9326.862
+							545.7521
+							-5993.5986
+						) 
+					] 
+					[
+						.POS
+						(
+							-10201.473
+							568.0875
+							-6120.799
+						) 
+					] 
+					[
+						.POS
+						(
+							-10231.699
+							537.3258
+							-6714.0977
+						) 
+					] 
+					[
+						.POS
+						(
+							-10037.228
+							537.3258
+							-6895.577
+						) 
+					] 
+					[
+						.POS
+						(
+							-9734.697
+							541.022
+							-6896.9453
+						) 
+					] 
+					[
+						.POS
+						(
+							-9809.476
+							533.048
+							-7164.52
+						) 
+					] 
+					[
+						.POS
+						(
+							-9465.422
+							541.26416
+							-7377.4766
+						) 
+					] 
+					[
+						.POS
+						(
+							-9357.199
+							552.7522
+							-6852.0654
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 104
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Ataque_Ventana_Puerto_03_C"
+				.HEIGHT 1400.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-9453.6875
+							541.13477
+							-7355.3965
+						) 
+					] 
+					[
+						.POS
+						(
+							-10282.344
+							82.939026
+							-7481.7188
+						) 
+					] 
+					[
+						.POS
+						(
+							-10574.208
+							21.809021
+							-7255.293
+						) 
+					] 
+					[
+						.POS
+						(
+							-11321.242
+							0.0
+							-7417.087
+						) 
+					] 
+					[
+						.POS
+						(
+							-11626.321
+							25.325684
+							-5932.707
+						) 
+					] 
+					[
+						.POS
+						(
+							-11610.748
+							47.12036
+							-5455.6323
+						) 
+					] 
+					[
+						.POS
+						(
+							-9322.668
+							552.78345
+							-6030.1846
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 105
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "_EAX INTERIOR_01"
+				.HEIGHT 1200.0
+				.REVERB 3
+				.LIMITREVERB 1
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-12717.759
+							1341.0745
+							3238.47
+						) 
+					] 
+					[
+						.POS
+						(
+							-11696.8545
+							1349.1497
+							2022.5015
+						) 
+					] 
+					[
+						.POS
+						(
+							-12753.615
+							1288.1066
+							1183.7773
+						) 
+					] 
+					[
+						.POS
+						(
+							-12719.01
+							1282.6282
+							1130.149
+						) 
+					] 
+					[
+						.POS
+						(
+							-13247.879
+							1326.7972
+							665.87915
+						) 
+					] 
+					[
+						.POS
+						(
+							-14300.852
+							1324.6626
+							1923.6658
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 106
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "_EAX INTERIOR_02"
+				.HEIGHT 700.0
+				.REVERB 3
+				.LIMITREVERB 1
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-13496.042
+							1367.6887
+							-2158.351
+						) 
+					] 
+					[
+						.POS
+						(
+							-12731.183
+							1322.3528
+							-1477.501
+						) 
+					] 
+					[
+						.POS
+						(
+							-13385.712
+							1323.812
+							-697.46313
+						) 
+					] 
+					[
+						.POS
+						(
+							-14173.867
+							1314.1569
+							-1400.2139
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 107
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "_EAX INTERIOR_03"
+				.HEIGHT 700.0
+				.REVERB 3
+				.LIMITREVERB 1
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							5131.026
+							17.280396
+							1250.4401
+						) 
+					] 
+					[
+						.POS
+						(
+							4159.4736
+							27.119217
+							1252.6538
+						) 
+					] 
+					[
+						.POS
+						(
+							4169.426
+							17.280243
+							480.01453
+						) 
+					] 
+					[
+						.POS
+						(
+							4438.812
+							29.144897
+							464.40048
+						) 
+					] 
+					[
+						.POS
+						(
+							4437.8696
+							17.280182
+							576.6533
+						) 
+					] 
+					[
+						.POS
+						(
+							5136.066
+							17.280182
+							603.3013
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 108
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "_EAX INTERIOR_04"
+				.HEIGHT 500.0
+				.REVERB 3
+				.LIMITREVERB 1
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							8937.318
+							918.34045
+							811.5568
+						) 
+					] 
+					[
+						.POS
+						(
+							9176.762
+							918.3402
+							158.94324
+						) 
+					] 
+					[
+						.POS
+						(
+							9591.74
+							918.3402
+							309.39838
+						) 
+					] 
+					[
+						.POS
+						(
+							9332.094
+							994.2661
+							939.5285
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 109
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "_EAX INTERIOR_05"
+				.HEIGHT 700.0
+				.REVERB 3
+				.LIMITREVERB 1
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							7102.443
+							877.60565
+							-11865.199
+						) 
+					] 
+					[
+						.POS
+						(
+							7089.6587
+							877.6057
+							-12306.953
+						) 
+					] 
+					[
+						.POS
+						(
+							8033.415
+							879.6687
+							-12304.399
+						) 
+					] 
+					[
+						.POS
+						(
+							8034.4473
+							981.4769
+							-11862.423
+						) 
+					] 
+				) 
+			] 
+			[
+				.ID 110
+				.FLAGS 1
+				.OCLUSION 1
+				.NOMBRE "Zona_Seguridad_Barcas"
+				.HEIGHT 1200.0
+				.REVERB 0
+				.LIMITREVERB 0
+				.PUNTOS
+				(
+					[
+						.POS
+						(
+							-7338.927
+							-178.11328
+							625.9557
+						) 
+					] 
+					[
+						.POS
+						(
+							-7150.6
+							-673.8594
+							-161.51392
+						) 
+					] 
+					[
+						.POS
+						(
+							-6075.3467
+							-595.51733
+							357.71457
+						) 
+					] 
+					[
+						.POS
+						(
+							-6317.1763
+							-393.70386
+							904.94025
+						) 
+					] 
+				) 
+			] 
+		) 
+	] 
+	.MALLA_LUCES
+	[
+		.LIGHTS
+		( 
+		) 
+		.CARPETAS
+		[
+			.RAIZ
+			(
+				[
+					.NOMBRE ""
+					.CARPETAS
+					( 
+					) 
+				] 
+			) 
+		] 
+	] 
+	.MALLA_SCENE_OBJS
+	[
+		.SCENEOBJS
+		(
+			[
+				.ID "BOYAS"
+				.ANIMACION 2273
+				.TIPO_OFFSET 2
+				.OFFSET 3.0
+			] 
+			[
+				.ID "ARBOL_NORUEGA_A"
+				.ANIMACION 2274
+				.TIPO_OFFSET 2
+				.OFFSET 3.0
+			] 
+			[
+				.ID "CABLES_NR01"
+				.ANIMACION 2335
+				.TIPO_OFFSET 0
+				.OFFSET 0.0
+			] 
+			[
+				.ID "BANDERA_NR01A"
+				.ANIMACION 2330
+				.TIPO_OFFSET 0
+				.OFFSET 0.0
+			] 
+			[
+				.ID "Tronco_Noruega"
+				.ANIMACION 2346
+				.TIPO_OFFSET 2
+				.OFFSET 2.0
+			] 
+			[
+				.ID "Poleas_NR01_1"
+				.ANIMACION 2345
+				.TIPO_OFFSET 0
+				.OFFSET 0.0
+			] 
+			[
+				.ID "Poleas_NR01_2"
+				.ANIMACION 2344
+				.TIPO_OFFSET 0
+				.OFFSET 0.0
+			] 
+		) 
+	] 
+	.BRIDGES
+	(
+	) 
+] 
