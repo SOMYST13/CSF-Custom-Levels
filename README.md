@@ -3,6 +3,3 @@
 - [SOMYST](https://github.com/SOMYST13) - Developer
 - [IanusInferus](https://github.com/IanusInferus) - PCKManager
 - [herbert3000](https://github.com/herbert3000) - CSFFBS Script Decoder
-###
-- IMPORTANT NOTE
-- Levels are using custom BDD's, some scripts may not work as they should.
