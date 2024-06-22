@@ -266,8 +266,8 @@
 		]
 		[
 			.ID 2
-			.NOMBRE "SOME_STUPID_SHIT"
-			.CARPETA "DEUBG"
+			.NOMBRE "TESTING_SCRIPT"
+			.CARPETA "DEBUG"
 			.FLAGS
 			[
 				.TRIGGER 1
@@ -401,8 +401,8 @@
 		]
 		[
 			.ID 3
-			.NOMBRE "SOME_STUPID_SHIT2"
-			.CARPETA "DEUBG"
+			.NOMBRE "TESTING_SCRIPT2"
+			.CARPETA "DEBUG"
 			.FLAGS
 			[
 				.TRIGGER 1
@@ -548,8 +548,8 @@
 		]
 		[
 			.ID 3
-			.NOMBRE "SOME_STUPID_SHIT3"
-			.CARPETA "DEUBG"
+			.NOMBRE "TESTING_SCRIPT3"
+			.CARPETA "DEBUG"
 			.FLAGS
 			[
 				.TRIGGER 1
@@ -631,8 +631,8 @@
 		]
 		[
 			.ID 4
-			.NOMBRE "SOME_STUPID_SHIT3"
-			.CARPETA "DEUBG"
+			.NOMBRE "TESTING_SCRIPT3"
+			.CARPETA "DEBUG"
 			.FLAGS
 			[
 				.TRIGGER 1
@@ -710,8 +710,8 @@
 		]
 		[
 			.ID 5
-			.NOMBRE "SOME_STUPID_SHIT3"
-			.CARPETA "DEUBG"
+			.NOMBRE "TESTING_SCRIPT3"
+			.CARPETA "DEBUG"
 			.FLAGS
 			[
 				.TRIGGER 1
@@ -783,8 +783,8 @@
 		]
 		[
 			.ID 6
-			.NOMBRE "TOXIC DEATH SCREEN"
-			.CARPETA "DEUBG"
+			.NOMBRE "DEATH SCREEN"
+			.CARPETA "DEBUG"
 			.FLAGS
 			[
 				.TRIGGER 1
@@ -860,7 +860,7 @@
 		[
 			.ID 7
 			.NOMBRE "objectivecomplete"
-			.CARPETA "DEUBG"
+			.CARPETA "DEBUG"
 			.FLAGS
 			[
 				.TRIGGER 1
@@ -984,7 +984,7 @@
 		[
 			.ID 13
 			.NOMBRE "missiondead"
-			.CARPETA "DEUBG"
+			.CARPETA "DEBUG"
 			.FLAGS
 			[
 				.TRIGGER 1
@@ -1057,7 +1057,7 @@
 		[
 			.ID 8
 			.NOMBRE "norweg start"
-			.CARPETA "DEUBG"
+			.CARPETA "DEBUG"
 			.FLAGS
 			[
 				.TRIGGER 1
@@ -1104,7 +1104,7 @@
 		[
 			.ID 9
 			.NOMBRE "section 2"
-			.CARPETA "DEUBG"
+			.CARPETA "DEBUG"
 			.FLAGS
 			[
 				.TRIGGER 1
@@ -1198,7 +1198,7 @@
 		[
 			.ID 10
 			.NOMBRE "gruzovik"
-			.CARPETA "DEUBG"
+			.CARPETA "DEBUG"
 			.FLAGS
 			[
 				.TRIGGER 1
@@ -1346,7 +1346,7 @@
 		]
 		[
 			.ID 12
-			.NOMBRE "shitty camera"
+			.NOMBRE "camera"
 			.CARPETA "CSC"
 			.FLAGS
 			[
@@ -1468,7 +1468,7 @@
 		[
 			.ID 13
 			.NOMBRE "unterkms"
-			.CARPETA "DEUBG"
+			.CARPETA "DEBUG"
 			.FLAGS
 			[
 				.TRIGGER 1
