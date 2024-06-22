@@ -1625,6 +1625,41 @@
 				)
 			) 
 		]
+		[
+			.ID 14
+			.NOMBRE "Ambient"
+			.CARPETA "ZSONIDO"
+			.FLAGS
+			[
+				.TRIGGER 1
+				.ENABLED 1
+				.VALIDO 1
+			] 
+			.EVENTOS
+			(
+				(
+					"START_GAME"
+				) 
+			) 
+			.ACCIONES
+			(
+				(
+					"PLAY_SONIDOID" // Play ambient sfx
+					(
+						"SONIDO_BDD"
+						594
+					) 
+					(
+						"NUMERO"
+						0.0
+					) 
+					(
+						"NUMERO"
+						-1.0
+					) 
+				) 
+			) 
+		]
 	) 
 	.POOL
 	(
