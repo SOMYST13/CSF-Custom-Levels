@@ -363,8 +363,8 @@
 						"FALSE" 
 					) 
 					(
-						"VAR" // Variable
-						8388608
+						"NUMERO" // Score amount (1.0 = 250)
+						1.0
 					) 
 				)
 				(
