@@ -584,13 +584,13 @@
 					"TRIGGER_EXE" // triggering some script
 					(
 						"TRIGGER"
-						11
+						13
 					) 
 				)
 			) 
 		]
 		[
-			.ID 3
+			.ID 4
 			.NOMBRE "TESTING_SCRIPT3"
 			.CARPETA "DEBUG"
 			.FLAGS
@@ -673,7 +673,7 @@
 			) 
 		]
 		[
-			.ID 4
+			.ID 5
 			.NOMBRE "TESTING_SCRIPT3"
 			.CARPETA "DEBUG"
 			.FLAGS
@@ -752,7 +752,7 @@
 			) 
 		]
 		[
-			.ID 5
+			.ID 6
 			.NOMBRE "TESTING_SCRIPT3"
 			.CARPETA "DEBUG"
 			.FLAGS
@@ -825,7 +825,7 @@
 			) 
 		]
 		[
-			.ID 6
+			.ID 7
 			.NOMBRE "DEATH SCREEN"
 			.CARPETA "DEBUG"
 			.FLAGS
@@ -901,7 +901,7 @@
 			) 
 		]
 		[
-			.ID 7
+			.ID 8
 			.NOMBRE "objectivecomplete"
 			.CARPETA "DEBUG"
 			.FLAGS
@@ -1019,13 +1019,13 @@
 					"TRIGGER_OFF" // turning off trigger of this script as fast as it possible, because MUERTO event will count kills for other npc's after nazis will die
 					(
 						"TRIGGER"
-						7
+						8
 					) 
 				)
 			) 
 		]
 		[
-			.ID 13
+			.ID 9
 			.NOMBRE "missiondead"
 			.CARPETA "DEBUG"
 			.FLAGS
@@ -1071,7 +1071,7 @@
 					) 
 				)
 				(
-					"SET_OBJETIVO_SUCCESS" //failing objective
+					"SET_OBJETIVO_SUCCESS" // failing objective
 					(
 						"NUMERO"
 						1.0
@@ -1098,7 +1098,7 @@
 			) 
 		]
 		[
-			.ID 8
+			.ID 10
 			.NOMBRE "norweg start"
 			.CARPETA "DEBUG"
 			.FLAGS
@@ -1145,7 +1145,7 @@
 			) 
 		]
 		[
-			.ID 9
+			.ID 11
 			.NOMBRE "section 2"
 			.CARPETA "DEBUG"
 			.FLAGS
@@ -1258,10 +1258,17 @@
 						0.0
 					) 
 				)
+				(
+					"TRIGGER_EXE"
+					(
+						"TRIGGER"
+						17
+					)
+				)
 			) 
 		]
 		[
-			.ID 10
+			.ID 12
 			.NOMBRE "gruzovik"
 			.CARPETA "DEBUG"
 			.FLAGS
@@ -1322,7 +1329,7 @@
 			) 
 		]
 		[
-			.ID 11
+			.ID 13
 			.NOMBRE "CTRL_CAMARA_On"
 			.CARPETA "CONTROL_CAMARA"
 			.FLAGS
@@ -1410,7 +1417,7 @@
 			) 
 		]
 		[
-			.ID 12
+			.ID 14
 			.NOMBRE "camera"
 			.CARPETA "CSC"
 			.FLAGS
@@ -1435,7 +1442,7 @@
 					) 
 				) 
 				(
-					"PLAYER_TERCERA" // idk why i put it here, although we don't even see player here
+					"PLAYER_TERCERA" // go to third-person mode
 					(
 						"BOOL"
 						"TRUE"
@@ -1498,7 +1505,7 @@
 					) 
 				) 
 				(
-					"PLAYER_TERCERA" // i still dk why i put it here, although we don't even see player here
+					"PLAYER_TERCERA" // go to first-person mode
 					(
 						"BOOL"
 						"FALSE"
@@ -1531,7 +1538,7 @@
 			) 
 		]
 		[
-			.ID 13
+			.ID 15
 			.NOMBRE "unterkms"
 			.CARPETA "DEBUG"
 			.FLAGS
@@ -1576,7 +1583,7 @@
 						"PAUSE"
 						(
 							"NUMERO"
-							10.0
+							8.0
 						)
 					)
 				)
@@ -1626,7 +1633,7 @@
 			) 
 		]
 		[
-			.ID 14
+			.ID 16
 			.NOMBRE "Ambient"
 			.CARPETA "ZSONIDO"
 			.FLAGS
@@ -1658,6 +1665,103 @@
 						-1.0 // ID (probably)
 					) 
 				) 
+			) 
+		]
+		[
+			.ID 17
+			.NOMBRE "camera kms"
+			.CARPETA "CSC"
+			.FLAGS
+			[
+				.TRIGGER 1
+				.ENABLED 1
+				.VALIDO 1
+			] 
+			.ACCIONES
+			(
+				(
+					"CUTSCENE_NO_INTERACTIVA" // start cutscene
+					(
+						"BOOL"
+						"TRUE"
+					) 
+				) 
+				(
+					"PLAYER_TERCERA" // go to third-person mode
+					(
+						"BOOL"
+						"TRUE"
+					) 
+				) 
+				(
+					"CUTSCENE_EXE" // start cutscene, using id from .csc file
+					(
+						"CUTSCENE" // ID
+						2
+					) 
+				)
+				(
+					"PAUSE"
+					(
+						"NUMERO"
+						7.0
+					)
+				)
+				(
+					"FX_FADE" // black fading screen
+					(
+						"NUMERO"
+						1.0
+					) 
+					(
+						"BOOL"
+						"TRUE"
+					) 
+					(
+						"VECTOR"
+						0.0
+						0.0
+						0.0
+					) 
+				)
+				(
+					"PAUSE"
+					(
+						"NUMERO"
+						1.0
+					)
+				)
+				(
+					"CUTSCENE_NO_INTERACTIVA" // go back to gameplay
+					(
+						"BOOL"
+						"FALSE"
+					) 
+				) 
+				(
+					"PLAYER_TERCERA" // go to first-person mode
+					(
+						"BOOL"
+						"FALSE"
+					) 
+				)
+				(
+					"FX_FADE" // ayo give me my eyes back
+					(
+						"NUMERO"
+						1.0
+					) 
+					(
+						"BOOL"
+						"FALSE"
+					) 
+					(
+						"VECTOR"
+						0.0
+						0.0
+						0.0
+					) 
+				)
 			) 
 		]
 	) 
