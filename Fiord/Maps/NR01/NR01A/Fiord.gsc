@@ -54,7 +54,7 @@
 	(
 		[
 			.ID 1
-			.NOMBRE "CFG_COMM_ARMAS_Commando"
+			.NOMBRE "CFG_COMM_ARMAS_Commando" // Giving weapons
 			.CARPETA "CONFIG_COMMANDOS"
 			.FLAGS
 			[
@@ -284,14 +284,14 @@
 			( 
 				
 				(
-					"SEND_EVENT"
+					"SEND_EVENT" // Activating scripts for norwegian guy
 					(
 						"EVENT"
 						"NORWEG_START"
 					) 
 				)
 				(
-					"TIMED_STRING_INITPOS"
+					"TIMED_STRING_INITPOS" // Setting up position for TIMED_STRING functions
 					(
 						"NUMERO"
 						0.115
@@ -302,7 +302,7 @@
 					) 
 				) 
 				(
-					"HABILITAR_GHOST"
+					"HABILITAR_GHOST" // Make pills entity clickable
 					(
 						"BICHO"
 						2
@@ -313,7 +313,7 @@
 					) 
 				)
 				(
-					"BICHO_SET_CONTEXT_LABEL"
+					"BICHO_SET_CONTEXT_LABEL" // Giving a "label" when looking over the pill model
 					(
 						"BICHO"
 						2
@@ -324,7 +324,7 @@
 					) 
 				)
 				(
-					"SET_INVISIBLE"
+					"SET_INVISIBLE" // Make invisible "unter" npc
 					(
 						"BICHO"
 						3
@@ -335,7 +335,7 @@
 					) 
 				)
 				(
-					"SET_INVISIBLE"
+					"SET_INVISIBLE" // Make invisible "unter2" npc
 					(
 						"BICHO"
 						4
@@ -353,22 +353,22 @@
 					) 
 				)
 				(
-					"SET_OBJETIVO"
+					"SET_OBJETIVO" // Adding an objective
 					(
-						"NUMERO"
+						"NUMERO" // Objective id
 						1.0
 					) 
 					(
-						"BOOL"
-						"FALSE"
+						"BOOL" // Primary or secondary
+						"FALSE" 
 					) 
 					(
-						"VAR"
+						"VAR" // Variable
 						8388608
 					) 
 				)
 				(
-					"SET_OBJETIVO_LABEL"
+					"SET_OBJETIVO_LABEL" // Giving a "label" for objective
 					(
 						"NUMERO"
 						1.0
@@ -412,13 +412,13 @@
 			.EVENTOS
 			(
 				(
-					"EVT_GHOST_USADO"
+					"EVT_GHOST_USADO" // If "ghost" object has clicked, the script is executed
 				) 
 			)
 			.CONDICIONES
 			( 
 					(
-						"CMP_OP_BICHO"
+						"CMP_OP_BICHO" // checking if player clicked on pills model
 						(
 							"EVT_BICHO2"
 						) 
@@ -435,14 +435,14 @@
 			.ACCIONES
 			(  
 				(
-					"DESTRUIR_BICHO"
+					"DESTRUIR_BICHO" // deleting pills model
 					(
 						"BICHO"
 						2
 					)
 				)
 				(
-					"PLAY_SONIDOID"
+					"PLAY_SONIDOID" // playing "pick up" sound
 					(
 						"SONIDO_BDD"
 						1187
@@ -457,7 +457,7 @@
 					) 
 				)
 				(
-					"FX_FADE"
+					"FX_FADE" // black fading screen
 					(
 						"NUMERO"
 						1.0
@@ -481,18 +481,18 @@
 					) 
 				)
 				(
-					"SET_POSICION"
+					"SET_POSICION" // setting position for player
 					(
 						"PLAYER"
 					) 
 					(
-						"PATHPOINT"
-						98
-						1
+						"PATHPOINT" // pathpoints can be found in .scn file, in GRUPOS category
+						98	// group ID
+						1 // pathpoint ID
 					) 
 				)
 				(
-					"SET_INVISIBLE"
+					"SET_INVISIBLE" // make visible "unter" npc
 					(
 						"BICHO"
 						3
@@ -503,7 +503,7 @@
 					) 
 				)
 				(
-					"SET_INVISIBLE"
+					"SET_INVISIBLE" // make visible "unter2" npc
 					(
 						"BICHO"
 						4
@@ -514,14 +514,14 @@
 					) 
 				)
 				(
-					"SEND_EVENT"
+					"SEND_EVENT" // activate event for nazi npc's
 					(
 						"EVENT"
 						"NEMCI_IDUT"
 					) 
 				)
 				(
-					"FX_FADE"
+					"FX_FADE" // regain visibility
 					(
 						"NUMERO"
 						1.0
@@ -538,7 +538,7 @@
 					) 
 				)
 				(
-					"TRIGGER_EXE"
+					"TRIGGER_EXE" // triggering some script
 					(
 						"TRIGGER"
 						11
@@ -565,7 +565,7 @@
 			.ACCIONES
 			( 
 				(
-					"SUBTITULO"
+					"SUBTITULO" // "Kill them all!"
 					(
 						"FLI"
 						"0008"
@@ -576,7 +576,7 @@
 					) 
 				)
 				(
-					"SET_ACTITUD"
+					"SET_ACTITUD" // nazis behavior always will be Combat
 					(
 						"BICHO"
 						3
@@ -587,7 +587,7 @@
 					) 
 				)
 				(
-					"SET_DESPLAZAMIENTO"
+					"SET_DESPLAZAMIENTO" // nazis always will be run
 					(
 						"BICHO"
 						3
@@ -598,14 +598,14 @@
 					) 
 				)
 				(
-					"IA_OFF"
+					"IA_OFF" // Turn off AI to not make him angry to norwegian npc
 					(
 						"BICHO"
 						3
 					) 
 				)
 				(
-					"IR_A_PATHPOINT"
+					"IR_A_PATHPOINT" // Go to pathpoint
 					(
 						"BICHO"
 						3
@@ -621,7 +621,7 @@
 					) 
 				)
 				(
-					"IA_ON"
+					"IA_ON" // Turn on AI
 					(
 						"BICHO"
 						3
@@ -648,7 +648,7 @@
 			.ACCIONES
 			( 
 				(
-					"SET_ACTITUD"
+					"SET_ACTITUD" // nazis behavior always will be Combat
 					(
 						"BICHO"
 						4
@@ -659,14 +659,14 @@
 					) 
 				)
 				(
-					"PAUSE"
+					"PAUSE" // pause to avoid two npcs passing through the door at the same time
 					(
 						"NUMERO"
 						2.0
 					) 
 				)
 				(
-					"SET_DESPLAZAMIENTO"
+					"SET_DESPLAZAMIENTO" // // nazis always will be run
 					(
 						"BICHO"
 						4
@@ -677,14 +677,14 @@
 					) 
 				)
 				(
-					"IA_OFF"
+					"IA_OFF" // Turn off AI to not make him angry to norwegian npc
 					(
 						"BICHO"
 						4
 					) 
 				)
 				(
-					"IR_A_PATHPOINT"
+					"IR_A_PATHPOINT" // Go to pathpoint
 					(
 						"BICHO"
 						4
@@ -700,7 +700,7 @@
 					) 
 				)
 				(
-					"IA_ON"
+					"IA_ON" // Turn on AI
 					(
 						"BICHO"
 						4
@@ -727,7 +727,7 @@
 			.ACCIONES
 			( 
 				(
-					"SET_INVULNERABILIDAD"
+					"SET_INVULNERABILIDAD" // Make norwegian guy killable
 					(
 						"BICHO"
 						5
@@ -738,7 +738,7 @@
 					) 
 				)
 				(
-					"SET_POSICION"
+					"SET_POSICION" // Setting position for norwegian guy
 					(
 						"BICHO"
 						5
@@ -750,7 +750,7 @@
 					) 
 				)
 				(
-					"SET_DESPLAZAMIENTO"
+					"SET_DESPLAZAMIENTO" // Norwegian guy always will be run
 					(
 						"BICHO"
 						5
@@ -761,7 +761,7 @@
 					) 
 				)
 				(
-					"IR_A_POSICION"
+					"IR_A_POSICION" // Go to position (imo worst ever function to make npc move, use IR_A_PATHPOINT instead)
 					(
 						"BICHO"
 						5
@@ -773,7 +773,7 @@
 					)  
 				)
 				(
-					"IA_ON"
+					"IA_ON" // Turn on AI
 					(
 						"BICHO"
 						5
@@ -794,13 +794,13 @@
 			.EVENTOS
 			(
 				(
-					"MUERTO"
+					"MUERTO" // If somebody dying...
 				) 
 			) 
 			.CONDICIONES
 			(
 				(
-						"CMP_OP_BICHO"
+						"CMP_OP_BICHO" // In our case Player, the script is executed
 						(
 							"EVT_BICHO1"
 						) 
@@ -816,7 +816,7 @@
 			.ACCIONES
 			(  
 				(
-					"TIMED_STRING_V2"
+					"TIMED_STRING_V2" // Showing the YOU DIED text
 					(
 						"FLI"
 						"0004"
@@ -831,7 +831,7 @@
 					) 
 				)
 				(
-					"SET_OBJETIVO_SUCCESS"
+					"SET_OBJETIVO_SUCCESS" // Failing objective
 					(
 						"NUMERO"
 						1.0
@@ -849,7 +849,7 @@
 					)
 				)
 				(
-					"SET_MISSION_SUCCESS"
+					"SET_MISSION_SUCCESS" // Failing mission
 					(
 						"BOOL"
 						"FALSE"
@@ -870,10 +870,10 @@
 			.EVENTOS
 			(
 				(
-					"MUERTO"
+					"MUERTO" // If somebody dying...
 				) 
 			) 
-			.CONDICIONES
+			.CONDICIONES // In our case "unter" and "unter2"
 			(
 				(
 					"AND"
@@ -902,7 +902,7 @@
 			.ACCIONES
 			(  
 				(
-					"TIMED_STRING_V2"
+					"TIMED_STRING_V2" // Showing the NAZIS KILLED text
 					(
 						"FLI"
 						"0005"
@@ -917,7 +917,7 @@
 					) 
 				)
 				(
-					"SET_OBJETIVO_SUCCESS"
+					"SET_OBJETIVO_SUCCESS" // objective completed
 					(
 						"NUMERO"
 						1.0
@@ -928,7 +928,7 @@
 					) 
 				)
 				(
-					"IF"
+					"IF" // BUT if norwegian is died before you killed last nazis...
 					(
 						"NOT"
 						(
@@ -941,7 +941,7 @@
 					) 
 				)
 				(
-					"SET_OBJETIVO_SUCCESS"
+					"SET_OBJETIVO_SUCCESS" // objective failed
 					(
 						"NUMERO"
 						1.0
@@ -955,14 +955,14 @@
 					"ENDIF"
 				)
 				(
-					"SEND_EVENT"
+					"SEND_EVENT" // start Section 2 script
 					(
 						"EVENT"
 						"SECZWEI"
 					) 
 				)
 				(
-					"SET_INVULNERABILIDAD"
+					"SET_INVULNERABILIDAD" // Make norwegian guy unkillable
 					(
 						"BICHO"
 						5
@@ -973,7 +973,7 @@
 					) 
 				)
 				(
-					"TRIGGER_OFF"
+					"TRIGGER_OFF" // turning off trigger of this script as fast as it possible, because MUERTO event will count kills for other npc's after nazis will die
 					(
 						"TRIGGER"
 						7
@@ -994,13 +994,13 @@
 			.EVENTOS
 			(
 				(
-					"MUERTO"
+					"MUERTO" // If somebody dying...
 				) 
 			) 
 			.CONDICIONES
 			(
 				(
-					"NOT"
+					"NOT" // In our case norwegian guy
 					(
 						"ESTA_VIVO"
 						(
@@ -1013,7 +1013,7 @@
 			.ACCIONES
 			(  
 				(
-					"TIMED_STRING_V2"
+					"TIMED_STRING_V2" // Showing the SCRIPT GUY KILLED text
 					(
 						"FLI"
 						"0007"
@@ -1028,7 +1028,7 @@
 					) 
 				)
 				(
-					"SET_OBJETIVO_SUCCESS"
+					"SET_OBJETIVO_SUCCESS" //failing objective
 					(
 						"NUMERO"
 						1.0
@@ -1046,7 +1046,7 @@
 					)
 				)
 				(
-					"SET_MISSION_SUCCESS"
+					"SET_MISSION_SUCCESS" // "mission failed we'll get em next time"
 					(
 						"BOOL"
 						"FALSE"
@@ -1073,7 +1073,7 @@
 			.ACCIONES
 			(  
 				(
-					"SET_INVULNERABILIDAD"
+					"SET_INVULNERABILIDAD" // make the norwegian guy unkillable
 					(
 						"BICHO"
 						5
@@ -1084,7 +1084,7 @@
 					) 
 				)
 				(
-					"IR_A_PATHPOINT"
+					"IR_A_PATHPOINT" // go to the balcony
 					(
 						"BICHO"
 						5
@@ -1127,7 +1127,7 @@
 					) 
 				)
 				(
-					"FX_FADE"
+					"FX_FADE" // black fading screen
 					(
 						"NUMERO"
 						1.0
@@ -1151,7 +1151,7 @@
 					) 
 				)
 				(
-					"LINK_A_HABITACULO"
+					"LINK_A_HABITACULO" // put the norwegian guy into "Camion_03"
 					(
 						"BICHO"
 						5
@@ -1166,7 +1166,7 @@
 					) 
 				)
 				(
-					"SET_POSICION"
+					"SET_POSICION" // setting position for player
 					(
 						"PLAYER"
 					) 
@@ -1177,7 +1177,7 @@
 					) 
 				)
 				(
-					"FX_FADE"
+					"FX_FADE" // regain visibility
 					(
 						"NUMERO"
 						1.0
@@ -1214,7 +1214,7 @@
 			.ACCIONES
 			(  
 				(
-					"ACTIVAR_VEHICULO"
+					"ACTIVAR_VEHICULO" // crank the truck's engine (actually useless function in our case, because truck can drive without cranked engine lol)
 					(
 						"BICHO"
 						6
@@ -1225,7 +1225,7 @@
 					) 
 				)
 				(
-					"IR_A_PATHPOINT"
+					"IR_A_PATHPOINT" // driving the truck
 					(
 						"BICHO"
 						6
@@ -1237,7 +1237,7 @@
 					) 
 				)
 				(
-					"ACTIVAR_VEHICULO"
+					"ACTIVAR_VEHICULO" // turn off the truck's engine
 					(
 						"BICHO"
 						6
@@ -1248,7 +1248,7 @@
 					) 
 				)
 				(
-					"BAJAR_DE_HABITACULO"
+					"BAJAR_DE_HABITACULO" // a norwegian guy gets out of a truck
 					(
 						"BICHO"
 						5
@@ -1269,41 +1269,41 @@
 			.ACCIONES
 			(
 				(
-					"VIEWPORT_CREATE"
+					"VIEWPORT_CREATE" // creating viewport
 					(
-						"NUMERO"
+						"NUMERO" // ID
 						1.0
 					) 
 					(
-						"VECTOR"
+						"VECTOR" // DO NOT TOUCH
 						0.7
 						0.25
 						0.0
 					) 
 					(
-						"VECTOR"
+						"VECTOR" // AND THIS TOO
 						0.925
 						0.475
 						0.0
 					) 
 				)
 				(
-					"VIEWPORT_CAM_SETPOS"
+					"VIEWPORT_CAM_SETPOS" // Setting position for camera. Positiong taking from .scn file, from .MALLA_DUMMIES and .CARPETAS&.RAIZ categories
 					(
 						"NUMERO"
 						1.0
 					) 
 					(
-						"DUMMY"
+						"DUMMY" // camera position
 						334
 					) 
 					(
-						"DUMMY"
+						"DUMMY" // looking at dummy
 						335
 					) 
 				)
 				(
-					"VIEWPORT_CAM_SETFOV"
+					"VIEWPORT_CAM_SETFOV" // setting FOV for viewport. 120 is an optimal value, don't change it, either camera will be somehow broken
 					(
 						"NUMERO"
 						1.0
@@ -1314,7 +1314,7 @@
 					) 
 				) 
 				(
-					"VIEWPORT_SHOW"
+					"VIEWPORT_SHOW" // show viewport
 					(
 						"NUMERO"
 						1.0
@@ -1332,7 +1332,7 @@
 					) 
 				)
 				(
-					"VIEWPORT_SHOW"
+					"VIEWPORT_SHOW" // hide viewport
 					(
 						"NUMERO"
 						1.0
@@ -1363,28 +1363,28 @@
 			.ACCIONES
 			(
 				(
-					"CUTSCENE_NO_INTERACTIVA"
+					"CUTSCENE_NO_INTERACTIVA" // start cutscene
 					(
 						"BOOL"
 						"TRUE"
 					) 
 				) 
 				(
-					"PLAYER_TERCERA"
+					"PLAYER_TERCERA" // idk why i put it here, although we don't even see player here
 					(
 						"BOOL"
 						"TRUE"
 					) 
 				) 
 				(
-					"CUTSCENE_EXE"
+					"CUTSCENE_EXE" // start cutscene, using .csc file
 					(
-						"CUTSCENE"
+						"CUTSCENE" // ID
 						1
 					) 
 				)
 				(
-					"SUBTITULO"
+					"SUBTITULO" // "A small made from scratch mission." text
 					(
 						"FLI"
 						"0006"
@@ -1402,7 +1402,7 @@
 					)
 				)
 				(
-					"FX_FADE"
+					"FX_FADE" // black fading screen
 					(
 						"NUMERO"
 						1.0
@@ -1426,28 +1426,28 @@
 					)
 				)
 				(
-					"CUTSCENE_NO_INTERACTIVA"
+					"CUTSCENE_NO_INTERACTIVA" // go back to gameplay
 					(
 						"BOOL"
 						"FALSE"
 					) 
 				) 
 				(
-					"PLAYER_TERCERA"
+					"PLAYER_TERCERA" // i still dk why i put it here, although we don't even see player here
 					(
 						"BOOL"
 						"FALSE"
 					) 
 				)
 				(
-					"SEND_EVENT"
+					"SEND_EVENT" // start init script
 					(
 						"EVENT"
 						"INIT"
 					)
 				)
 				(
-					"FX_FADE"
+					"FX_FADE" // ayo give me my eyes back
 					(
 						"NUMERO"
 						1.0
@@ -1484,7 +1484,7 @@
 			.ACCIONES
 			(  
 				(
-					"IA_OFF"
+					"IA_OFF" // Turning off AI
 					(
 						"BICHO"
 						7
@@ -1497,7 +1497,7 @@
 				(
 					"AND"
 					(
-						"PLAY_ANMBDD"
+						"PLAY_ANMBDD" // Idle animation
 						(
 							"BICHO"
 							7
@@ -1516,7 +1516,7 @@
 					)
 				)
 				(
-					"PLAY_ANMBDD"
+					"PLAY_ANMBDD" // Killing animation
 					(
 						"BICHO"
 						7
@@ -1529,7 +1529,7 @@
 				(
 					"AND"
 					(
-						"PLAY_ANMBDD"
+						"PLAY_ANMBDD" // Idle animation
 						(
 							"BICHO"
 							7
@@ -1548,7 +1548,7 @@
 					)
 				)
 				(
-					"SET_VIDA"
+					"SET_VIDA" // Killing the npc
 					(
 						"BICHO"
 						7
