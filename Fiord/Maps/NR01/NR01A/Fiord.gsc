@@ -367,6 +367,28 @@
 					) 
 				)
 				(
+					"SET_INVISIBLE" // Make invisible "unterkms" npc
+					(
+						"BICHO"
+						7
+					) 
+					(
+						"BOOL"
+						"TRUE"
+					) 
+				)
+				(
+					"SET_INVISIBLE" // Make invisible "Camion_03" vehicle
+					(
+						"BICHO"
+						6
+					) 
+					(
+						"BOOL"
+						"TRUE"
+					) 
+				)
+				(
 					"PAUSE"
 					(
 						"NUMERO"
@@ -1140,6 +1162,28 @@
 			) 
 			.ACCIONES
 			(  
+				(
+					"SET_INVISIBLE" // Make visible "unterkms" npc
+					(
+						"BICHO"
+						7
+					) 
+					(
+						"BOOL"
+						"FALSE"
+					) 
+				)
+				(
+					"SET_INVISIBLE" // Make visible "Camion_03" vehicle
+					(
+						"BICHO"
+						6
+					) 
+					(
+						"BOOL"
+						"FALSE"
+					) 
+				)
 				(
 					"PAUSE"
 					(
