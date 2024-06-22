@@ -312,7 +312,7 @@
 					) 
 				)
 				(
-					"TIMED_STRING_INITPOS" // Setting up position for TIMED_STRING functions
+					"TIMED_STRING_INITPOS" // Setting up position for TIMED_STRING functions. Do not touch.
 					(
 						"NUMERO"
 						0.115
@@ -1353,7 +1353,7 @@
 					) 
 				)
 				(
-					"VIEWPORT_CAM_SETPOS" // Setting position for camera. Positiong taking from .scn file, from .MALLA_DUMMIES and .CARPETAS&.RAIZ categories
+					"VIEWPORT_CAM_SETPOS" // Setting position for camera. Positiong taking from .scn file, from .MALLA_DUMMIES and .CARPETAS & .RAIZ categories
 					(
 						"NUMERO"
 						1.0
@@ -1442,7 +1442,7 @@
 					) 
 				) 
 				(
-					"CUTSCENE_EXE" // start cutscene, using .csc file
+					"CUTSCENE_EXE" // start cutscene, using id from .csc file
 					(
 						"CUTSCENE" // ID
 						1
@@ -1549,7 +1549,7 @@
 			.ACCIONES
 			(  
 				(
-					"IA_OFF" // Turning off AI
+					"IA_OFF" // Turning off AI, so he won't kill player, or doing other things
 					(
 						"BICHO"
 						7
@@ -1655,7 +1655,7 @@
 					) 
 					(
 						"NUMERO"
-						-1.0
+						-1.0 // ID (probably)
 					) 
 				) 
 			) 
