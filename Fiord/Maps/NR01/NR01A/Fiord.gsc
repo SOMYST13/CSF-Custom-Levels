@@ -1680,6 +1680,13 @@
 			.ACCIONES
 			(
 				(
+					"SEND_EVENT" // activate script for green beret npc
+					(
+						"EVENT"
+						"GB_NPC"
+					)
+				)
+				(
 					"CUTSCENE_NO_INTERACTIVA" // start cutscene
 					(
 						"BOOL"
@@ -1763,6 +1770,109 @@
 					) 
 				)
 			) 
+		]
+		[
+			.ID 18
+			.NOMBRE "GB Npc"
+			.CARPETA "CSC"
+			.FLAGS
+			[
+				.TRIGGER 1
+				.ENABLED 1
+				.VALIDO 1
+			] 
+			.VARIABLES
+			(
+				[
+					.ID 8
+					.TYPE "BICHO"
+					.NOMBRE "gb_npc"
+					.VALOR 0
+				] 
+			)
+			.EVENTOS
+			(
+				(
+					"GB_NPC"
+				) 
+			)
+			.ACCIONES
+			( 
+				(
+					"SET" // set variable for object
+					(
+						"VAR"
+						8
+					) 
+					(
+						"CREAR_BICHO" // create object "Commando Invierno NPC"
+						(
+							"CLASSID"
+							268
+						) 
+					) 
+				) 
+				(
+					"ADD_ARMA" // add winchester riot
+					(
+						"VAR"
+						8
+					) 
+					(
+						"ARMA_CLASSID"
+						9
+					) 
+				)
+				(
+					"SELECT_ARMA" // select winchester riot
+					(
+						"VAR"
+						8
+					) 
+					(
+						"ARMA_CLASSID"
+						9
+					) 
+				)
+				(
+					"IA_OFF" // turn off AI
+					(
+						"VAR"
+						8
+					) 
+				)
+				(
+					"SET_POSICION" // teleport to start position
+					(
+						"VAR"
+						8
+					) 
+					(
+						"PATHPOINT"
+						98
+						5
+					) 
+				)
+				(
+					"IR_A_PATHPOINT" // 🚶‍♂️
+					(
+						"VAR"
+						8
+					) 
+					(
+						"PATHPOINT"
+						98
+						6
+					) 
+				)
+				(
+					"DESTRUIR_BICHO" // delete npc
+					(
+						"VAR"
+						8
+					)
+				)
+			)
 		]
 	) 
 	.POOL
