@@ -618,6 +618,301 @@
 		.GRUPOS
 		(
 			[
+				.ID 3
+				.NOMBRE "Escalera_Barco_01"
+				.TIPO 4
+				.PUNTOS
+				(
+					[
+						.ID 1
+						.NOMBRE ""
+						.POS
+						(
+							-13862.805
+							-136.60245
+							-9444.593
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 2
+						.NOMBRE ""
+						.POS
+						(
+							-13865.639
+							131.20976
+							-9449.52
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 3
+						.NOMBRE ""
+						.POS
+						(
+							-13937.729
+							133.82776
+							-9440.864
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 4
+						.NOMBRE ""
+						.POS
+						(
+							-13936.173
+							-136.60245
+							-9436.027
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+				) 
+				.CONEXIONES
+				(
+				) 
+			] 
+			[
+				.ID 4
+				.NOMBRE "Escalera_Granja_01"
+				.TIPO 4
+				.PUNTOS
+				(
+					[
+						.ID 2
+						.NOMBRE ""
+						.POS
+						(
+							-12969.0625
+							1278.1195
+							2777.2659
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 3
+						.NOMBRE ""
+						.POS
+						(
+							-12962.754
+							1934.3119
+							2768.043
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 4
+						.NOMBRE ""
+						.POS
+						(
+							-13007.396
+							1929.2844
+							2731.858
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 5
+						.NOMBRE ""
+						.POS
+						(
+							-13012.935
+							1278.1195
+							2737.3577
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+				) 
+				.CONEXIONES
+				(
+				) 
+			] 
+			[
+				.ID 5
+				.NOMBRE "Escalera_Muelle_01"
+				.TIPO 4
+				.PUNTOS
+				(
+					[
+						.ID 1
+						.NOMBRE ""
+						.POS
+						(
+							-12902.635
+							-457.20792
+							-5415.1084
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 2
+						.NOMBRE ""
+						.POS
+						(
+							-12902.428
+							-180.82343
+							-5411.558
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 3
+						.NOMBRE ""
+						.POS
+						(
+							-12888.518
+							-184.91556
+							-5358.4546
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 4
+						.NOMBRE ""
+						.POS
+						(
+							-12891.977
+							-458.9282
+							-5358.4556
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+				) 
+				.CONEXIONES
+				(
+				) 
+			]
+			[
+				.ID 82
+				.NOMBRE "Escalera_Muelle_03"
+				.TIPO 4
+				.PUNTOS
+				(
+					[
+						.ID 1
+						.NOMBRE ""
+						.POS
+						(
+							-7441.2188
+							-216.17181
+							191.53723
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 2
+						.NOMBRE ""
+						.POS
+						(
+							-7459.471
+							-209.86203
+							285.86703
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 3
+						.NOMBRE ""
+						.POS
+						(
+							-7462.637
+							-651.2017
+							288.4978
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 4
+						.NOMBRE ""
+						.POS
+						(
+							-7445.7646
+							-657.7849
+							195.0583
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+				) 
+				.CONEXIONES
+				(
+				) 
+			]
+			[
+				.ID 88
+				.NOMBRE "Escalera_Muelle_Barco"
+				.TIPO 4
+				.PUNTOS
+				(
+					[
+						.ID 1
+						.NOMBRE ""
+						.POS
+						(
+							-14007.312
+							-179.20651
+							-7877.988
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 2
+						.NOMBRE ""
+						.POS
+						(
+							-14009.636
+							-172.98505
+							-7809.299
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 3
+						.NOMBRE ""
+						.POS
+						(
+							-14010.92
+							-718.2419
+							-7808.453
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 4
+						.NOMBRE ""
+						.POS
+						(
+							-14011.333
+							-715.6466
+							-7879.2656
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+				) 
+				.CONEXIONES
+				(
+				) 
+			]
+			[
 				.ID 97
 				.NOMBRE "NemciRoute"
 				.TIPO 0
