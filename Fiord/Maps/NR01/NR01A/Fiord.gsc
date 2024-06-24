@@ -998,6 +998,17 @@
 					"ENDIF"
 				)
 				(
+					"SET_VIDA" // Add hp for norwegian guy if he was wounded
+					(
+						"BICHO"
+						5
+					)
+					(
+						"NUMERO"
+						600.0
+					)
+				)
+				(
 					"SEND_EVENT" // start Section 2 script
 					(
 						"EVENT"
@@ -1218,16 +1229,16 @@
 				(
 					"LINK_A_HABITACULO" // put the norwegian guy into "Camion_03"
 					(
-						"BICHO"
+						"BICHO" // npc id
 						5
 					) 
 					(
-						"BICHO"
+						"BICHO" // vehicle id
 						6
 					) 
 					(
 						"NUMERO"
-						0.0
+						0.0 // ( 0.0 = driver place)
 					) 
 				)
 				(
