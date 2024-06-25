@@ -26341,15 +26341,15 @@
 			[
 				.INF
 				(
-					-3.92007
-					-1.888543
-					-5.995138
+					-4.82768
+					-0.186507
+					-6.74352
 				)
 				.SUP
 				(
-					3.92007
-					1.888543
-					5.995138
+					5.10628
+					21.4767
+					6.4514
 				)
 			]
 			.MODELO_COLISION
@@ -26357,9 +26357,9 @@
 				.TIPO "BASIC"
 				.TAM
 				(
-					15.0
-					10.0
-					15.0
+					5.07101
+					21.5352
+					6.69319
 				)
 				.EXTERNAL_SHAPE 3
 				.EXTERNAL_SHAPE_OFFSET
@@ -26369,8 +26369,8 @@
 					0.0
 				)
 			]
-			.MODO_COLISION 0
-			.MATERIAL 4
+			.MODO_COLISION 1
+			.MATERIAL 13
 			.PHYSIC
 			[
 				.TIPO "NULL"
