@@ -92,11 +92,6 @@
 			.COLISION 1
 			.FLAGS 0
 			.SEGUNDA_EXPLOSION 0
-			.CELDA
-			[
-				.GRUPO -1
-				.PUNTO -1
-			] 
 		]
 		[
 			.NOMBRE "pills"
@@ -113,11 +108,6 @@
 			.COLISION 1
 			.FLAGS 0
 			.SEGUNDA_EXPLOSION 0
-			.CELDA
-			[
-				.GRUPO -1
-				.PUNTO -1
-			] 
 		]
 		[
 			.NOMBRE "unter"
@@ -135,11 +125,6 @@
 			.FLAGS 0
 			.SEGUNDA_EXPLOSION 0
 			.PORTRAIT "Menus\Retratos\FotoSubOficial.fbs"
-			.CELDA
-			[
-				.GRUPO -1
-				.PUNTO -1
-			] 
 		]
 		[
 			.NOMBRE "unter2"
@@ -157,11 +142,6 @@
 			.FLAGS 0
 			.SEGUNDA_EXPLOSION 0
 			.PORTRAIT "Menus\Retratos\FotoSubOficial.fbs"
-			.CELDA
-			[
-				.GRUPO -1
-				.PUNTO -1
-			] 
 		]
 		[
 			.NOMBRE "norweg"
@@ -179,11 +159,6 @@
 			.FLAGS 0
 			.SEGUNDA_EXPLOSION 0
 			.BANDO "ALIADO"
-			.CELDA
-			[
-				.GRUPO -1
-				.PUNTO -1
-			] 
 		]
 		[
 			.NOMBRE "Camion_03"
@@ -191,20 +166,15 @@
 			.CLASSID 57
 			.POS
 			(
-				7205.57
-				698.675
-				3707.6
+				-11833.6
+				1276.33
+				1233.01
 			) 
-			.ANGULO 157.595
+			.ANGULO -111.275
 			.ANGULO_X 0.0
 			.COLISION 1
 			.FLAGS 0
 			.SEGUNDA_EXPLOSION 0
-			.CELDA
-			[
-				.GRUPO -1
-				.PUNTO -1
-			] 
 		]
 		[
 			.NOMBRE "unterkms"
@@ -222,11 +192,223 @@
 			.FLAGS 0
 			.SEGUNDA_EXPLOSION 0
 			.PORTRAIT "Menus\Retratos\FotoSubOficial.fbs"
+		]
+		[
+			.NOMBRE "Travelling_01_Target"
+			.ID 8
+			.CLASSID 197
+			.POS
+			(
+				-14135.9
+				1474.34
+				7.71877
+			) 
+			.ANGULO 77.3196
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
 			.CELDA
 			[
-				.GRUPO -1
-				.PUNTO -1
+				.GRUPO 6
+				.PUNTO 3
 			] 
+		] 
+		[
+			.NOMBRE "Travelling_01_Cameraman"
+			.ID 9
+			.CLASSID 197
+			.POS
+			(
+				-13562.9
+				1474.34
+				236.868
+			) 
+			.ANGULO 128.319
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.CELDA
+			[
+				.GRUPO 6
+				.PUNTO 1
+			] 
+		]
+		[
+			.NOMBRE "Travelling_01_Target"
+			.ID 10
+			.CLASSID 197
+			.POS
+			(
+				-14135.9
+				1474.34
+				7.71877
+			) 
+			.ANGULO 77.3196
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.CELDA
+			[
+				.GRUPO 6
+				.PUNTO 5
+			] 
+		] 
+		[
+			.NOMBRE "Travelling_01_Cameraman"
+			.ID 11
+			.CLASSID 197
+			.POS
+			(
+				-13562.9
+				1474.34
+				236.868
+			) 
+			.ANGULO 128.319
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.CELDA
+			[
+				.GRUPO 6
+				.PUNTO 4
+			] 
+		]
+		[
+			.NOMBRE "soldier"
+			.ID 12
+			.CLASSID 3
+			.POS
+			(
+				-12018.2
+				1278.25
+				1365.1
+			) 
+			.ANGULO 0.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+		]
+		[
+			.NOMBRE "soldier2"
+			.ID 13
+			.CLASSID 3
+			.POS
+			(
+				-13176.1
+				1278.19
+				1803.54
+			) 
+			.ANGULO 0.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+		]
+		[
+			.NOMBRE "soldier3"
+			.ID 14
+			.CLASSID 3
+			.POS
+			(
+				-13194.9
+				1278.19
+				1938.57
+			) 
+			.ANGULO 180.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+		]
+		[
+			.NOMBRE "soldier4"
+			.ID 15
+			.CLASSID 3
+			.POS
+			(
+				-12097.2
+				1265.04
+				1665.87
+			) 
+			.ANGULO 151.546
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+		]
+		[
+			.NOMBRE "soldier5"
+			.ID 16
+			.CLASSID 3
+			.POS
+			(
+				-12215.2
+				1911.53
+				1609.89
+			) 
+			.ANGULO 151.546
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+		]
+		[
+			.NOMBRE "soldier6"
+			.ID 17
+			.CLASSID 142
+			.POS
+			(
+				-11851.9
+				1331.44
+				15.0026
+			) 
+			.ANGULO -28.9567
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+		]
+		[
+			.NOMBRE "Camion_03"
+			.ID 18
+			.CLASSID 260
+			.POS
+			(
+				0.0
+				0.0
+				0.0
+			) 
+			.ANGULO 137.68
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.CELDA
+			[
+				.GRUPO 99
+				.PUNTO 8
+			]
+		]
+		[
+			.NOMBRE "Camion_03"
+			.ID 19
+			.CLASSID 57
+			.POS
+			(
+				7205.57
+				698.675
+				3707.6
+			) 
+			.ANGULO 157.595
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
 		]
 	) 
 	.EFECTOS
@@ -795,6 +977,85 @@
 				) 
 			]
 			[
+				.ID 6
+				.NOMBRE "Travelling_01"
+				.TIPO 0
+				.PUNTOS
+				(
+					[
+						.ID 1
+						.NOMBRE ""
+						.POS
+						(
+							-13299
+							1474.34
+							82.0572
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 2
+						.NOMBRE ""
+						.POS
+						(
+							-13203.6
+							1474.34
+							168.511
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 3
+						.NOMBRE ""
+						.POS
+						(
+							-12790.7
+							1474.34
+							-114.907
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 4
+						.NOMBRE ""
+						.POS
+						(
+							-12187.3
+							1400.51
+							-485.266
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 5
+						.NOMBRE ""
+						.POS
+						(
+							-12047.8
+							1356.81
+							-658.392
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					]
+				) 
+				.CONEXIONES
+				(
+					[
+						.PUNTO_ORI 1
+						.PUNTO_DST 2
+					]
+					[
+						.PUNTO_ORI 2
+						.PUNTO_DST 3
+					] 					
+				) 
+			]
+			[
 				.ID 82
 				.NOMBRE "Escalera_Muelle_03"
 				.TIPO 4
@@ -1129,6 +1390,30 @@
 						.ROT 180.0
 						.ROT_X 0.0
 					]
+					[
+						.ID 7
+						.NOMBRE ""
+						.POS
+						(
+							-15239.8
+							1316.33
+							-221.689
+						) 
+						.ROT 270.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 8
+						.NOMBRE ""
+						.POS
+						(
+							7489.13
+							698.756
+							2357.52
+						) 
+						.ROT -180.0
+						.ROT_X 0.0
+					]
 				) 
 				.CONEXIONES
 				( 
@@ -1190,6 +1475,137 @@
 							-4748.68
 						) 
 						.ROT 154.976
+						.ROT_X 0.0
+					]
+					[
+						.ID 5
+						.NOMBRE ""
+						.POS
+						(
+							-11833.6
+							1276.33
+							1233.01
+						) 
+						.ROT -111.275
+						.ROT_X 0.0
+					]
+					[
+						.ID 6
+						.NOMBRE ""
+						.POS
+						(
+							-12362.6
+							1296.34
+							180.627
+						) 
+						.ROT -128.08
+						.ROT_X 0.0
+					]
+					[
+						.ID 7
+						.NOMBRE ""
+						.POS
+						(
+							-12240.3
+							1301.35
+							-211.018
+						) 
+						.ROT -128.08
+						.ROT_X 0.0
+					]
+					[
+						.ID 8
+						.NOMBRE ""
+						.POS
+						(
+							-12118.3
+							1302.83
+							-320.92
+						) 
+						.ROT 137.68
+						.ROT_X 0.0
+					]
+				) 
+				.CONEXIONES
+				( 
+					[
+						.PUNTO_ORI 1
+						.PUNTO_DST 2
+					]
+					[
+						.PUNTO_ORI 2
+						.PUNTO_DST 3
+					]
+					[
+						.PUNTO_ORI 3
+						.PUNTO_DST 4
+					]
+					[
+						.PUNTO_ORI 5
+						.PUNTO_DST 6
+					]
+					[
+						.PUNTO_ORI 6
+						.PUNTO_DST 7
+					]
+					[
+						.PUNTO_ORI 7
+						.PUNTO_DST 8
+					]
+				) 
+			]
+			[
+				.ID 100
+				.NOMBRE "NemciRouteStealth"
+				.TIPO 0
+				.PUNTOS
+				(
+					[
+						.ID 1
+						.NOMBRE ""
+						.POS
+						(
+							-12172
+							1295.67
+							-490.067
+						) 
+						.ROT -30.5114
+						.ROT_X 0.0
+					]
+					[
+						.ID 2
+						.NOMBRE ""
+						.POS
+						(
+							-12468.9
+							1295.67
+							-172.431
+						) 
+						.ROT -30.5114
+						.ROT_X 0.0
+					]
+					[
+						.ID 3
+						.NOMBRE ""
+						.POS
+						(
+							-12276
+							1295.67
+							21.7361
+						) 
+						.ROT 45.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 4
+						.NOMBRE ""
+						.POS
+						(
+							-11930.6
+							1323.11
+							48.5422
+						) 
+						.ROT 140.7
 						.ROT_X 0.0
 					]
 				) 
@@ -3002,7 +3418,43 @@
 					396.814
 				) 
 				.ROT 48.9
-				.ROT_X 25.2
+				.ROT_X 25.1
+			]
+			[
+				.ID 338
+				.NOMBRE ""
+				.POS
+				(
+					-13533.4
+					1474.34
+					35.1018
+				) 
+				.ROT 0.0
+				.ROT_X 25.1
+			]
+			[
+				.ID 339
+				.NOMBRE ""
+				.POS
+				(
+					-12047.8
+					1356.81
+					-658.392
+				) 
+				.ROT 0.0
+				.ROT_X 25.1
+			]
+			[
+				.ID 340
+				.NOMBRE ""
+				.POS
+				(
+					-13469.3
+					1374.2
+					1630.71
+				) 
+				.ROT 1.0
+				.ROT_X 25.1
 			]
 		) 
 		.CARPETAS
@@ -3168,6 +3620,10 @@
 							(
 								334
 								335
+								336
+								337
+								338
+								339
 							) 
 						]
 					) 

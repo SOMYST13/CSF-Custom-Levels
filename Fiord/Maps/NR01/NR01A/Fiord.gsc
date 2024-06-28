@@ -46,6 +46,9 @@
 			2507
 			2508
 			2509
+			1437
+			1942
+			2317
 		) 
 		.SONIDOS
 		(
@@ -58,9 +61,8 @@
 	(
 		[
 			.ID 8388608
-			.ARRAY 1
 			.TYPE "NUMERO"
-			.NOMBRE "Objective"
+			.NOMBRE "ObjectiveComplete"
 			.VALOR 0.0
 		]
 		[
@@ -69,6 +71,38 @@
 			.TYPE "BICHO"
 			.NOMBRE "Nemci"
 			.VALOR 0.0
+		]
+		[
+			.ID 8388610
+			.TYPE "NUMERO"
+			.NOMBRE "_Tiempo_Alarma"
+			.VALOR 10.0
+		]
+		[
+			.ID 8388658
+			.TYPE "BOOL"
+			.NOMBRE "Alarma_On"
+			.VALOR "FALSE"
+		]
+		[
+			.ID 8388663
+			.TYPE "BOOL"
+			.NOMBRE "ICANOVER"
+			.VALOR "FALSE"
+		]
+		[
+			.ID 8388619
+			.ARRAY 1
+			.TYPE "BICHO"
+			.NOMBRE "ENCABRONADOS"
+			.VALOR 0
+		]
+		[
+			.ID 8388637
+			.ARRAY 1
+			.TYPE "BICHO"
+			.NOMBRE "Array_Alemanes"
+			.VALOR 0
 		]
 	) 
 	.SCRIPTS
@@ -223,6 +257,16 @@
 						100.0
 					) 
 				) 
+				(
+					"ADD_ARMA"
+					(
+						"PLAYER"
+					) 
+					(
+						"ARMA_CLASSID"
+						38
+					) 
+				)
 				(
 					"ADD_ARMA"
 					(
@@ -389,6 +433,17 @@
 					) 
 				)
 				(
+					"SET_INVISIBLE" // Make invisible "Camion_03" vehicle
+					(
+						"BICHO"
+						19
+					) 
+					(
+						"BOOL"
+						"TRUE"
+					) 
+				)
+				(
 					"PAUSE"
 					(
 						"NUMERO"
@@ -429,11 +484,11 @@
 					) 
 					(
 						"FLI"
-						"0001"
+						"0002"
 					) 
 					(
 						"FLI"
-						"0002"
+						"0001"
 					) 
 					(
 						"NUMERO"
@@ -578,6 +633,13 @@
 						0.0
 						0.0
 						0.0
+					) 
+				)
+				(
+					"SEND_EVENT"
+					(
+						"EVENT"
+						"ALARMTEST"
 					) 
 				)
 				(
@@ -1009,10 +1071,10 @@
 					)
 				)
 				(
-					"SEND_EVENT" // start Section 2 script
+					"SEND_EVENT" // start Stealth script
 					(
 						"EVENT"
-						"SECZWEI"
+						"STEALTH_START"
 					) 
 				)
 				(
@@ -1185,17 +1247,6 @@
 					) 
 				)
 				(
-					"SET_INVISIBLE" // Make visible "Camion_03" vehicle
-					(
-						"BICHO"
-						6
-					) 
-					(
-						"BOOL"
-						"FALSE"
-					) 
-				)
-				(
 					"PAUSE"
 					(
 						"NUMERO"
@@ -1234,7 +1285,7 @@
 					) 
 					(
 						"BICHO" // vehicle id
-						6
+						19
 					) 
 					(
 						"NUMERO"
@@ -1297,10 +1348,10 @@
 			.ACCIONES
 			(  
 				(
-					"ACTIVAR_VEHICULO" // crank the truck's engine (actually useless function in our case, because truck can drive without cranked engine lol)
+					"ACTIVAR_VEHICULO"
 					(
 						"BICHO"
-						6
+						19
 					) 
 					(
 						"BOOL"
@@ -1311,7 +1362,7 @@
 					"IR_A_PATHPOINT" // driving the truck
 					(
 						"BICHO"
-						6
+						19
 					) 
 					(
 						"PATHPOINT"
@@ -1323,7 +1374,7 @@
 					"ACTIVAR_VEHICULO" // turn off the truck's engine
 					(
 						"BICHO"
-						6
+						19
 					) 
 					(
 						"BOOL"
@@ -1698,6 +1749,17 @@
 					)
 				)
 				(
+					"SET_INVISIBLE" // Make visible "Camion_03" vehicle
+					(
+						"BICHO"
+						19
+					) 
+					(
+						"BOOL"
+						"FALSE"
+					) 
+				)
+				(
 					"CUTSCENE_NO_INTERACTIVA" // start cutscene
 					(
 						"BOOL"
@@ -1750,34 +1812,10 @@
 					)
 				)
 				(
-					"CUTSCENE_NO_INTERACTIVA" // go back to gameplay
+					"SET_MISSION_SUCCESS"
 					(
 						"BOOL"
-						"FALSE"
-					) 
-				) 
-				(
-					"PLAYER_TERCERA" // go to first-person mode
-					(
-						"BOOL"
-						"FALSE"
-					) 
-				)
-				(
-					"FX_FADE" // ayo give me my eyes back
-					(
-						"NUMERO"
-						1.0
-					) 
-					(
-						"BOOL"
-						"FALSE"
-					) 
-					(
-						"VECTOR"
-						0.0
-						0.0
-						0.0
+						"TRUE"
 					) 
 				)
 			) 
@@ -1884,6 +1922,973 @@
 					)
 				)
 			)
+		]
+		[
+			.ID 19
+			.NOMBRE "missionfailalarm"
+			.CARPETA "DEBUG"
+			.FLAGS
+			[
+				.TRIGGER 1
+				.ENABLED 1
+				.VALIDO 1
+			] 
+			.EVENTOS
+			(
+				(
+					"ALARM_SET_OFF"
+				) 
+			) 
+			.ACCIONES
+			( 
+				(
+					"TIMED_STRING_V2"
+					(
+						"FLI"
+						"0012"
+					) 
+					(
+						"NUMERO"
+						5.0
+					) 
+					(
+						"NUMERO"
+						4.0
+					) 
+				)
+				(
+					"PAUSE"
+					(
+						"NUMERO"
+						5
+					)
+				)
+				(
+					"SET_MISSION_SUCCESS"
+					(
+						"BOOL"
+						"FALSE"
+					) 
+				)
+			)
+		]
+		[
+			.ID 20
+			.NOMBRE "stealth part"
+			.CARPETA "DEBUG"
+			.FLAGS
+			[
+				.TRIGGER 1
+				.ENABLED 1
+				.VALIDO 1
+			] 
+			.EVENTOS
+			(
+				(
+					"STEALTH_START"
+				) 
+			) 
+			.ACCIONES
+			(  
+				(
+					"PAUSE"
+					(
+						"NUMERO"
+						5.0
+					) 
+				)
+				(
+					"FX_FADE" // black fading screen
+					(
+						"NUMERO"
+						1.0
+					) 
+					(
+						"BOOL"
+						"TRUE"
+					) 
+					(
+						"VECTOR"
+						0.0
+						0.0
+						0.0
+					) 
+				)
+				(
+					"PAUSE"
+					(
+						"NUMERO"
+						1.0
+					) 
+				)
+				(
+					"SET_OBJETIVO" // Adding an objective
+					(
+						"NUMERO" // Objective id
+						2.0
+					) 
+					(
+						"BOOL" // Primary or secondary
+						"FALSE" 
+					) 
+					(
+						"NUMERO" // Score amount (2.0 = 500)
+						2.0
+					) 
+				)
+				(
+					"SET_OBJETIVO_LABEL" // Giving a "label" for objective
+					(
+						"NUMERO"
+						2.0
+					) 
+					(
+						"FLI"
+						"0013"
+					) 
+				)
+				(
+					"SET_INVISIBLE" // Make visible "Camion_03" vehicle
+					(
+						"BICHO"
+						6
+					) 
+					(
+						"BOOL"
+						"FALSE"
+					) 
+				)
+				(
+					"FOREACH"
+					(
+						"ARRAYID"
+						8388637
+					) 
+				) 
+				(
+					"SET_INVISIBLE"
+					(
+						"ARRAY_CURRENT_ITEM"
+						(
+							"ARRAYID"
+							8388637
+						) 
+					) 
+					(
+						"BOOL"
+						"FALSE"
+					) 
+				) 
+				(
+					"SEND_EVENT"
+					(
+						"EVENT"
+						"NEMCI_ANIMS"
+					)
+				)
+				(
+					"ENDFOR"
+				)
+				(
+					"SET_INVISIBLE" // Make invisible norwegian guy
+					(
+						"BICHO"
+						5
+					) 
+					(
+						"BOOL"
+						"TRUE"
+					) 
+				)
+				(
+					"SET_POSICION" // setting position for player
+					(
+						"PLAYER"
+					) 
+					(
+						"PATHPOINT"
+						98
+						7
+					) 
+				)
+				(
+					"SEND_EVENT"
+					(
+						"EVENT"
+						"STEALTH_CUTSCENE"
+					)
+				)
+				(
+					"FX_FADE" // regain visibility
+					(
+						"NUMERO"
+						1.0
+					) 
+					(
+						"BOOL"
+						"FALSE"
+					) 
+					(
+						"VECTOR"
+						0.0
+						0.0
+						0.0
+					) 
+				)
+				(
+					"IR_A_PATHPOINT" // driving the truck
+					(
+						"BICHO"
+						6
+					) 
+					(
+						"PATHPOINT"
+						99
+						8
+					) 
+				)
+				(
+					"ACTIVAR_VEHICULO" // turn off the truck's engine
+					(
+						"BICHO"
+						6
+					) 
+					(
+						"BOOL"
+						"FALSE"
+					) 
+				)
+				(
+					"BAJAR_DE_HABITACULO" // a german guy gets out of a truck
+					(
+						"BICHO"
+						12
+					) 
+				)
+				(
+					"TRIGGER_ON"
+					(
+						"TRIGGER"
+						23
+					)
+				)
+				(
+					"TRIGGER_EXE"
+					(
+						"TRIGGER"
+						27
+					)
+				)
+			) 
+		]
+		[
+			.ID 21
+			.NOMBRE "cutscene stealth"
+			.CARPETA "DEBUG"
+			.FLAGS
+			[
+				.TRIGGER 1
+				.ENABLED 1
+				.VALIDO 1
+			] 
+			.EVENTOS
+			(
+				(
+					"STEALTH_CUTSCENE"
+				) 
+			)
+			.ACCIONES
+			(  
+				(
+					"LINK_A_HABITACULO" // put the german soldier into "Camion_03"
+					(
+						"BICHO" // npc id
+						12
+					) 
+					(
+						"BICHO" // vehicle id
+						6
+					) 
+					(
+						"NUMERO"
+						0.0 // ( 0.0 = driver place)
+					) 
+				)
+				(
+					"CUTSCENE_NO_INTERACTIVA" // start cutscene
+					(
+						"BOOL"
+						"TRUE"
+					) 
+				) 
+				(
+					"PLAYER_TERCERA" // go to third-person mode
+					(
+						"BOOL"
+						"TRUE"
+					) 
+				) 
+				(
+					"CUTSCENE_EXE" // start cutscene, using id from .csc file
+					(
+						"CUTSCENE" // ID
+						3
+					) 
+				)
+			) 
+		]
+		[
+			.ID 22
+			.NOMBRE "CUTSCENE_Travelling_01"
+			.CARPETA "CUTSCENE_Camaras"
+			.FLAGS
+			[
+				.TRIGGER 1
+				.ENABLED 1
+				.VALIDO 1
+			] 
+			.VARIABLES
+			(
+				[
+					.ID 7
+					.TYPE "BICHO"
+					.NOMBRE "Bicho_Cameraman"
+					.VALOR 0
+				]
+			) 
+			.ACCIONES
+			(
+				(
+					"SET"
+					(
+						"VAR"
+						7
+					) 
+					(
+						"BICHO"
+						9
+					) 
+				)
+				(
+					"SET_WANTED_VEL"
+					(
+						"VAR"
+						7
+					) 
+					(
+						"NUMERO"
+						100.0
+					) 
+				)
+				(
+					"CONTINUE"
+					(
+						"IR_A_PATHPOINT"
+						(
+							"VAR"
+							7
+						) 
+						(
+							"PATHPOINT"
+							6
+							2
+						) 
+					) 
+				)  
+				(
+					"IR_A_PATHPOINT"
+					(
+						"VAR"
+						7
+					) 
+					(
+						"PATHPOINT"
+						6
+						3
+					) 
+				)
+				(
+					"CUTSCENE_EXE" // selecting new camera
+					(
+						"CUTSCENE" // ID
+						4
+					) 
+				)
+			) 
+		]
+		[
+			.ID 23
+			.NOMBRE "alarm settings"
+			.CARPETA "DEBUG"
+			.FLAGS
+			[
+				.TRIGGER 1
+				.ENABLED 0
+				.VALIDO 1
+			] 
+			.EVENTOS
+			(
+				(
+					"IA_CHANGE_STATE"
+				) 
+			)
+			.VARIABLES
+			(
+				[
+					.ID 15
+					.TYPE "NUMERO"
+					.NOMBRE "CONT"
+					.VALOR 0.0
+				] 
+				[
+					.ID 16
+					.TYPE "BOOL"
+					.NOMBRE "ACABADO"
+					.VALOR "FALSE"
+				] 
+			)
+			.ACCIONES
+			(  
+				(
+					"IF"
+					(
+						"CMP_OP_ACTITUD"
+						(
+							"EVT_ACTITUD"
+						) 
+						(
+							"OP_BOOLEAN"
+							0
+						) 
+						(
+							"ACTITUD"
+							"COMBATIENDO"
+						) 
+					) 
+				)
+				(
+					"ACTIVAR_ALARMA"
+					(
+						"NUMERO"
+						0.0
+					) 
+				)
+				(
+					"ENDIF"
+				)
+				(
+					"SET_OBJETIVO_SUCCESS"
+					(
+						"NUMERO"
+						2.0
+					) 
+					(
+						"BOOL"
+						"FALSE"
+					) 
+				)
+			) 
+		]
+		[
+			.ID 24
+			.NOMBRE "npc stealth settings"
+			.CARPETA "DEBUG"
+			.FLAGS
+			[
+				.TRIGGER 1
+				.ENABLED 1
+				.VALIDO 1
+			] 
+			.EVENTOS
+			(
+				(
+					"START_GAME"
+				) 
+			)
+			.ACCIONES
+			(  
+				(
+					"ARRAY_ADD"
+					(
+						"ARRAYID"
+						8388637
+					) 
+					(
+						"BICHO"
+						12
+					) 
+				)
+				(
+					"ARRAY_ADD"
+					(
+						"ARRAYID"
+						8388637
+					) 
+					(
+						"BICHO"
+						13
+					) 
+				)
+				(
+					"ARRAY_ADD"
+					(
+						"ARRAYID"
+						8388637
+					) 
+					(
+						"BICHO"
+						14
+					) 
+				)
+				(
+					"ARRAY_ADD"
+					(
+						"ARRAYID"
+						8388637
+					) 
+					(
+						"BICHO"
+						15
+					) 
+				)
+				(
+					"ARRAY_ADD"
+					(
+						"ARRAYID"
+						8388637
+					) 
+					(
+						"BICHO"
+						16
+					) 
+				)
+				(
+					"ARRAY_ADD"
+					(
+						"ARRAYID"
+						8388637
+					) 
+					(
+						"BICHO"
+						17
+					) 
+				)
+			) 
+		]
+		[
+			.ID 25
+			.NOMBRE "npc stealth settings 2"
+			.CARPETA "DEBUG"
+			.FLAGS
+			[
+				.TRIGGER 1
+				.ENABLED 1
+				.VALIDO 1
+			] 
+			.EVENTOS
+			(
+				(
+					"START_GAME"
+				) 
+			)
+			.ACCIONES
+			(  
+				(
+					"FOREACH"
+					(
+						"ARRAYID"
+						8388637
+					) 
+				) 
+				(
+					"SET_INVISIBLE"
+					(
+						"ARRAY_CURRENT_ITEM"
+						(
+							"ARRAYID"
+							8388637
+						) 
+					) 
+					(
+						"BOOL"
+						"TRUE"
+					) 
+				) 
+				(
+					"ENDFOR"
+				)
+				(
+					"SET_INVISIBLE"
+					(
+						"BICHO"
+						18
+					) 
+					(
+						"BOOL"
+						"TRUE"
+					) 
+				)
+			)
+		]
+		[
+			.ID 26
+			.NOMBRE "CTRL_MIS_Control_Muertos"
+			.CARPETA "CONTROL_MISION"
+			.FLAGS
+			[
+				.TRIGGER 1
+				.ENABLED 1
+				.VALIDO 1
+			] 
+			.EVENTOS
+			(
+				(
+					"MUERTO"
+				) 
+			) 
+			.CONDICIONES 
+			(
+					(
+						"NOT"
+						(
+							"ESTA_VIVO"
+							(
+								"BICHO"
+								12
+							) 
+						) 
+					)
+					(
+						"NOT"
+						(
+							"ESTA_VIVO"
+							(
+								"BICHO"
+								13
+							) 
+						) 
+					)
+					(
+						"NOT"
+						(
+							"ESTA_VIVO"
+							(
+								"BICHO"
+								14
+							) 
+						) 
+					)
+					(
+						"NOT"
+						(
+							"ESTA_VIVO"
+							(
+								"BICHO"
+								15
+							) 
+						) 
+					)
+					(
+						"NOT"
+						(
+							"ESTA_VIVO"
+							(
+								"BICHO"
+								16
+							) 
+						) 
+					)
+					(
+						"NOT"
+						(
+							"ESTA_VIVO"
+							(
+								"BICHO"
+								17
+							) 
+						) 
+					)
+			)
+			.ACCIONES
+			(  
+				(
+					"SEND_EVENT"
+					(
+						"EVENT"
+						"SECZWEI"
+					) 
+				)
+				(
+					"SET_OBJETIVO_SUCCESS"
+					(
+						"NUMERO"
+						2.0
+					) 
+					(
+						"BOOL"
+						"TRUE"
+					) 
+				)
+				(
+					"TIMED_STRING_V2"
+					(
+						"FLI"
+						"0014"
+					) 
+					(
+						"NUMERO"
+						5.0
+					) 
+					(
+						"NUMERO"
+						4.0
+					) 
+				)
+				(
+					"TRIGGER_OFF"
+					(
+						"TRIGGER"
+						26
+					) 
+				)
+				(
+					"TRIGGER_OFF"
+					(
+						"TRIGGER"
+						23
+					) 
+				)
+			) 
+		]
+		[
+			.ID 27
+			.NOMBRE "NemciStealth"
+			.CARPETA "DEBUG"
+			.FLAGS
+			[
+				.TRIGGER 1
+				.ENABLED 1
+				.VALIDO 1
+			]  
+			.ACCIONES
+			(  
+				(
+					"PAUSE"
+					(
+						"NUMERO"
+						0.25
+					)
+				)
+				(
+					"IR_A_POSICION"
+					(
+						"BICHO"
+						12
+					) 
+					(
+						"PATHPOINT"
+						100
+						1
+					)  
+				)
+				(
+					"IR_A_PATHPOINT" // Go to pathpoint
+					(
+						"BICHO"
+						12
+					) 
+					(
+						"PATHPOINT"
+						100
+						4
+					) 
+					(
+						"BOOL"
+						"TRUE"
+					) 
+				)
+				(
+					"GIRA_ANM_HASTA_ANGULO"
+					(
+						"BICHO"
+						12
+					) 
+					(
+						"ANGULO_A_BICHO"
+						(
+							"BICHO"
+							12
+						) 
+						(
+							"BICHO"
+							17
+						) 
+					) 
+					(
+						"BOOL"
+						"FALSE"
+					) 
+				)
+				(
+					"PLAY_ANMBDD"
+					(
+						"BICHO"
+						17
+					) 
+					(
+						"ANM_BDD"
+						1942
+					)  
+				)
+				(
+					"GIRA_ANM_HASTA_ANGULO"
+					(
+						"BICHO"
+						17
+					) 
+					(
+						"ANGULO_A_BICHO"
+						(
+							"BICHO"
+							17
+						) 
+						(
+							"BICHO"
+							12
+						) 
+					) 
+					(
+						"BOOL"
+						"FALSE"
+					) 
+				)
+				(
+					"PLAY_ANMBDD"
+					(
+						"BICHO"
+						17
+					) 
+					(
+						"ANM_BDD"
+						2189
+					)  
+				)
+			) 
+		]
+		[
+			.ID 28
+			.NOMBRE "NemciAnims"
+			.CARPETA "DEBUG"
+			.FLAGS
+			[
+				.TRIGGER 1
+				.ENABLED 1
+				.VALIDO 1
+			]   
+			.EVENTOS
+			(
+				(
+					"NEMCI_ANIMS"
+				) 
+			) 
+			.ACCIONES
+			(  
+				(
+					"PLAY_ANMBDD"
+					(
+						"BICHO"
+						17
+					) 
+					(
+						"ANM_BDD"
+						1437
+					)  
+				)
+			) 
+		]
+		[
+			.ID 29
+			.NOMBRE "NemciAnims2"
+			.CARPETA "DEBUG"
+			.FLAGS
+			[
+				.TRIGGER 1
+				.ENABLED 1
+				.VALIDO 1
+			]   
+			.EVENTOS
+			(
+				(
+					"NEMCI_ANIMS"
+				) 
+			) 
+			.ACCIONES
+			(  
+				(
+					"PLAY_ANMBDD_CICLOS"
+					(
+						"BICHO"
+						13
+					) 
+					(
+						"ANM_BDD"
+						2317
+					) 
+					(
+						"NUMERO"
+						1.0
+					) 
+				)
+				(
+					"PLAY_ANMBDD_CICLOS"
+					(
+						"BICHO"
+						14
+					) 
+					(
+						"ANM_BDD"
+						2317
+					) 
+					(
+						"NUMERO"
+						1.0
+					) 
+				)
+				(
+					"SEND_EVENT"
+					(
+						"EVENT"
+						"NEMCI_ANIMS_LOOP"
+					)
+				)
+			) 
+		]
+		[
+			.ID 30
+			.NOMBRE "NemciAnimsLoop"
+			.CARPETA "DEBUG"
+			.FLAGS
+			[
+				.TRIGGER 1
+				.ENABLED 1
+				.VALIDO 1
+			]   
+			.EVENTOS
+			(
+				(
+					"NEMCI_ANIMS_LOOP"
+				) 
+			) 
+			.ACCIONES
+			(  
+				(
+					"TRIGGER_EXE"
+					(
+						"TRIGGER"
+						29
+					)
+				)
+			) 
 		]
 	) 
 	.POOL
