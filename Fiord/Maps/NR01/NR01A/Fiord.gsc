@@ -2090,6 +2090,13 @@
 					"ENDFOR"
 				)
 				(
+					"TRIGGER_ON"
+					(
+						"TRIGGER"
+						26
+					)
+				)
+				(
 					"SET_INVISIBLE" // Make invisible norwegian guy
 					(
 						"BICHO"
@@ -2537,7 +2544,7 @@
 			.FLAGS
 			[
 				.TRIGGER 1
-				.ENABLED 1
+				.ENABLED 0
 				.VALIDO 1
 			] 
 			.EVENTOS
@@ -2546,71 +2553,39 @@
 					"MUERTO"
 				) 
 			) 
-			.CONDICIONES 
-			(
-					(
-						"NOT"
-						(
-							"ESTA_VIVO"
-							(
-								"BICHO"
-								12
-							) 
-						) 
-					)
-					(
-						"NOT"
-						(
-							"ESTA_VIVO"
-							(
-								"BICHO"
-								13
-							) 
-						) 
-					)
-					(
-						"NOT"
-						(
-							"ESTA_VIVO"
-							(
-								"BICHO"
-								14
-							) 
-						) 
-					)
-					(
-						"NOT"
-						(
-							"ESTA_VIVO"
-							(
-								"BICHO"
-								15
-							) 
-						) 
-					)
-					(
-						"NOT"
-						(
-							"ESTA_VIVO"
-							(
-								"BICHO"
-								16
-							) 
-						) 
-					)
-					(
-						"NOT"
-						(
-							"ESTA_VIVO"
-							(
-								"BICHO"
-								17
-							) 
-						) 
-					)
-			)
 			.ACCIONES
 			(  
+				(
+					"ARRAY_DELETE_ELEMENT"
+					(
+						"ARRAYID"
+						8388637
+					) 
+					(
+						"EVT_BICHO1"
+					) 
+				) 
+				(
+					"IF"
+					(
+						"CMP_OP_NUMERO"
+						(
+							"ARRAY_SIZE"
+							(
+								"ARRAYID"
+								8388637
+							) 
+						) 
+						(
+							"OP_BOOLEAN"
+							0
+						) 
+						(
+							"NUMERO"
+							0.0
+						) 
+					) 
+				)
 				(
 					"SEND_EVENT"
 					(
@@ -2657,6 +2632,9 @@
 						"TRIGGER"
 						23
 					) 
+				)
+				(
+					"ENDIF"
 				)
 			) 
 		]
