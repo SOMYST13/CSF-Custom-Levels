@@ -392,3 +392,5 @@ Models\Weap\Textures/martillo.png
 Models\Weap\Textures/Cartas.png
 Gfx\Textures\NR01_Normal.png
 Models\Char\Textures/AlStGB01_Alt001.dds
+Models\Char\Textures/AlStGB01_Alt002.png
+Models\Char\Textures/AlStGB01_Alt003.png
