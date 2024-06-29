@@ -1925,55 +1925,6 @@
 		]
 		[
 			.ID 19
-			.NOMBRE "missionfailalarm"
-			.CARPETA "DEBUG"
-			.FLAGS
-			[
-				.TRIGGER 1
-				.ENABLED 1
-				.VALIDO 1
-			] 
-			.EVENTOS
-			(
-				(
-					"ALARM_SET_OFF"
-				) 
-			) 
-			.ACCIONES
-			( 
-				(
-					"TIMED_STRING_V2"
-					(
-						"FLI"
-						"0012"
-					) 
-					(
-						"NUMERO"
-						5.0
-					) 
-					(
-						"NUMERO"
-						4.0
-					) 
-				)
-				(
-					"PAUSE"
-					(
-						"NUMERO"
-						5
-					)
-				)
-				(
-					"SET_MISSION_SUCCESS"
-					(
-						"BOOL"
-						"FALSE"
-					) 
-				)
-			)
-		]
-		[
-			.ID 20
 			.NOMBRE "stealth part"
 			.CARPETA "DEBUG"
 			.FLAGS
@@ -2093,7 +2044,7 @@
 					"TRIGGER_ON"
 					(
 						"TRIGGER"
-						26
+						25
 					)
 				)
 				(
@@ -2176,20 +2127,20 @@
 					"TRIGGER_ON"
 					(
 						"TRIGGER"
-						23
+						22
 					)
 				)
 				(
 					"TRIGGER_EXE"
 					(
 						"TRIGGER"
-						27
+						26
 					)
 				)
 			) 
 		]
 		[
-			.ID 21
+			.ID 20
 			.NOMBRE "cutscene stealth"
 			.CARPETA "DEBUG"
 			.FLAGS
@@ -2245,7 +2196,7 @@
 			) 
 		]
 		[
-			.ID 22
+			.ID 21
 			.NOMBRE "CUTSCENE_Travelling_01"
 			.CARPETA "CUTSCENE_Camaras"
 			.FLAGS
@@ -2324,7 +2275,7 @@
 			) 
 		]
 		[
-			.ID 23
+			.ID 22
 			.NOMBRE "alarm settings"
 			.CARPETA "DEBUG"
 			.FLAGS
@@ -2384,6 +2335,13 @@
 					"ENDIF"
 				)
 				(
+					"TRIGGER_OFF"
+					(
+						"TRIGGER"
+						25
+					) 
+				)
+				(
 					"SET_OBJETIVO_SUCCESS"
 					(
 						"NUMERO"
@@ -2394,10 +2352,39 @@
 						"FALSE"
 					) 
 				)
+				(
+					"TIMED_STRING_V2"
+					(
+						"FLI"
+						"0012"
+					) 
+					(
+						"NUMERO"
+						5.0
+					) 
+					(
+						"NUMERO"
+						4.0
+					) 
+				)
+				(
+					"PAUSE"
+					(
+						"NUMERO"
+						5
+					)
+				)
+				(
+					"SET_MISSION_SUCCESS"
+					(
+						"BOOL"
+						"FALSE"
+					) 
+				)
 			) 
 		]
 		[
-			.ID 24
+			.ID 23
 			.NOMBRE "npc stealth settings"
 			.CARPETA "DEBUG"
 			.FLAGS
@@ -2483,7 +2470,7 @@
 			) 
 		]
 		[
-			.ID 25
+			.ID 24
 			.NOMBRE "npc stealth settings 2"
 			.CARPETA "DEBUG"
 			.FLAGS
@@ -2538,7 +2525,7 @@
 			)
 		]
 		[
-			.ID 26
+			.ID 25
 			.NOMBRE "CTRL_MIS_Control_Muertos"
 			.CARPETA "CONTROL_MISION"
 			.FLAGS
@@ -2623,14 +2610,14 @@
 					"TRIGGER_OFF"
 					(
 						"TRIGGER"
-						26
+						25
 					) 
 				)
 				(
 					"TRIGGER_OFF"
 					(
 						"TRIGGER"
-						23
+						22
 					) 
 				)
 				(
@@ -2639,7 +2626,7 @@
 			) 
 		]
 		[
-			.ID 27
+			.ID 26
 			.NOMBRE "NemciStealth"
 			.CARPETA "DEBUG"
 			.FLAGS
@@ -2754,7 +2741,7 @@
 			) 
 		]
 		[
-			.ID 28
+			.ID 27
 			.NOMBRE "NemciAnims"
 			.CARPETA "DEBUG"
 			.FLAGS
@@ -2785,7 +2772,7 @@
 			) 
 		]
 		[
-			.ID 29
+			.ID 28
 			.NOMBRE "NemciAnims2"
 			.CARPETA "DEBUG"
 			.FLAGS
@@ -2842,7 +2829,7 @@
 			) 
 		]
 		[
-			.ID 30
+			.ID 29
 			.NOMBRE "NemciAnimsLoop"
 			.CARPETA "DEBUG"
 			.FLAGS
@@ -2863,7 +2850,7 @@
 					"TRIGGER_EXE"
 					(
 						"TRIGGER"
-						29
+						28
 					)
 				)
 			) 

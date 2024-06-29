@@ -85,7 +85,7 @@
 					"TRIGGER_EXE"
 					(
 						"TRIGGER"
-						22
+						21
 					) 
 				)
 			) 
