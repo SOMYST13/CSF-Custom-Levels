@@ -1370,24 +1370,6 @@
 						4
 					) 
 				)
-				(
-					"ACTIVAR_VEHICULO" // turn off the truck's engine
-					(
-						"BICHO"
-						19
-					) 
-					(
-						"BOOL"
-						"FALSE"
-					) 
-				)
-				(
-					"BAJAR_DE_HABITACULO" // a norwegian guy gets out of a truck
-					(
-						"BICHO"
-						5
-					) 
-				)
 			) 
 		]
 		[
@@ -1661,36 +1643,15 @@
 					) 
 				)
 				(
-					"AND"
-					(
-						"PLAY_ANMBDD" // Idle animation
-						(
-							"BICHO"
-							7
-						) 
-						(
-							"ANM_BDD"
-							2508
-						) 
-					)
-					(
-						"PAUSE"
-						(
-							"NUMERO"
-							5.0
-						)
-					)
-				)
-				(
-					"SET_VIDA" // Killing the npc
+					"PLAY_ANMBDD" // Idle animation
 					(
 						"BICHO"
 						7
-					)
+					) 
 					(
-						"NUMERO"
-						0.0
-					)
+						"ANM_BDD"
+						2508
+					) 
 				)
 			) 
 		]
@@ -1913,13 +1874,6 @@
 						98
 						6
 					) 
-				)
-				(
-					"DESTRUIR_BICHO" // delete npc
-					(
-						"VAR"
-						8
-					)
 				)
 			)
 		]
