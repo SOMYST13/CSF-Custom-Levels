@@ -11,8 +11,6 @@
 - [IanusInferus](https://github.com/IanusInferus) - PCKManager
 - [herbert3000](https://github.com/herbert3000) - CSFFBS Script Decoder and a lot of another useful stuff
 ###
-- Note: Currently Fiord level can't be finished
-###
 ### How to make it work?
 - Decode the Juego.cfg file from Config folder with CSFFBS Script Decoder.
 - Look for the .bFirstOutPak function
