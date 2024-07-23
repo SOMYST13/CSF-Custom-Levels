@@ -1,0 +1,974 @@
+[
+	.VERSION 17
+	.PLAYER 1
+	.MUNDOVIS
+	[
+		.RWS "Maps\ST04\st04.rws"
+		.SIMPLIFICADO "Maps\ST04\st04_col.rws"
+		.TEXTURAS "Maps\ST04\Textures\"
+		.PUNTERIA "ST04"
+		.SONIDO_AMBIENTE -1
+		.CIELO "Maps\Deco\cielo_st04.dff"
+		.CIELOSPEED1 3.0
+		.CIELOSPEED2 1.5
+		.CIELOSPEED3 0.0
+		.CIELO_MODULATE2X 0
+		.MODULATE2X 1
+		.AMBESCENA 0
+		.AMBIENTE 5131858
+		.VIEWPORT_AMB_ADD 0.0
+		.CAMERANEAR 12.0
+		.CAMERAFAR 12000.0
+		.CAMERAFOV -1.0
+		.FOGENABLED 1
+		.FOGTYPE 0
+		.FOGCOLOR 4605508
+		.FOGALPHA 255
+		.FOGDENSITY 255.0
+		.FOGDISTANCE 3000.0
+		.AGUA_FOGTYPE 0
+		.AGUA_FOGCOLOR 16777215
+		.AGUA_FOGALPHA 255
+		.AGUA_FOGDENSITY 1.0
+		.AGUA_FOGDISTANCE -10000.0
+		.ATMOSFERICFX 0
+		.VAHOENABLED 0
+		.ELIMINAR_MUERTOS 0
+		.MINIMAPA_RTS 0
+		.RADIO_RTS 10000.0
+		.MTACTICO_ORIGEN
+		(
+			11300.0
+			0.0
+			14000.0
+		) 
+		.MTACTICO_DESTINO
+		(
+			-7700.0
+			0.0
+			-6000.0
+		) 
+		.ORIGEN_RTS
+		(
+			-490.0
+			0.0
+			3510.0
+		) 
+		.DESTINO_RTS
+		(
+			551.0
+			0.0
+			4365.0
+		) 
+		.MTACTICO_TEXTURA "Gfx\MapaTactico_ST04.png"
+		.TEXTURA_RTS ""
+		.FLIS_ESCENARIO "Texts\Snipers.fli"
+		.SAVEGAME_DESCR "g101"
+		.SAVEGAME_SCENE "g101"
+		.GLOW_ON 1
+		.GLOW_CUTCOLOR 20
+		.GLOW_INTENSITY 60
+		.GLOW_DISPLACEMENT 38
+		.VIDEO_OPENING ""
+		.INVERTIR_NORTE_SUR 0
+		.INICIO_COMMANDO 0
+		.INICIO_SNIPER 0
+		.INICIO_SPY 0
+	] 
+	.BICHOS
+	( 
+		[
+			.NOMBRE "Player"
+			.ID 1
+			.CLASSID 266
+			.POS
+			(
+				-842.53
+				523.111
+				7984.03
+			) 
+			.ANGULO 180.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0 
+		]
+		[
+			.NOMBRE "EdDemol"
+			.ID 2
+			.CLASSID 134
+			.POS
+			(
+				0.0
+				0.0
+				0.0
+			) 
+			.ANGULO 0.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+		]
+		[
+			.NOMBRE "Offizier"
+			.ID 3
+			.CLASSID 36
+			.POS
+			(
+				3115.14
+				528.07
+				6177.13
+			) 
+			.ANGULO 180.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0 
+			.PORTRAIT "Menus/Retratos/HeinrichBecker.fbs"
+		]
+		[
+			.NOMBRE "Soldat1"
+			.ID 4
+			.CLASSID 21
+			.POS
+			(
+				3245.14
+				528.07
+				6227.13
+			) 
+			.ANGULO 180.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0 
+		]
+		[
+			.NOMBRE "Soldat2"
+			.ID 5
+			.CLASSID 21
+			.POS
+			(
+				2985.14
+				528.07
+				6227.13
+			) 
+			.ANGULO 180.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0 
+		]
+		[
+			.NOMBRE "kubelwagen"
+			.ID 6
+			.CLASSID 96 
+			.ANGULO 180.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0 
+			.CELDA
+			[
+				.GRUPO 1
+				.PUNTO 1
+			]
+		]
+		[
+			.NOMBRE "general"
+			.ID 7
+			.CLASSID 18
+			.POS
+			(
+				0.0
+				0.0
+				0.0
+			) 
+			.ANGULO 0.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0 
+			.PORTRAIT "Menus/Retratos/FotoGeneral.fbs"
+		]
+		[
+			.NOMBRE "Soldat KBW"
+			.ID 8
+			.CLASSID 2
+			.POS
+			(
+				0.0
+				0.0
+				0.0
+			) 
+			.ANGULO 0.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0 
+		]
+		[
+			.NOMBRE "Nazi Sniper"
+			.ID 9
+			.CLASSID 60
+			.POS
+			(
+				6754.4
+				2164.24
+				9826.62
+			) 
+			.ANGULO 180.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0 
+			.SCRIPT
+			(
+				9
+				14
+			)
+		]
+		[
+			.NOMBRE "officer glasses"
+			.ID 10
+			.CLASSID 506
+			.POS
+			(
+				0.0
+				0.0
+				0.0
+			) 
+			.ANGULO 0.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+		]
+	) 
+	.EFECTOS
+	( 
+	) 
+	.AGUAS
+	(
+	) 
+	.MULTIPLAYER
+	[
+		.MPDEATHMATCH 0
+		.MPTDEATHMATCH 0
+		.MPPOSTMEN 0
+		.MPPOSTMEN_IDPOSTMAN 0
+		.MPFRANCOS 0
+	] 
+	.PUNTUACION_MAXIMA 6000
+	.PUNTUACION_MINIMA 1750
+	.MALLA_NAVEGACION
+	[
+		.GRUPOS
+		( 
+			[
+				.ID 1
+				.NOMBRE "KBW"
+				.TIPO 0
+				.PUNTOS
+				(
+					[
+						.ID 1
+						.NOMBRE ""
+						.POS
+						(
+							1406.28
+							514.767
+							7308.64
+						) 
+						.ROT 180
+						.ROT_X 0.0
+					] 
+					[
+						.ID 2
+						.NOMBRE ""
+						.POS
+						(
+							1240.18
+							514.767
+							6249.96
+						) 
+						.ROT 175.657
+						.ROT_X 0.0
+					] 
+					[
+						.ID 3
+						.NOMBRE ""
+						.POS
+						(
+							1915.37
+							512.011
+							5887.58
+						) 
+						.ROT 90.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 4
+						.NOMBRE ""
+						.POS
+						(
+							2900.22
+							512.011
+							6046.51
+						) 
+						.ROT 90.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 5
+						.NOMBRE ""
+						.POS
+						(
+							3620.02
+							512.011
+							6046.51
+						) 
+						.ROT 90.0
+						.ROT_X 0.0
+					]
+				) 
+				.CONEXIONES
+				(
+					[
+						.PUNTO_ORI 1
+						.PUNTO_DST 2
+					] 
+					[
+						.PUNTO_ORI 2
+						.PUNTO_DST 3
+					]
+					[
+						.PUNTO_ORI 3
+						.PUNTO_DST 4
+					]
+					[
+						.PUNTO_ORI 4
+						.PUNTO_DST 5
+					]
+				) 
+			]
+			[
+				.ID 2
+				.NOMBRE "GENERAL"
+				.TIPO 0
+				.PUNTOS
+				(
+					[
+						.ID 1
+						.NOMBRE ""
+						.POS
+						(
+							3538.56
+							511.99
+							5959.17
+						) 
+						.ROT 90.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 2
+						.NOMBRE ""
+						.POS
+						(
+							3107.1
+							511.99
+							5922.39
+						) 
+						.ROT -90.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 3
+						.NOMBRE ""
+						.POS
+						(
+							3120.71
+							511.99
+							6087.35
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					]
+				) 
+				.CONEXIONES
+				(
+					[
+						.PUNTO_ORI 1
+						.PUNTO_DST 2
+					]
+					[
+						.PUNTO_ORI 2
+						.PUNTO_DST 3
+					]
+				) 
+			]
+			[
+				.ID 3
+				.NOMBRE "Escalera_Teatro_A"
+				.TIPO 4
+				.PUNTOS
+				(
+					[
+						.ID 1
+						.NOMBRE ""
+						.POS
+						(
+							-6147.1265
+							1491.0863
+							3944.074
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 2
+						.NOMBRE ""
+						.POS
+						(
+							-6147.208
+							1488.0333
+							4017.6248
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 3
+						.NOMBRE ""
+						.POS
+						(
+							-6254.089
+							459.1105
+							4021.8574
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 4
+						.NOMBRE ""
+						.POS
+						(
+							-6256.888
+							459.11664
+							3948.6277
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+				) 
+				.CONEXIONES
+				(
+				) 
+			]
+			[
+				.ID 4
+				.NOMBRE "Escalera_Palacio_Torre01_01"
+				.TIPO 4
+				.PUNTOS
+				(
+					[
+						.ID 1
+						.NOMBRE ""
+						.POS
+						(
+							4087.0005
+							1079.6812
+							7588.472
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 2
+						.NOMBRE ""
+						.POS
+						(
+							4085.8997
+							1351.7358
+							7583.9243
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 3
+						.NOMBRE ""
+						.POS
+						(
+							4087.3132
+							1355.1436
+							7524.2827
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 4
+						.NOMBRE ""
+						.POS
+						(
+							4085.3625
+							1097.2496
+							7523.182
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+				) 
+				.CONEXIONES
+				(
+				) 
+			]
+			[
+				.ID 5
+				.NOMBRE "Escalera_Palacio_Torre01_02A"
+				.TIPO 4
+				.PUNTOS
+				(
+					[
+						.ID 1
+						.NOMBRE ""
+						.POS
+						(
+							3779.8696
+							1347.5615
+							7479.049
+						) 
+						.ROT 0.0
+						.ROT_X -0.309437
+					] 
+					[
+						.ID 2
+						.NOMBRE ""
+						.POS
+						(
+							3781.1611
+							1573.2457
+							7476.7144
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 3
+						.NOMBRE ""
+						.POS
+						(
+							3837.117
+							1573.532
+							7476.9634
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 4
+						.NOMBRE ""
+						.POS
+						(
+							3837.8035
+							1346.8176
+							7478.5425
+						) 
+						.ROT 0.0
+						.ROT_X -0.019978
+					] 
+				) 
+				.CONEXIONES
+				(
+				) 
+			]
+			[
+				.ID 6
+				.NOMBRE "Escalera_Palacio_Torre02_02A"
+				.TIPO 4
+				.PUNTOS
+				(
+					[
+						.ID 1
+						.NOMBRE ""
+						.POS
+						(
+							4650.4424
+							1038.0826
+							8367.568
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 2
+						.NOMBRE ""
+						.POS
+						(
+							4651.199
+							1299.5791
+							8360.761
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 3
+						.NOMBRE ""
+						.POS
+						(
+							4659.3813
+							1300.661
+							8410.023
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 4
+						.NOMBRE ""
+						.POS
+						(
+							4664.732
+							1038.0828
+							8419.137
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+				) 
+				.CONEXIONES
+				(
+				) 
+			]
+			[
+				.ID 7
+				.NOMBRE "Escalera_Palacio_Torre02_03A"
+				.TIPO 4
+				.PUNTOS
+				(
+					[
+						.ID 1
+						.NOMBRE ""
+						.POS
+						(
+							4697.4937
+							1294.2267
+							8462.569
+						) 
+						.ROT 0.0
+						.ROT_X -0.076047
+					] 
+					[
+						.ID 2
+						.NOMBRE ""
+						.POS
+						(
+							4697.0435
+							1732.4675
+							8460.978
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 3
+						.NOMBRE ""
+						.POS
+						(
+							4749.9834
+							1731.9148
+							8464.394
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 4
+						.NOMBRE ""
+						.POS
+						(
+							4750.653
+							1294.1382
+							8461.086
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+				) 
+				.CONEXIONES
+				(
+				) 
+			]
+			[
+				.ID 8
+				.NOMBRE "Escalera_Palacio_Torre01_02B"
+				.TIPO 4
+				.PUNTOS
+				(
+					[
+						.ID 1
+						.NOMBRE ""
+						.POS
+						(
+							3838.9524
+							1348.8525
+							7449.646
+						) 
+						.ROT 0.062772
+						.ROT_X 0.0
+					] 
+					[
+						.ID 2
+						.NOMBRE ""
+						.POS
+						(
+							3838.3684
+							1544.5968
+							7442.9634
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 3
+						.NOMBRE ""
+						.POS
+						(
+							3781.8132
+							1507.6967
+							7445.8594
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 4
+						.NOMBRE ""
+						.POS
+						(
+							3784.8103
+							1349.9733
+							7448.054
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+				) 
+				.CONEXIONES
+				(
+				) 
+			]
+			[
+				.ID 9
+				.NOMBRE "Escalera_Palacio_Torre02_02B"
+				.TIPO 4
+				.PUNTOS
+				(
+					[
+						.ID 1
+						.NOMBRE ""
+						.POS
+						(
+							4683.996
+							1038.0826
+							8417.37
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 2
+						.NOMBRE ""
+						.POS
+						(
+							4683.996
+							1280.7721
+							8417.37
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 3
+						.NOMBRE ""
+						.POS
+						(
+							4670.213
+							1279.5691
+							8365.542
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 4
+						.NOMBRE ""
+						.POS
+						(
+							4671.1978
+							1038.0826
+							8367.155
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+				) 
+				.CONEXIONES
+				(
+				) 
+			]
+			[
+				.ID 10
+				.NOMBRE "Escalera_Palacio_Torre02_03B"
+				.TIPO 4
+				.PUNTOS
+				(
+					[
+						.ID 1
+						.NOMBRE ""
+						.POS
+						(
+							4750.0464
+							1297.5509
+							8436.104
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 2
+						.NOMBRE ""
+						.POS
+						(
+							4751.7217
+							1690.7094
+							8431.627
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 3
+						.NOMBRE ""
+						.POS
+						(
+							4697.6685
+							1688.3348
+							8432.56
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+					[
+						.ID 4
+						.NOMBRE ""
+						.POS
+						(
+							4697.6074
+							1296.2397
+							8430.434
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					] 
+				) 
+				.CONEXIONES
+				(
+				) 
+			]
+		) 
+		.CONEXIONES
+		( 
+		) 
+	] 
+	.MAPA_SECTORES "Maps\Secs\Snipers.sec"
+	.MALLA_DUMMIES
+	[
+		.DUMMIES
+		( 
+		) 
+		.CARPETAS
+		[
+			.RAIZ
+			(
+				[
+					.NOMBRE ""
+					.CARPETAS
+					( 
+					) 
+				] 
+			) 
+		] 
+	] 
+	.MALLA_AREAS
+	[
+		.AREAS
+		( 
+		) 
+	] 
+	.MALLA_LUCES
+	[
+		.LIGHTS
+		( 
+		) 
+		.CARPETAS
+		[
+			.RAIZ
+			(
+				[
+					.NOMBRE ""
+					.CARPETAS
+					(
+						[
+							.NOMBRE "Luces importadas"
+							.ELEMENTOS
+							(
+							) 
+						] 
+					) 
+				] 
+			) 
+		] 
+	] 
+	.MALLA_SCENE_OBJS
+	[
+		.SCENEOBJS
+		(
+			[
+				.ID "ARBOL_SNIPER"
+				.ANIMACION 2277
+				.TIPO_OFFSET 2
+				.OFFSET 3.0
+			] 
+			[
+				.ID "CABLES_ST04"
+				.ANIMACION 2293
+				.TIPO_OFFSET 2
+				.OFFSET 3.0
+			] 
+			[
+				.ID "BANDERA_A"
+				.ANIMACION 2294
+				.TIPO_OFFSET 2
+				.OFFSET 3.0
+			] 
+			[
+				.ID "BANDERA_B"
+				.ANIMACION 2294
+				.TIPO_OFFSET 2
+				.OFFSET 4.0
+			] 
+			[
+				.ID "BANDERA_C"
+				.ANIMACION 2294
+				.TIPO_OFFSET 2
+				.OFFSET 4.0
+			] 
+		) 
+	] 
+	.BRIDGES
+	(
+	) 
+] 
