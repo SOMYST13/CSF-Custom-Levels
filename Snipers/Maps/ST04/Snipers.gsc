@@ -469,17 +469,6 @@
 					) 
 				)
 				(
-					"ACTIVAR_VEHICULO"
-					(
-						"BICHO"
-						6
-					) 
-					(
-						"BOOL"
-						"TRUE"
-					) 
-				)
-				(
 					"IR_A_PATHPOINT"
 					(
 						"BICHO"
@@ -826,7 +815,7 @@
 			.CARPETA ""
 			.FLAGS
 			[
-				.TRIGGER 1
+				.TRIGGER 0
 				.ENABLED 1
 				.VALIDO 1
 			] 
@@ -1155,6 +1144,48 @@
 				)
 				(
 					"ENDIF"
+				)
+			)
+		]
+		[
+			.ID 16
+			.NOMBRE "sniper nazi waffe"
+			.CARPETA ""
+			.FLAGS
+			[
+				.TRIGGER 1
+				.ENABLED 1
+				.VALIDO 1
+			] 
+			.EVENTOS
+			(
+				(
+					"START_GAME"
+				) 
+			) 
+			.ACCIONES
+			(  
+				(
+					"ADD_ARMA"
+					(
+						"BICHO"
+						9
+					) 
+					(
+						"ARMA_CLASSID"
+						21
+					) 
+				) 
+				(
+					"SELECT_ARMA"
+					(
+						"BICHO"
+						9
+					) 
+					(
+						"ARMA_CLASSID"
+						21
+					) 
 				)
 			)
 		]
