@@ -91,7 +91,6 @@
 			.ANGULO_X 0.0
 			.COLISION 1
 			.FLAGS 0
-			.BANDO "NEUTRO"
 			.SEGUNDA_EXPLOSION 0 
 		]
 		[
