@@ -1,0 +1,2069 @@
+[
+	.VERSION 17
+	.PLAYER 1
+	.MUNDOVIS
+	[
+		.RWS "Maps\ST07\ST07B\ST07B.rws"
+		.SIMPLIFICADO "Maps\ST07\ST07B\ST07B_COL.rws"
+		.TEXTURAS "Maps\ST07\ST07B\Textures\"
+		.PUNTERIA "ST07B"
+		.SONIDO_AMBIENTE -1
+		.CIELO ""
+		.CIELOSPEED1 0.0
+		.CIELOSPEED2 0.0
+		.CIELOSPEED3 0.0
+		.CIELO_MODULATE2X 0
+		.MODULATE2X 1
+		.AMBESCENA -16777216
+		.AMBIENTE 3026233
+		.VIEWPORT_AMB_ADD 0.0
+		.CAMERANEAR 20.0
+		.CAMERAFAR 12000.0
+		.CAMERAFOV -1.0
+		.FOGENABLED 1
+		.FOGTYPE 0
+		.FOGCOLOR 0
+		.FOGALPHA 255
+		.FOGDENSITY 255.0
+		.FOGDISTANCE -4000.0
+		.AGUA_FOGTYPE 0
+		.AGUA_FOGCOLOR -1
+		.AGUA_FOGALPHA 255
+		.AGUA_FOGDENSITY 1.0
+		.AGUA_FOGDISTANCE -10000.0
+		.ATMOSFERICFX 0
+		.VAHOENABLED 0
+		.ELIMINAR_MUERTOS 0
+		.MINIMAPA_RTS 0
+		.RADIO_RTS 10000.0
+		.MTACTICO_ORIGEN
+		(
+			17250.0
+			0.0
+			-3150.0
+		) 
+		.MTACTICO_DESTINO
+		(
+			9750.0
+			0.0
+			-11400.0
+		) 
+		.ORIGEN_RTS
+		(
+			-490.0
+			0.0
+			3510.0
+		) 
+		.DESTINO_RTS
+		(
+			551.0
+			0.0
+			4365.0
+		) 
+		.MTACTICO_TEXTURA "Gfx\MapaTactico_st07B.png"
+		.TEXTURA_RTS ""
+		.FLIS_ESCENARIO "Texts\Escape.fli"
+		.SAVEGAME_DESCR "g129"
+		.SAVEGAME_SCENE "g129"
+		.GLOW_ON 1
+		.GLOW_CUTCOLOR 20
+		.GLOW_INTENSITY 60
+		.GLOW_DISPLACEMENT 38
+		.VIDEO_OPENING ""
+		.INVERTIR_NORTE_SUR 0
+		.INICIO_COMMANDO 0
+		.INICIO_SNIPER 0
+		.INICIO_SPY 1
+	] 
+	.BICHOS
+	( 
+		[
+			.NOMBRE "Player"
+			.ID 1
+			.CLASSID 507
+			.POS
+			(
+				12946.2
+				-1039.21
+				-8112.3
+			) 
+			.ANGULO 180.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.BANDO "NEUTRO"
+			.SEGUNDA_EXPLOSION 0 
+		]
+		[
+			.NOMBRE "ohrana"
+			.ID 2
+			.CLASSID 184
+			.POS
+			(
+				12784.4
+				-1039.28
+				-8664.71
+			) 
+			.ANGULO 90.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0 
+		]
+		[
+			.NOMBRE "polizei"
+			.ID 3
+			.CLASSID 19
+			.POS
+			(
+				13835.3
+				-1039.17
+				-9402.07
+			) 
+			.ANGULO 180.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0 
+		]
+		[
+			.NOMBRE "polizei2"
+			.ID 4
+			.CLASSID 20
+			.POS
+			(
+				13835.3
+				-1039.17
+				-9510.43
+			) 
+			.ANGULO 0.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0 
+		]
+		[
+			.NOMBRE "polizeitorture"
+			.ID 5
+			.CLASSID 19
+			.POS
+			(
+				13807.2
+				-1039.21
+				-8045.93
+			) 
+			.ANGULO 0.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0 
+		]
+		[
+			.NOMBRE "civiltorture"
+			.ID 6
+			.CLASSID 224
+			.POS
+			(
+				13807.2
+				-1028.73
+				-7928.88
+			) 
+			.ANGULO 180.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0 
+			.BANDO "NEUTRO"
+		]
+		[
+			.NOMBRE "P_ST08_10"
+			.ID 7
+			.CLASSID 143
+			.POS
+			(
+				13191.0
+				-519.0105
+				-9367.9
+			) 
+			.ANGULO 0.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.DOOR_BOX
+			(
+				(
+					125.06653
+					260.25836
+					7.032837
+				) 
+				(
+					-7.20636
+					0.028015
+					-7.033081
+				) 
+			)  
+		]
+		[
+			.NOMBRE "P_ST08_15"
+			.ID 8
+			.CLASSID 143
+			.POS
+			(
+				12236.955
+				-519.0152
+				-8197.35
+			) 
+			.ANGULO 90.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.DOOR_BOX
+			(
+				(
+					122.01724
+					256.03308
+					5.967285
+				) 
+				(
+					-5.983032
+					0.033081
+					-5.966797
+				) 
+			)  
+		]
+		[
+			.NOMBRE "P_ST08_09"
+			.ID 9
+			.CLASSID 143
+			.POS
+			(
+				12739.886
+				-1042.8423
+				-8706.727
+			) 
+			.ANGULO -90.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 1
+			.SEGUNDA_EXPLOSION 0
+			.DOOR_BOX
+			(
+				(
+					122.01738
+					256.0329
+					5.967302
+				) 
+				(
+					-5.98291
+					0.032959
+					-5.966891
+				) 
+			)  
+		]
+		[
+			.NOMBRE "P_ST08_14"
+			.ID 10
+			.CLASSID 143
+			.POS
+			(
+				12312.279
+				-1042.8423
+				-7866.6313
+			) 
+			.ANGULO 0.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.DOOR_BOX
+			(
+				(
+					122.017334
+					256.033
+					5.966919
+				) 
+				(
+					-5.98291
+					0.033112
+					-5.967285
+				) 
+			)  
+		]
+		[
+			.NOMBRE "P_ST08_17"
+			.ID 11
+			.CLASSID 143
+			.POS
+			(
+				12819.487
+				-1042.8423
+				-9874.1875
+			) 
+			.ANGULO 0.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.DOOR_BOX
+			(
+				(
+					122.016884
+					256.03305
+					5.967906
+				) 
+				(
+					-5.98336
+					0.033173
+					-5.966239
+				) 
+			)  
+		] 
+		[
+			.NOMBRE "P_ST08_18"
+			.ID 12
+			.CLASSID 143
+			.POS
+			(
+				12435.716
+				-1042.8423
+				-9675.6455
+			) 
+			.ANGULO 90.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.DOOR_BOX
+			(
+				(
+					122.01736
+					256.03305
+					5.967291
+				) 
+				(
+					-5.982887
+					0.033051
+					-5.96688
+				) 
+			)  
+		]
+		[
+			.NOMBRE "P_ST08_20"
+			.ID 13
+			.CLASSID 143
+			.POS
+			(
+				12608.111
+				-1042.8423
+				-10818.159
+			) 
+			.ANGULO 180.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.DOOR_BOX
+			(
+				(
+					122.017395
+					256.03287
+					5.96724
+				) 
+				(
+					-5.982864
+					0.032928
+					-5.966861
+				) 
+			)  
+		] 
+		[
+			.NOMBRE "P_ST08_21"
+			.ID 14
+			.CLASSID 143
+			.POS
+			(
+				12208.422
+				-1042.8423
+				-11722.898
+			) 
+			.ANGULO 0.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.DOOR_BOX
+			(
+				(
+					122.01909
+					256.03314
+					5.96644
+				) 
+				(
+					-5.981155
+					0.033203
+					-5.967717
+				) 
+			)  
+		]
+		[
+			.NOMBRE "P_ST08_04"
+			.ID 15
+			.CLASSID 143
+			.POS
+			(
+				13848.14
+				-1039.3762
+				-8493.683
+			) 
+			.ANGULO 180.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.DOOR_BOX
+			(
+				(
+					123.98889
+					251.41046
+					6.275689
+				) 
+				(
+					-4.011414
+					0.063843
+					-4.061302
+				) 
+			)  
+		]
+		[
+			.NOMBRE "P_ST08_06"
+			.ID 16
+			.CLASSID 143
+			.POS
+			(
+				13313.625
+				-1039.3595
+				-8806.3955
+			) 
+			.ANGULO 0.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.DOOR_BOX
+			(
+				(
+					123.98889
+					251.3938
+					6.275749
+				) 
+				(
+					-4.011414
+					0.063843
+					-4.061249
+				) 
+			)  
+		]
+		[
+			.NOMBRE "P_ST08_07"
+			.ID 17
+			.CLASSID 143
+			.POS
+			(
+				13019.06
+				-1039.3579
+				-8493.683
+			) 
+			.ANGULO 180.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.DOOR_BOX
+			(
+				(
+					124.34143
+					251.63931
+					6.275687
+				) 
+				(
+					-4.011414
+					0.063812
+					-4.061304
+				) 
+			)  
+		]
+		[
+			.NOMBRE "P_ST08_05"
+			.ID 18
+			.CLASSID 143
+			.POS
+			(
+				13728.05
+				-1038.9568
+				-8806.3955
+			) 
+			.ANGULO 0.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.DOOR_BOX
+			(
+				(
+					123.98887
+					250.99054
+					6.275743
+				) 
+				(
+					-4.011436
+					0.063843
+					-4.061255
+				) 
+			)  
+		]
+		[
+			.NOMBRE "P_ST08_19"
+			.ID 19
+			.CLASSID 143
+			.POS
+			(
+				11479.072
+				-1039.4049
+				-9588.24
+			) 
+			.ANGULO 0.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.DOOR_BOX
+			(
+				(
+					123.98973
+					252.62787
+					4.061719
+				) 
+				(
+					-4.010498
+					0.063782
+					-6.275352
+				) 
+			)  
+		]
+		[
+			.NOMBRE "Item Ghost"
+			.ID 20
+			.CLASSID 241
+			.POS
+			(
+				12810.3
+				-940.679
+				-10544.3
+			) 
+			.ANGULO 0.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0 
+		]
+		[
+			.NOMBRE "Guard phone"
+			.ID 21
+			.CLASSID 484
+			.POS
+			(
+				13746.1
+				-952.407
+				-9566.39
+			) 
+			.ANGULO 90.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0 
+		]
+		[
+			.NOMBRE "Travel00"
+			.ID 22
+			.CLASSID 197
+			.POS
+			(
+				0
+				0
+				0
+			) 
+			.ANGULO 0.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.CELDA
+			[
+				.GRUPO 2
+				.PUNTO 1
+			] 
+		]
+		[
+			.NOMBRE "Travel00"
+			.ID 23
+			.CLASSID 197
+			.POS
+			(
+				0
+				0
+				0
+			) 
+			.ANGULO 0.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0
+			.CELDA
+			[
+				.GRUPO 2
+				.PUNTO 3
+			] 
+		]
+		[
+			.NOMBRE "NpcPrisonerCut"
+			.ID 24
+			.CLASSID 361
+			.POS
+			(
+				13074.4
+				-1039.26
+				-8240.74
+			) 
+			.ANGULO -90.0
+			.ANGULO_X 0.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0 
+			.BANDO "NEUTRO"
+		]
+	) 
+	.EFECTOS
+	( 
+		[
+			.ID 1072
+			.NOMBRE "Nuevo Efecto 0"
+			.CLASSID 97
+			.DUMMY 407
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1073
+			.NOMBRE "Nuevo Efecto 1"
+			.CLASSID 97
+			.DUMMY 408
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1074
+			.NOMBRE "Nuevo Efecto 2"
+			.CLASSID 97
+			.DUMMY 409
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1075
+			.NOMBRE "Nuevo Efecto 4"
+			.CLASSID 97
+			.DUMMY 410
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1076
+			.NOMBRE "Nuevo Efecto 5"
+			.CLASSID 97
+			.DUMMY 411
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1077
+			.NOMBRE "Nuevo Efecto 6"
+			.CLASSID 97
+			.DUMMY 412
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1078
+			.NOMBRE "Nuevo Efecto 7"
+			.CLASSID 97
+			.DUMMY 413
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1079
+			.NOMBRE "Nuevo Efecto 8"
+			.CLASSID 97
+			.DUMMY 414
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1080
+			.NOMBRE "Nuevo Efecto 9"
+			.CLASSID 97
+			.DUMMY 415
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1081
+			.NOMBRE "Nuevo Efecto 10"
+			.CLASSID 97
+			.DUMMY 416
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1082
+			.NOMBRE "Nuevo Efecto 11"
+			.CLASSID 97
+			.DUMMY 417
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1083
+			.NOMBRE "Nuevo Efecto 12"
+			.CLASSID 97
+			.DUMMY 418
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1084
+			.NOMBRE "Nuevo Efecto 13"
+			.CLASSID 97
+			.DUMMY 419
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1085
+			.NOMBRE "Nuevo Efecto 18"
+			.CLASSID 97
+			.DUMMY 420
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1086
+			.NOMBRE "Nuevo Efecto 19"
+			.CLASSID 97
+			.DUMMY 421
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1087
+			.NOMBRE "Nuevo Efecto 20"
+			.CLASSID 97
+			.DUMMY 422
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1088
+			.NOMBRE "Nuevo Efecto 27"
+			.CLASSID 97
+			.DUMMY 423
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1089
+			.NOMBRE "Nuevo Efecto 14"
+			.CLASSID 97
+			.DUMMY 424
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1090
+			.NOMBRE "Nuevo Efecto 15"
+			.CLASSID 97
+			.DUMMY 425
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1091
+			.NOMBRE "Nuevo Efecto 16"
+			.CLASSID 97
+			.DUMMY 426
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1092
+			.NOMBRE "Nuevo Efecto 17"
+			.CLASSID 97
+			.DUMMY 427
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1093
+			.NOMBRE "Nuevo Efecto 22"
+			.CLASSID 97
+			.DUMMY 428
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1094
+			.NOMBRE "Nuevo Efecto 23"
+			.CLASSID 97
+			.DUMMY 429
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1095
+			.NOMBRE "Nuevo Efecto 28"
+			.CLASSID 97
+			.DUMMY 430
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1096
+			.NOMBRE "Nuevo Efecto 29"
+			.CLASSID 97
+			.DUMMY 431
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1097
+			.NOMBRE "Nuevo Efecto 31"
+			.CLASSID 97
+			.DUMMY 432
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1098
+			.NOMBRE "Nuevo Efecto 32"
+			.CLASSID 97
+			.DUMMY 433
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1099
+			.NOMBRE "Nuevo Efecto 33"
+			.CLASSID 97
+			.DUMMY 434
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1100
+			.NOMBRE "Nuevo Efecto 35"
+			.CLASSID 97
+			.DUMMY 435
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1101
+			.NOMBRE "Nuevo Efecto 36"
+			.CLASSID 97
+			.DUMMY 436
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1102
+			.NOMBRE "Nuevo Efecto 37"
+			.CLASSID 97
+			.DUMMY 437
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1103
+			.NOMBRE "Nuevo Efecto 38"
+			.CLASSID 97
+			.DUMMY 438
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1104
+			.NOMBRE "Nuevo Efecto 40"
+			.CLASSID 97
+			.DUMMY 439
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1105
+			.NOMBRE "Nuevo Efecto 41"
+			.CLASSID 97
+			.DUMMY 440
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1106
+			.NOMBRE "Nuevo Efecto 42"
+			.CLASSID 97
+			.DUMMY 441
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1107
+			.NOMBRE "Nuevo Efecto 43"
+			.CLASSID 97
+			.DUMMY 442
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1108
+			.NOMBRE "Nuevo Efecto 44"
+			.CLASSID 97
+			.DUMMY 443
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1109
+			.NOMBRE "Nuevo Efecto 45"
+			.CLASSID 97
+			.DUMMY 444
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1110
+			.NOMBRE "Nuevo Efecto 48"
+			.CLASSID 97
+			.DUMMY 445
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1111
+			.NOMBRE "Nuevo Efecto 49"
+			.CLASSID 97
+			.DUMMY 446
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1112
+			.NOMBRE "Nuevo Efecto 50"
+			.CLASSID 97
+			.DUMMY 447
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1113
+			.NOMBRE "Nuevo Efecto 51"
+			.CLASSID 97
+			.DUMMY 448
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1114
+			.NOMBRE "Nuevo Efecto 52"
+			.CLASSID 97
+			.DUMMY 449
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1115
+			.NOMBRE "Nuevo Efecto 53"
+			.CLASSID 97
+			.DUMMY 450
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1116
+			.NOMBRE "Nuevo Efecto 54"
+			.CLASSID 97
+			.DUMMY 451
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1117
+			.NOMBRE "Nuevo Efecto 21"
+			.CLASSID 170
+			.DUMMY 452
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1118
+			.NOMBRE "Nuevo Efecto 24"
+			.CLASSID 170
+			.DUMMY 453
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1119
+			.NOMBRE "Nuevo Efecto 25"
+			.CLASSID 170
+			.DUMMY 454
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1120
+			.NOMBRE "Nuevo Efecto 26"
+			.CLASSID 170
+			.DUMMY 455
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1121
+			.NOMBRE "Nuevo Efecto 30"
+			.CLASSID 170
+			.DUMMY 456
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1122
+			.NOMBRE "Nuevo Efecto 34"
+			.CLASSID 170
+			.DUMMY 457
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1123
+			.NOMBRE "Nuevo Efecto 39"
+			.CLASSID 170
+			.DUMMY 458
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1124
+			.NOMBRE "Nuevo Efecto 46"
+			.CLASSID 170
+			.DUMMY 459
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		] 
+		[
+			.ID 1125
+			.NOMBRE "Nuevo Efecto 47"
+			.CLASSID 170
+			.DUMMY 460
+			.PRIORITY -1
+			.SHARE_GROUP -1
+		]  
+	) 
+	.AGUAS
+	(
+	) 
+	.MULTIPLAYER
+	[
+		.MPDEATHMATCH 0
+		.MPTDEATHMATCH 0
+		.MPPOSTMEN 0
+		.MPPOSTMEN_IDPOSTMAN 0
+		.MPFRANCOS 0
+	] 
+	.PUNTUACION_MAXIMA 4500
+	.PUNTUACION_MINIMA 1500
+	.MALLA_NAVEGACION
+	[
+		.GRUPOS
+		(
+			[
+				.ID 1
+				.NOMBRE "NemciRoute"
+				.TIPO 0
+				.PUNTOS
+				(
+					[
+						.ID 1
+						.NOMBRE ""
+						.POS
+						(
+							12784.4
+							-1039.28
+							-8664.71
+						) 
+						.ROT 90.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 2
+						.NOMBRE ""
+						.POS
+						(
+							13847.5
+							-1039.28
+							-8664.71
+						) 
+						.ROT -90.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 3
+						.NOMBRE "to phone1"
+						.POS
+						(
+							13835.3
+							-1039.17
+							-9510.43
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 4
+						.NOMBRE "to phone2"
+						.POS
+						(
+							13790.1
+							-1039.23
+							-9561.41
+						) 
+						.ROT -90.0
+						.ROT_X 0.0
+					]
+				) 
+				.CONEXIONES
+				( 
+					[
+						.PUNTO_ORI 1
+						.PUNTO_DST 2
+					]
+					[
+						.PUNTO_ORI 3
+						.PUNTO_DST 4
+					]
+				) 
+			]
+			[
+				.ID 2
+				.NOMBRE "Cameras"
+				.TIPO 0
+				.PUNTOS
+				(
+					[
+						.ID 1
+						.NOMBRE "move1.1"
+						.POS
+						(
+							13980.2
+							-764.625
+							-8667.05
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 2
+						.NOMBRE "move1.2"
+						.POS
+						(
+							12843.3
+							-764.625
+							-8667.05
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 3
+						.NOMBRE "rot1.1"
+						.POS
+						(
+							12761.9
+							-789.58
+							-8667.05
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 4
+						.NOMBRE "move2.1"
+						.POS
+						(
+							13664.7
+							-894.101
+							-8276.48
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 5
+						.NOMBRE "move2.2"
+						.POS
+						(
+							13936
+							-915.152
+							-8128.12
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 6
+						.NOMBRE "rot2.1"
+						.POS
+						(
+							13811.6
+							-934.287
+							-7959.08
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 7
+						.NOMBRE "rot3.1"
+						.POS
+						(
+							13122.9
+							-968.978
+							-8135.3
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 8
+						.NOMBRE "rot3.2"
+						.POS
+						(
+							13068.8
+							-875.255
+							-8241.37
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 9
+						.NOMBRE "move3.1"
+						.POS
+						(
+							12805.2
+							-920.882
+							-8012.72
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					]
+					[
+						.ID 10
+						.NOMBRE "move3.2"
+						.POS
+						(
+							12805.2
+							-920.882
+							-8283.88
+						) 
+						.ROT 0.0
+						.ROT_X 0.0
+					]
+				) 
+				.CONEXIONES
+				( 
+					[
+						.PUNTO_ORI 1
+						.PUNTO_DST 2
+					]
+					[
+						.PUNTO_ORI 4
+						.PUNTO_DST 5
+					]
+					[
+						.PUNTO_ORI 7
+						.PUNTO_DST 8
+					]
+					[
+						.PUNTO_ORI 9
+						.PUNTO_DST 10
+					]
+				) 
+			]
+		)
+	] 
+	.MAPA_SECTORES "Maps\Secs\Escape.sec"
+	.MALLA_DUMMIES
+	[
+		.DUMMIES
+		( 
+			[
+				.ID 1
+				.NOMBRE ""
+				.POS
+				(
+					13980.2
+					-764.625
+					-8667.05
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			]
+			[
+				.ID 407
+				.NOMBRE ""
+				.POS
+				(
+					14349.596
+					-295.43027
+					-7678.5317
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 408
+				.NOMBRE ""
+				.POS
+				(
+					14225.99
+					-289.87952
+					-8060.613
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 409
+				.NOMBRE ""
+				.POS
+				(
+					14318.864
+					-285.90128
+					-9154.698
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 410
+				.NOMBRE ""
+				.POS
+				(
+					13015.776
+					-286.83087
+					-9084.251
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 411
+				.NOMBRE ""
+				.POS
+				(
+					12271.149
+					-288.40778
+					-8637.704
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 412
+				.NOMBRE ""
+				.POS
+				(
+					13175.195
+					-295.16742
+					-7984.0156
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 413
+				.NOMBRE ""
+				.POS
+				(
+					13807.556
+					-293.07977
+					-7330.4785
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 414
+				.NOMBRE ""
+				.POS
+				(
+					13132.542
+					-292.5026
+					-7140.5625
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 415
+				.NOMBRE ""
+				.POS
+				(
+					13108.292
+					-291.61523
+					-6024.0234
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 416
+				.NOMBRE ""
+				.POS
+				(
+					13439.323
+					-289.72754
+					-6428.208
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 417
+				.NOMBRE ""
+				.POS
+				(
+					13903.445
+					-289.52316
+					-4810.166
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 418
+				.NOMBRE ""
+				.POS
+				(
+					14925.428
+					-291.52872
+					-5334.474
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 419
+				.NOMBRE ""
+				.POS
+				(
+					15270.808
+					-292.0325
+					-6613.6743
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 420
+				.NOMBRE ""
+				.POS
+				(
+					12565.134
+					-288.69135
+					-6709.8643
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 421
+				.NOMBRE ""
+				.POS
+				(
+					12271.15
+					-283.9565
+					-7295.22
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 422
+				.NOMBRE ""
+				.POS
+				(
+					11773.389
+					-288.4297
+					-6203.1333
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 423
+				.NOMBRE ""
+				.POS
+				(
+					13439.323
+					-291.56595
+					-5330.7104
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 424
+				.NOMBRE ""
+				.POS
+				(
+					13506.982
+					-281.27124
+					-6226.819
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 425
+				.NOMBRE ""
+				.POS
+				(
+					12958.861
+					-748.78687
+					-7238.908
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 426
+				.NOMBRE ""
+				.POS
+				(
+					12643.43
+					-748.4975
+					-7102.095
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 427
+				.NOMBRE ""
+				.POS
+				(
+					12136.623
+					-820.1509
+					-6965.5825
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 428
+				.NOMBRE ""
+				.POS
+				(
+					11517.203
+					-292.24054
+					-7656.278
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 429
+				.NOMBRE ""
+				.POS
+				(
+					11589.441
+					-280.95618
+					-7064.917
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 430
+				.NOMBRE ""
+				.POS
+				(
+					12703.935
+					-798.201
+					-8410.661
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 431
+				.NOMBRE ""
+				.POS
+				(
+					13806.022
+					-761.73065
+					-8262.84
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 432
+				.NOMBRE ""
+				.POS
+				(
+					14031.201
+					-800.7473
+					-8864.749
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 433
+				.NOMBRE ""
+				.POS
+				(
+					13793.986
+					-762.16644
+					-8974.976
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 434
+				.NOMBRE ""
+				.POS
+				(
+					13376.687
+					-762.1937
+					-8974.662
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 435
+				.NOMBRE ""
+				.POS
+				(
+					13797.042
+					-798.2451
+					-9948.511
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 436
+				.NOMBRE ""
+				.POS
+				(
+					11783.069
+					-797.3153
+					-8670.165
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 437
+				.NOMBRE ""
+				.POS
+				(
+					11379.149
+					-796.40027
+					-8822.818
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 438
+				.NOMBRE ""
+				.POS
+				(
+					11379.094
+					-800.5721
+					-9800.41
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 439
+				.NOMBRE ""
+				.POS
+				(
+					12262.487
+					-799.4774
+					-10409.692
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 440
+				.NOMBRE ""
+				.POS
+				(
+					12630.698
+					-801.5338
+					-10730.926
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 441
+				.NOMBRE ""
+				.POS
+				(
+					12630.698
+					-796.7061
+					-10178.909
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 442
+				.NOMBRE ""
+				.POS
+				(
+					12448.761
+					-800.172
+					-12480.631
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 443
+				.NOMBRE ""
+				.POS
+				(
+					12153.572
+					-797.18396
+					-10986.218
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 444
+				.NOMBRE ""
+				.POS
+				(
+					12917.555
+					-803.64105
+					-11756.602
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 445
+				.NOMBRE ""
+				.POS
+				(
+					12401.669
+					-797.6999
+					-8814.965
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 446
+				.NOMBRE ""
+				.POS
+				(
+					11984.476
+					-795.31226
+					-9555.924
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 447
+				.NOMBRE ""
+				.POS
+				(
+					13086.736
+					-807.0508
+					-9753.243
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 448
+				.NOMBRE ""
+				.POS
+				(
+					13483.543
+					-797.61316
+					-9902.327
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 449
+				.NOMBRE ""
+				.POS
+				(
+					13222.678
+					-802.3209
+					-10451.063
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 450
+				.NOMBRE ""
+				.POS
+				(
+					13483.161
+					64.30603
+					-9904.087
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 451
+				.NOMBRE ""
+				.POS
+				(
+					13483.161
+					239.25394
+					-9522.07
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			] 
+			[
+				.ID 452
+				.NOMBRE ""
+				.POS
+				(
+					13665.672
+					-240.44537
+					-8408.66
+				) 
+				.ROT 1.441198
+				.ROT_X 1.487701
+			] 
+			[
+				.ID 453
+				.NOMBRE ""
+				.POS
+				(
+					14244.855
+					-220.27832
+					-4508.833
+				) 
+				.ROT 0.0
+				.ROT_X 1.594278
+			] 
+			[
+				.ID 454
+				.NOMBRE ""
+				.POS
+				(
+					13727.053
+					-219.55408
+					-4067.2769
+				) 
+				.ROT 0.0
+				.ROT_X 1.555616
+			] 
+			[
+				.ID 455
+				.NOMBRE ""
+				.POS
+				(
+					14628.976
+					-182.47702
+					-5641.8906
+				) 
+				.ROT 0.0
+				.ROT_X 1.584562
+			] 
+			[
+				.ID 456
+				.NOMBRE ""
+				.POS
+				(
+					11892.384
+					-220.77982
+					-7693.862
+				) 
+				.ROT 0.0
+				.ROT_X 1.702674
+			] 
+			[
+				.ID 457
+				.NOMBRE ""
+				.POS
+				(
+					13899.609
+					-700.4248
+					-9659.427
+				) 
+				.ROT 0.0
+				.ROT_X 1.62603
+			] 
+			[
+				.ID 458
+				.NOMBRE ""
+				.POS
+				(
+					14869.045
+					-375.42047
+					-8639.775
+				) 
+				.ROT 0.0
+				.ROT_X 1.645043
+			] 
+			[
+				.ID 459
+				.NOMBRE ""
+				.POS
+				(
+					12887.296
+					-701.23926
+					-10532.079
+				) 
+				.ROT 0.0
+				.ROT_X 1.585737
+			] 
+			[
+				.ID 460
+				.NOMBRE ""
+				.POS
+				(
+					12398.043
+					-701.76855
+					-11394.742
+				) 
+				.ROT 0.0
+				.ROT_X 1.662547
+			]  
+		) 
+		.CARPETAS
+		[
+			.RAIZ
+			(
+				[
+					.NOMBRE ""
+					.CARPETAS
+					( 
+						[
+							.NOMBRE "glows"
+							.ELEMENTOS
+							(
+								407
+								408
+								409
+								410
+								411
+								412
+								413
+								414
+								415
+								416
+								417
+								418
+								419
+								421
+								422
+								420
+								423
+								452
+								453
+								454
+								455
+								424
+								425
+								426
+								427
+								428
+								429
+								456
+								430
+								431
+								432
+								433
+								434
+								435
+								457
+								438
+								437
+								436
+								439
+								440
+								441
+								443
+								442
+								444
+								445
+								446
+								448
+								447
+								449
+								450
+								451
+								458
+								459
+								460
+							) 
+						]  
+					) 
+				] 
+			) 
+		] 
+	] 
+	.MALLA_AREAS
+	[
+		.AREAS
+		( 
+		) 
+	] 
+	.MALLA_LUCES
+	[
+		.LIGHTS
+		(
+		)
+	] 
+	.BRIDGES
+	(
+	) 
+] 
