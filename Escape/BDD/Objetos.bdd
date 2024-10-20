@@ -26568,5 +26568,86 @@
 				]
 			)
 		]
+		[
+			.ID 508
+			.REF_ID 50
+			.REF_ID2 -1
+			.SONIDO_MUERTE -1
+			.OCLUSOR 0
+			.NOMBRE "Arma Cuerda Piano"
+			.FLI_NOMBRE "g053"
+			.TIPO "ITEM_ARMA"
+			.HOMBRE 1
+			.MODELO "Models\Weap\TPCuerdaPiano.dff"
+			.IGNORE_PVS 0
+			.IGNORE_BSPHERE 0
+			.LOD1_DIST 0.0
+			.LOD2_DIST 0.0
+			.COMPOR "SER_COGIDO"
+			.DAMAGE
+			[
+				.VIDA 0
+			]
+			.ENERGIA 0
+			.BBOX
+			[
+				.INF
+				(
+					-20.880295
+					-1.95443
+					-12.082396
+				)
+				.SUP
+				(
+					50.185425
+					2.37064
+					12.508879
+				)
+			]
+			.MODELO_COLISION
+			[
+				.TIPO "BASIC"
+				.TAM
+				(
+					45.0
+					10.0
+					20.0
+				)
+				.EXTERNAL_SHAPE 3
+				.EXTERNAL_SHAPE_OFFSET
+				(
+					20.0
+					0.0
+					0.0
+				)
+			]
+			.MODO_COLISION 0
+			.MATERIAL 4
+			.PHYSIC
+			[
+				.TIPO "NULL"
+				.MODEL_FILE ""
+				.DYNAMIC 0
+				.MOVING 0
+				.MASS 1.0
+				.BOUNCE 0.1
+				.SLIDE 0.1
+			]
+			.ALTURA_CABEZA
+			(
+				0.0
+				0.0
+				0.0
+			)
+			.ANGULO_VISTA 120.0
+			.DISTANCIA_VISTA 2000.0
+			.DISTANCIA_LARGA_VISTA 5000.0
+			.PORCENTAJE 100
+			.WAV_CALL_REPARTIDOR -1
+			.SHADOW 0
+			.MULTIPLAYER_RESPAWN_TIME 0.0
+			.EXPLOSION_DAMAGE 600
+			.EXPLOSION_RADIO 600.0
+		]
 	)
 ]

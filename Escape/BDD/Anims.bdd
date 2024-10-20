@@ -31150,5 +31150,27 @@
 				]
 			)
 		]
+		[
+			.ID 1515
+			.NOMBRE "TelephoneDistract"
+			.NUM_ANIMS_PS2 1
+			.NUM_ANIMS_XBOX 1
+			.LOOP 0
+			.BLEND_IN 200.0
+			.VEL 0.0
+			.TRASLACION 0
+			.ROTACION 0
+			.SONIDO_PC 1
+			.SONIDO_PS2 0
+			.SONIDO_XBOX 0
+			.MODEL3D_ITEM "Models\Weap\telefono.dff"
+			.MANO_ITEM "DERECHA"
+			.FILES
+			(
+				[
+					.FILE "Anims\Costum\TelephoneDistract.anm"
+				]
+			)
+		]
 	)
 ]

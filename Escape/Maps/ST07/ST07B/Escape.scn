@@ -605,7 +605,7 @@
 			] 
 		]
 		[
-			.NOMBRE "Travel00"
+			.NOMBRE "Travel01"
 			.ID 23
 			.CLASSID 197
 			.POS
@@ -641,6 +641,22 @@
 			.FLAGS 0
 			.SEGUNDA_EXPLOSION 0 
 			.BANDO "NEUTRO"
+		]
+		[
+			.NOMBRE "Piano wire"
+			.ID 25
+			.CLASSID 508
+			.POS
+			(
+				12252.9
+				-992.552
+				-7552.56
+			) 
+			.ANGULO 0.0
+			.ANGULO_X 73.0
+			.COLISION 1
+			.FLAGS 0
+			.SEGUNDA_EXPLOSION 0 
 		]
 	) 
 	.EFECTOS
@@ -1975,7 +1991,31 @@
 				) 
 				.ROT 0.0
 				.ROT_X 1.662547
-			]  
+			]
+			[
+				.ID 461
+				.NOMBRE "vp1"
+				.POS
+				(
+					13647.7
+					-932.875
+					-9614.61
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			]
+			[
+				.ID 462
+				.NOMBRE "vp2"
+				.POS
+				(
+					14235
+					-814.556
+					-9304.43
+				) 
+				.ROT 0.0
+				.ROT_X 0.0
+			]
 		) 
 		.CARPETAS
 		[

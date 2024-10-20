@@ -91,6 +91,7 @@
 			23
 			19
 			295
+			508
 		) 
 		.EFFCLASSID
 		(
@@ -124,6 +125,7 @@
 			37
 			42
 			70
+			207
 		) 
 		.EFECTO
 		(
@@ -237,6 +239,7 @@
 			1812
 			2028
 			2514
+			1515
 		) 
 		.SONIDOS
 		(
@@ -270,73 +273,7 @@
 				) 
 			) 
 			.ACCIONES
-			( 
-				(
-					"ADD_ARMA"
-					(
-						"BICHO"
-						1
-					) 
-					(
-						"ARMA_CLASSID"
-						50
-					) 
-				) 
-				(
-					"ADD_ARMA"
-					(
-						"BICHO"
-						1
-					) 
-					(
-						"ARMA_CLASSID"
-						41
-					) 
-				) 
-				(
-					"ADD_ARMA"
-					(
-						"BICHO"
-						1
-					) 
-					(
-						"ARMA_CLASSID"
-						45
-					) 
-				) 
-				(
-					"ADD_ARMA"
-					(
-						"BICHO"
-						1
-					) 
-					(
-						"ARMA_CLASSID"
-						44
-					) 
-				) 
-				(
-					"ADD_ARMA"
-					(
-						"BICHO"
-						1
-					) 
-					(
-						"ARMA_CLASSID"
-						37
-					) 
-				) 
-				(
-					"ADD_ARMA"
-					(
-						"BICHO"
-						1
-					) 
-					(
-						"ARMA_CLASSID"
-						42
-					) 
-				) 
+			(  
 				(
 					"ADD_ARMA"
 					(
@@ -346,212 +283,9 @@
 					(
 						"ARMA_CLASSID"
 						70
-					) 
-				) 
-				(
-					"SET_MUNICION_ARMA"
-					(
-						"BICHO"
-						1
-					) 
-					(
-						"ARMA_CLASSID"
-						41
-					) 
-					(
-						"NUMERO"
-						100.0
-					) 
-					(
-						"NUMERO"
-						100.0
-					) 
-				) 
-				(
-					"SELECT_ARMA"
-					(
-						"BICHO"
-						1
-					) 
-					(
-						"ARMA_CLASSID"
-						41
-					) 
-				) 
-				(
-					"ADD_ARMA"
-					(
-						"BICHO"
-						1
-					) 
-					(
-						"ARMA_CLASSID"
-						50
-					) 
-				) 
-				(
-					"ADD_ARMA"
-					(
-						"BICHO"
-						1
-					) 
-					(
-						"ARMA_CLASSID"
-						41
-					) 
-				) 
-				(
-					"ADD_ARMA"
-					(
-						"BICHO"
-						1
-					) 
-					(
-						"ARMA_CLASSID"
-						45
-					) 
-				) 
-				(
-					"ADD_ARMA"
-					(
-						"BICHO"
-						1
-					) 
-					(
-						"ARMA_CLASSID"
-						44
-					) 
-				) 
-				(
-					"ADD_ARMA"
-					(
-						"BICHO"
-						1
-					) 
-					(
-						"ARMA_CLASSID"
-						37
-					) 
-				) 
-				(
-					"ADD_ARMA"
-					(
-						"BICHO"
-						1
-					) 
-					(
-						"ARMA_CLASSID"
-						42
-					) 
-				) 
-				(
-					"ADD_ARMA"
-					(
-						"BICHO"
-						1
-					) 
-					(
-						"ARMA_CLASSID"
-						70
-					) 
-				) 
-				(
-					"SET_MUNICION_ARMA"
-					(
-						"BICHO"
-						1
-					) 
-					(
-						"ARMA_CLASSID"
-						41
-					) 
-					(
-						"NUMERO"
-						100.0
-					) 
-					(
-						"NUMERO"
-						100.0
-					) 
-				) 
-				(
-					"SELECT_ARMA"
-					(
-						"BICHO"
-						1
-					) 
-					(
-						"ARMA_CLASSID"
-						41
 					) 
 				)  
 				(
-					"ADD_ARMA"
-					(
-						"BICHO"
-						1
-					) 
-					(
-						"ARMA_CLASSID"
-						50
-					) 
-				) 
-				(
-					"ADD_ARMA"
-					(
-						"BICHO"
-						1
-					) 
-					(
-						"ARMA_CLASSID"
-						45
-					) 
-				) 
-				(
-					"ADD_ARMA"
-					(
-						"BICHO"
-						1
-					) 
-					(
-						"ARMA_CLASSID"
-						44
-					) 
-				) 
-				(
-					"ADD_ARMA"
-					(
-						"BICHO"
-						1
-					) 
-					(
-						"ARMA_CLASSID"
-						37
-					) 
-				) 
-				(
-					"ADD_ARMA"
-					(
-						"BICHO"
-						1
-					) 
-					(
-						"ARMA_CLASSID"
-						42
-					) 
-				) 
-				(
-					"ADD_ARMA"
-					(
-						"BICHO"
-						1
-					) 
-					(
-						"ARMA_CLASSID"
-						70
-					) 
-				) 
-				(
 					"SELECT_ARMA"
 					(
 						"BICHO"
@@ -559,7 +293,7 @@
 					) 
 					(
 						"ARMA_CLASSID"
-						50
+						70
 					) 
 				)  
 			) 
@@ -1265,17 +999,6 @@
 					) 
 				)
 				(
-					"PLAY_ANMBDD"
-					(
-						"BICHO"
-						4
-					) 
-					(
-						"ANM_BDD"
-						1780
-					) 
-				)
-				(
 					"SET_MINIMAPA_BICHO"
 					(
 						"BICHO"
@@ -1295,19 +1018,14 @@
 					) 
 				)
 				(
-					"PLAY_ANMBDD_CICLOS"
+					"CONTINUE"
 					(
-						"BICHO"
-						4
-					) 
-					(
-						"ANM_BDD"
-						1782
-					) 
-					(
-						"NUMERO"
-						2.0
-					) 
+						"TRIGGER_EXE"
+						(
+							"TRIGGER"
+							13
+						)
+					)
 				)
 				(
 					"PLAY_ANMBDD"
@@ -1317,7 +1035,7 @@
 					) 
 					(
 						"ANM_BDD"
-						1781
+						1515
 					) 
 				)
 				(
@@ -1940,6 +1658,159 @@
 						"BOOL"
 						"TRUE"
 					) 
+				)
+			) 
+		]
+		[
+			.ID 13
+			.NOMBRE "Viewport Distract"
+			.CARPETA ""
+			.FLAGS
+			[
+				.TRIGGER 1
+				.ENABLED 1
+				.VALIDO 1
+			] 
+			.ACCIONES
+			(
+				(
+					"VIEWPORT_CREATE" // creating viewport
+					(
+						"NUMERO" // ID
+						1.0
+					) 
+					(
+						"VECTOR" // DO NOT TOUCH
+						0.7
+						0.25
+						0.0
+					) 
+					(
+						"VECTOR" // AND THIS TOO
+						0.925
+						0.475
+						0.0
+					) 
+				)
+				(
+					"VIEWPORT_CAM_SETPOS" // Setting position for camera. Positiong taking from .scn file, from .MALLA_DUMMIES and .CARPETAS & .RAIZ categories
+					(
+						"NUMERO"
+						1.0
+					) 
+					(
+						"DUMMY" // camera position
+						461
+					) 
+					(
+						"DUMMY" // looking at dummy
+						462
+					) 
+				)
+				(
+					"VIEWPORT_CAM_SETFOV" // setting FOV for viewport. 120 is an optimal value, don't change it, either camera will be somehow broken
+					(
+						"NUMERO"
+						1.0
+					) 
+					(
+						"NUMERO"
+						70.0
+					) 
+				) 
+				(
+					"VIEWPORT_SETICON"
+					(
+						"NUMERO"
+						1.0
+					) 
+					(
+						"NUMERO"
+						2.0
+					) 
+				)
+				(
+					"VIEWPORT_SHOW" // show viewport
+					(
+						"NUMERO"
+						1.0
+					) 
+					(
+						"BOOL"
+						"TRUE"
+					) 
+				) 
+				(
+					"PAUSE"
+					(
+						"NUMERO"
+						9.0
+					) 
+				)
+				(
+					"VIEWPORT_SHOW" // hide viewport
+					(
+						"NUMERO"
+						1.0
+					) 
+					(
+						"BOOL"
+						"FALSE"
+					) 
+				) 
+			) 
+		]
+		[
+			.ID 14
+			.NOMBRE "Wire"
+			.CARPETA ""
+			.FLAGS
+			[
+				.TRIGGER 1
+				.ENABLED 1
+				.VALIDO 1
+			] 
+			.EVENTOS
+			(
+				(
+					"OBJETO_COGIDO"
+				) 
+			) 
+			.ACCIONES
+			( 
+				(
+					"IF"
+					(
+						"CMP_OP_BICHO"
+						(
+							"EVT_BICHO1"
+						) 
+						(
+							"OP_BOOLEAN"
+							0
+						) 
+						(
+							"BICHO"
+							25
+						) 
+					) 
+				) 
+				(
+					"SELECT_ARMA"
+					(
+						"BICHO"
+						1
+					) 
+					(
+						"GET_ARMA_SECUNDARIA"
+						(
+							"BICHO"
+							1
+						) 
+					) 
+				)
+				(
+					"ENDIF"
 				)
 			) 
 		]
