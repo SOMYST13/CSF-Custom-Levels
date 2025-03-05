@@ -17,3 +17,9 @@
 - Set 1 instead of 0 and save it
 - Put all **folders** from main level folder (not the whole folder itself)
 - Done
+- (Alternative way) Pack the contents into Patch.pak using the PAK Creator tool, if you don't want to change the config.
+###
+### Notes
+So far, the only level that can be completed to the end is Fiord.\
+A video demonstration of this level can be seen here: [Click to watch](https://youtu.be/jmuH5L_SI-M)\
+If you are interested in modding CSF, I will be glad to meet you on my Discord server. Lets do stuff together! [Click to join](https://discord.gg/fFwKXDQhNW)
