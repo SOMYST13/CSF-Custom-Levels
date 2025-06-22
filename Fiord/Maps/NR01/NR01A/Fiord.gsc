@@ -13,6 +13,8 @@
 		) 
 		.EFFCLASSID
 		(
+			26
+			203
 		) 
 		.ARMACLASSID
 		(
@@ -532,7 +534,11 @@
 					( "PLAY_ANMBDD" ( "BICHO" 7 ) ( "ANM_BDD" 2509 ) ) // Play animation 'UnterKmsIdAl.anm' for 'unterkms'
 				)	
 				( "PAUSE" ( "NUMERO" 8.0 ) )
-				( "PLAY_ANMBDD" ( "BICHO" 7 ) ( "ANM_BDD" 2507 ) ) // 'UnterKms.anm'
+				( "CONTINUE" ( "PLAY_ANMBDD" ( "BICHO" 7 ) ( "ANM_BDD" 2507 ) ) ) // 'UnterKms.anm'
+				( "PAUSE" ( "NUMERO" 2.83333 ) )
+				( "EFECTO_DUMMY_BDD" ( "EFECTO_CLASSID" 26 ) ( "DUMMY" 1 ) ) // Blood splash
+				( "EFECTO_DUMMY_BDD" ( "EFECTO_CLASSID" 203 ) ( "DUMMY" 2 ) ) // Flash shot
+				( "PAUSE" ( "NUMERO" 1.43333 ) )
 				( "PLAY_ANMBDD" ( "BICHO" 7 ) ( "ANM_BDD" 2508 ) ) // 'UnterKmsId.anm'
 			) 
 		]

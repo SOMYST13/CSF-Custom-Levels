@@ -1,0 +1,5078 @@
+[
+	.VERSION 1
+	.REGISTROS
+	(
+		[
+			.ID 8
+			.NOMBRE "PFX_IMPACTO_BALA"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\DispiV03.sp"
+			.DUMMY ""
+			.PRIORITY 2
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 19
+			.NOMBRE "PFX_EXPLOSION_GRANADA_1"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\ExpGranada2.sp"
+			.DUMMY ""
+			.PRIORITY 2
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 20
+			.NOMBRE "PFX_EXPLOSION_GRANADA_2"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\ExpGranadaFo.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 21
+			.NOMBRE "PFX_EXPLOSION_GRANADA_3"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\ExpGranadaFu.sp"
+			.DUMMY ""
+			.PRIORITY 1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 22
+			.NOMBRE "PFX_EXPLOSION_GRANADA_4"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\ExpGranadaHu.sp"
+			.DUMMY ""
+			.PRIORITY 4
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 23
+			.NOMBRE "PFX_EXPLOSION_GRANADA_5"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\Escombros.sp"
+			.DUMMY ""
+			.PRIORITY 3
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 26
+			.NOMBRE "PFX_IMPACTO_BALA_HUMANO_1"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\SangreImpacto01.sp"
+			.DUMMY ""
+			.PRIORITY 1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 27
+			.NOMBRE "PFX_IMPACTO_BALA_HUMANO_2"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\SangreImpacto02.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 28
+			.NOMBRE "PFX_HUMO"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\bgas2HU.sp"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 29
+			.NOMBRE "PFX_GAS"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\bgasven2HU.sp"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 35
+			.NOMBRE "Fue1"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\1FU.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 36
+			.NOMBRE "Chispas"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\chispas.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 38
+			.NOMBRE "Hum1"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\1HU.sp"
+			.DUMMY ""
+			.PRIORITY 5
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 39
+			.NOMBRE "Hum2"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\2HU.sp"
+			.DUMMY ""
+			.PRIORITY 5
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 40
+			.NOMBRE "HumExpEdificio"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\expedificioHU.sp"
+			.DUMMY ""
+			.PRIORITY 5
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 41
+			.NOMBRE "HumExpDDragon"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\expddragonHU.sp"
+			.DUMMY ""
+			.PRIORITY 5
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 42
+			.NOMBRE "Ceniza1"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\1Ceniza.sp"
+			.DUMMY ""
+			.PRIORITY 2
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 45
+			.NOMBRE "Esc1"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\Escombros.sp"
+			.DUMMY ""
+			.PRIORITY 5
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 46
+			.NOMBRE "Esc2"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\escombros2.sp"
+			.DUMMY ""
+			.PRIORITY 6
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 47
+			.NOMBRE "ExpGenerica"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\exp2FU.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 48
+			.NOMBRE "ExpParedEdificio"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\exparededif.sp"
+			.DUMMY ""
+			.PRIORITY 2
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 49
+			.NOMBRE "Explosion"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\explosionFO.sp"
+			.DUMMY ""
+			.PRIORITY 1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 50
+			.NOMBRE "ExpGranada2"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\ExpGranada2.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 51
+			.NOMBRE "FogonazoGranada"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\ExpGranadaFo.sp"
+			.DUMMY ""
+			.PRIORITY 1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 52
+			.NOMBRE "FueExpGranada"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\ExpGranadaFu.sp"
+			.DUMMY ""
+			.PRIORITY 2
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 53
+			.NOMBRE "HumExpGranada"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\ExpGranadaHu.sp"
+			.DUMMY ""
+			.PRIORITY 5
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 54
+			.NOMBRE "Mortero1"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\exptierra.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 55
+			.NOMBRE "Mortero2"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\exptierra2.sp"
+			.DUMMY ""
+			.PRIORITY 1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 56
+			.NOMBRE "PolvoMortero"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\exptierraHU.sp"
+			.DUMMY ""
+			.PRIORITY 5
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 57
+			.NOMBRE "FueExpAntiaereo"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\expantiaereoFU.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 58
+			.NOMBRE "HumExpAntiaereo"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\expantiaereoHU.sp"
+			.DUMMY ""
+			.PRIORITY 5
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 59
+			.NOMBRE "HumEscEstatua"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\escestatuaHU.sp"
+			.DUMMY ""
+			.PRIORITY 6
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 60
+			.NOMBRE "HumExpEstatua"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\expestatuaHU.sp"
+			.DUMMY ""
+			.PRIORITY 7
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 61
+			.NOMBRE "Esc1"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\Escombros.sp"
+			.DUMMY ""
+			.PRIORITY 5
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 62
+			.NOMBRE "ExpGenerica"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\exp2FU.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 63
+			.NOMBRE "Explosion"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\explosionFO.sp"
+			.DUMMY ""
+			.PRIORITY 1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 67
+			.NOMBRE "PFX_EXPLOSION_VEHI_1"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\expcombustible.sp"
+			.DUMMY ""
+			.PRIORITY 7
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 68
+			.NOMBRE "PFX_EXPLOSION_VEHI_2"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\chispas.sp"
+			.DUMMY ""
+			.PRIORITY 6
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 69
+			.NOMBRE "PFX_EXPLOSION_VEHI_3"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\expcombustibleFU.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 70
+			.NOMBRE "PFX_EXPLOSION_VEHI_4"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\expcombustibleHU.sp"
+			.DUMMY ""
+			.PRIORITY 3
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 71
+			.NOMBRE "PFX_EXPLOSION_VEHI_5"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\exp3FU.sp"
+			.DUMMY ""
+			.PRIORITY 4
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 72
+			.NOMBRE "PFX_EXPLOSION_VEHI_6"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\explosionFO.sp"
+			.DUMMY ""
+			.PRIORITY 2
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 73
+			.NOMBRE "PFX_EXPLOSION_VEHI_7"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\molotoFU.sp"
+			.DUMMY ""
+			.PRIORITY 1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 74
+			.NOMBRE "PFX_EXPLOSION_VEHI_8"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\molotoHU.sp"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 75
+			.NOMBRE "PFX_COKTEL_MOLOTOV_1"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\molotoFU.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 76
+			.NOMBRE "PFX_COKTEL_MOLOTOV_2"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\molotoHU.sp"
+			.DUMMY ""
+			.PRIORITY 5
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 77
+			.NOMBRE "Fue2"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\2FU.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 78
+			.NOMBRE "Niebla"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\niebla1HU.sp"
+			.DUMMY ""
+			.PRIORITY 5
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 79
+			.NOMBRE "HumAntiTanque"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\antitanqueHU.sp"
+			.DUMMY ""
+			.PRIORITY 5
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 80
+			.NOMBRE "rastroHU"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\rastroHU.sp"
+			.DUMMY ""
+			.PRIORITY 5
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 81
+			.NOMBRE "cañonazoHU1"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\cañonazoHU1.sp"
+			.DUMMY ""
+			.PRIORITY 5
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 82
+			.NOMBRE "cañonazoHU2"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\cañonazoHU2.sp"
+			.DUMMY ""
+			.PRIORITY 6
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 83
+			.NOMBRE "cañonazoFU"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\cañonazoFU.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 84
+			.NOMBRE "tanqueHU"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\tanqueHU.sp"
+			.DUMMY ""
+			.PRIORITY 5
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 85
+			.NOMBRE "TechoHU"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\techoHU.sp"
+			.DUMMY ""
+			.PRIORITY 5
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 86
+			.NOMBRE "Techo"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\techo.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 87
+			.NOMBRE "Fue4"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\4FU.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 88
+			.NOMBRE "Fue3"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\3FU.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 89
+			.NOMBRE "Hum3"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\3HU.sp"
+			.DUMMY ""
+			.PRIORITY 5
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 90
+			.NOMBRE "DispiV03_piedra"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\DispiV03_piedra.sp"
+			.DUMMY ""
+			.PRIORITY 1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 91
+			.NOMBRE "DispiV03_baldosa"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\DispiV03_baldosa.sp"
+			.DUMMY ""
+			.PRIORITY 1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 92
+			.NOMBRE "DispiV03_cristal"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\DispiV03_cristal.sp"
+			.DUMMY ""
+			.PRIORITY 1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 93
+			.NOMBRE "DispiV03_hierba"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\DispiV03_hierba.sp"
+			.DUMMY ""
+			.PRIORITY 1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 94
+			.NOMBRE "DispiV03_madera"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\DispiV03_madera.sp"
+			.DUMMY ""
+			.PRIORITY 1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 95
+			.NOMBRE "DispiV03_metal"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\DispiV03_metal.sp"
+			.DUMMY ""
+			.PRIORITY 1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 96
+			.NOMBRE "DispiV03_arena"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\DispiV03_arena.sp"
+			.DUMMY ""
+			.PRIORITY 1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 97
+			.NOMBRE "glow1"
+			.TIPO "GLOW"
+			.FILE "Gfx\Textures\glow.png"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.WIDTH 110.0
+			.HEIGHT 110.0
+			.RADIUS 20.0
+			.FALLOUT_INI 0.0
+			.FALLOUT_END 0.0
+			.FADE_DIST 0.0
+			.FADE_DIST_MIN 0.0
+			.FADE_DIST_ALPHA 0.0
+			.FADEIN_TIME 0.01
+			.COLOR_INI
+			(
+				143
+				143
+				143
+			)
+		]
+		[
+			.ID 98
+			.NOMBRE "vapor1HU"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\vapor1HU.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 100
+			.NOMBRE "glow2"
+			.TIPO "GLOW"
+			.FILE "Gfx\Textures\glow2.png"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.WIDTH 330.0
+			.HEIGHT 330.0
+			.RADIUS 22.0
+			.FALLOUT_INI 0.0
+			.FALLOUT_END 0.0
+			.FADE_DIST 0.0
+			.FADE_DIST_MIN 0.0
+			.FADE_DIST_ALPHA 0.0
+			.FADEIN_TIME 0.1
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+		]
+		[
+			.ID 101
+			.NOMBRE "PFX_ESTELA_PISTOLA"
+			.TIPO "ESTELA"
+			.FILE "Gfx\Textures\trazador.png"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				254
+				253
+				205
+			)
+			.COLOR_END
+			(
+				247
+				254
+				203
+			)
+			.ALPHA_INI 25
+			.ALPHA_END 0
+			.LONGITUD 25.0
+			.VELOCIDAD 8000.0
+			.FRECUENCIA 0.1
+			.SIZE 0.25
+		]
+		[
+			.ID 102
+			.NOMBRE "PFX_ESTELA_RIFLE"
+			.TIPO "ESTELA"
+			.FILE "Gfx\Textures\trazador.png"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				254
+				255
+				213
+			)
+			.ALPHA_INI 255
+			.ALPHA_END 75
+			.LONGITUD 100.0
+			.VELOCIDAD 10000.0
+			.FRECUENCIA 1.0
+			.SIZE 0.25
+		]
+		[
+			.ID 103
+			.NOMBRE "PFX_ESTELA_RIFLE_PRECISION"
+			.TIPO "ESTELA"
+			.FILE "Gfx\Textures\trazador.png"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.LONGITUD 100.0
+			.VELOCIDAD 4000.0
+			.FRECUENCIA 1.0
+			.SIZE 1.0
+		]
+		[
+			.ID 104
+			.NOMBRE "PFX_ESTELA_ESCOPETA"
+			.TIPO "ESTELA"
+			.FILE "Gfx\Textures\trazador.png"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.LONGITUD 100.0
+			.VELOCIDAD 4000.0
+			.FRECUENCIA 1.0
+			.SIZE 1.0
+		]
+		[
+			.ID 105
+			.NOMBRE "PFX_ESTELA_SMG"
+			.TIPO "ESTELA"
+			.FILE "Gfx\Textures\trazador.png"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				251
+				253
+				176
+			)
+			.COLOR_END
+			(
+				190
+				150
+				73
+			)
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.LONGITUD 100.0
+			.VELOCIDAD 8000.0
+			.FRECUENCIA 0.25
+			.SIZE 0.3
+		]
+		[
+			.ID 106
+			.NOMBRE "PFX_ESTELA_MG"
+			.TIPO "ESTELA"
+			.FILE "Gfx\Textures\trazador.png"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.LONGITUD 100.0
+			.VELOCIDAD 4000.0
+			.FRECUENCIA 1.0
+			.SIZE 0.3
+		]
+		[
+			.ID 107
+			.NOMBRE "PFX_ESTELA_PISTOLA_SILENCIADOR"
+			.TIPO "ESTELA"
+			.FILE "Gfx\Textures\trazador.png"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.LONGITUD 100.0
+			.VELOCIDAD 4000.0
+			.FRECUENCIA 1.0
+			.SIZE 1.0
+		]
+		[
+			.ID 108
+			.NOMBRE "PFX_ESTELA_TANQUE_GUN"
+			.TIPO "ESTELA"
+			.FILE "Gfx\Textures\trazador.png"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.LONGITUD 100.0
+			.VELOCIDAD 4000.0
+			.FRECUENCIA 1.0
+			.SIZE 1.0
+		]
+		[
+			.ID 109
+			.NOMBRE "PFX_ESTELA_ARMA_SDK"
+			.TIPO "ESTELA"
+			.FILE "Gfx\Textures\trazador.png"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.LONGITUD 100.0
+			.VELOCIDAD 4000.0
+			.FRECUENCIA 1.0
+			.SIZE 1.0
+		]
+		[
+			.ID 110
+			.NOMBRE "PFX_ESTELA_AMETRALLADORA_ESTATICA"
+			.TIPO "ESTELA"
+			.FILE "Gfx\Textures\trazador.png"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				222
+				159
+			)
+			.COLOR_END
+			(
+				253
+				255
+				151
+			)
+			.ALPHA_INI 200
+			.ALPHA_END 200
+			.LONGITUD 100.0
+			.VELOCIDAD 8000.0
+			.FRECUENCIA 0.75
+			.SIZE 1.0
+		]
+		[
+			.ID 111
+			.NOMBRE "PFX_GLOW_LINTERNA"
+			.TIPO "GLOW"
+			.FILE "Gfx\Textures\glow.png"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.WIDTH 50.0
+			.HEIGHT 50.0
+			.RADIUS 5.0
+			.FALLOUT_INI 80.0
+			.FALLOUT_END 90.0
+			.FADE_DIST 0.0
+			.FADE_DIST_MIN 0.0
+			.FADE_DIST_ALPHA 0.0
+			.FADEIN_TIME 0.1
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+		]
+		[
+			.ID 112
+			.NOMBRE "PFX_GLOW_FOCO"
+			.TIPO "GLOW"
+			.FILE "Gfx\Textures\glow2.png"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.WIDTH 2500.0
+			.HEIGHT 2500.0
+			.RADIUS 300.0
+			.FALLOUT_INI 45.0
+			.FALLOUT_END 90.0
+			.FADE_DIST 0.0
+			.FADE_DIST_MIN 0.0
+			.FADE_DIST_ALPHA 0.0
+			.FADEIN_TIME 0.1
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+		]
+		[
+			.ID 113
+			.NOMBRE "PFX_EXPLOSION_BOMBA_SABOTAGE"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\Expsabotage.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 122
+			.NOMBRE "paracaHU"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\paracaHU.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 123
+			.NOMBRE "PFX_RAIN_FX_FIRST_PLANE"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE ""
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 125
+			.NOMBRE "PFX_RAIN_FX_NEAR_1"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\lluviaL0_1.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 126
+			.NOMBRE "PFX_RAIN_FX_NEAR_2"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\lluviaL0_2.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 127
+			.NOMBRE "PFX_RAIN_FX_FAR_1"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\lluviaL0_3.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 128
+			.NOMBRE "PFX_SNOW_FX_FIRST_PLANE"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE ""
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 129
+			.NOMBRE "PFX_SNOW_FX_BACK_PLANE"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\nieveL1_2.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 130
+			.NOMBRE "PFX_SNOW_FX_NEAR_1"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\nieveL0_1.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 131
+			.NOMBRE "PFX_SNOW_FX_NEAR_2"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\nieveL0_2.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 133
+			.NOMBRE "PFX_SNOW_FX_FAR_1"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\nieveL1_1.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 134
+			.NOMBRE "PFX_RAIN_FX_BACK_PLANE"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\lluviaL1_1.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 135
+			.NOMBRE "PFX_SNOW_FX_NEAR_3"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\nieveL0_3.sp"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 136
+			.NOMBRE "luz roja"
+			.TIPO "GLOW"
+			.FILE "Gfx\Textures\lroja.png"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.WIDTH 70.0
+			.HEIGHT 100.0
+			.RADIUS 20.0
+			.FALLOUT_INI 0.0
+			.FALLOUT_END 200.0
+			.FADE_DIST 0.0
+			.FADE_DIST_MIN 0.0
+			.FADE_DIST_ALPHA 0.0
+			.FADEIN_TIME 0.01
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+		]
+		[
+			.ID 137
+			.NOMBRE "luz verde"
+			.TIPO "GLOW"
+			.FILE "Gfx\Textures\lverde.png"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.WIDTH 70.0
+			.HEIGHT 100.0
+			.RADIUS 20.0
+			.FALLOUT_INI 0.0
+			.FALLOUT_END 200.0
+			.FADE_DIST 0.0
+			.FADE_DIST_MIN 0.0
+			.FADE_DIST_ALPHA 0.0
+			.FADEIN_TIME 0.01
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+		]
+		[
+			.ID 138
+			.NOMBRE "luciernagas"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\luciernagas.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 139
+			.NOMBRE "vahoHU"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\vahoHU.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 140
+			.NOMBRE "chimeneaHU"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\chimeneaHU.sp"
+			.DUMMY ""
+			.PRIORITY 5
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 141
+			.NOMBRE "chispaE"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\chispaE.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 142
+			.NOMBRE "PFX_HAZ_LUZ_FOCO"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE ""
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 144
+			.NOMBRE "glow4"
+			.TIPO "GLOW"
+			.FILE "Gfx\Textures\glow2.png"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.WIDTH 330.0
+			.HEIGHT 330.0
+			.RADIUS 10.0
+			.FALLOUT_INI 0.0
+			.FALLOUT_END 0.0
+			.FADE_DIST 0.0
+			.FADE_DIST_MIN 0.0
+			.FADE_DIST_ALPHA 0.0
+			.FADEIN_TIME 0.1
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+		]
+		[
+			.ID 146
+			.NOMBRE "chispaE2"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\chispaE2.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 147
+			.NOMBRE "PFX_ROTURA_CRISTAL"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\DispiV03_cristal.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 148
+			.NOMBRE "trazadHU"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\trazadHU.sp"
+			.DUMMY ""
+			.PRIORITY 1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 149
+			.NOMBRE "trazadFO"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\trazadFO.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 150
+			.NOMBRE "trazadFU"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\trazadFU.sp"
+			.DUMMY ""
+			.PRIORITY 2
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 151
+			.NOMBRE "DispiV03_agua"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\DispiV03_agua.sp"
+			.DUMMY ""
+			.PRIORITY 1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 152
+			.NOMBRE "DispiV03_nieve"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\DispiV03_nieve.sp"
+			.DUMMY ""
+			.PRIORITY 1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 154
+			.NOMBRE "fuego"
+			.TIPO "LIGHT"
+			.FILE ""
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				213
+				132
+				23
+			)
+			.COLOR_END
+			(
+				85
+				63
+				15
+			)
+			.RADIUS 250.0
+			.DURATION 0.0
+			.FADEIN_TIME 0.0
+			.FADEOUT_TIME 0.0
+			.USE_FRACTAL 1.0
+			.FRACTAL_TIMING 0.25
+			.FRACTAL_TIMING_BIAS 0.25
+			.FRACTAL_SMOOTHNESS 0.0
+		]
+		[
+			.ID 155
+			.NOMBRE "flakAA"
+			.TIPO "LIGHT"
+			.FILE ""
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				244
+				215
+				123
+			)
+			.COLOR_END
+			(
+				58
+				45
+				1
+			)
+			.RADIUS 1500.0
+			.DURATION 0.0
+			.FADEIN_TIME 0.0
+			.FADEOUT_TIME 0.0
+			.USE_FRACTAL 1.0
+			.FRACTAL_TIMING 0.04
+			.FRACTAL_TIMING_BIAS 0.04
+			.FRACTAL_SMOOTHNESS 0.0
+		]
+		[
+			.ID 156
+			.NOMBRE "cigarrillo"
+			.TIPO "LIGHT"
+			.FILE ""
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				236
+				136
+				45
+			)
+			.COLOR_END
+			(
+				96
+				48
+				13
+			)
+			.RADIUS 25.0
+			.DURATION 1.0
+			.FADEIN_TIME 0.0
+			.FADEOUT_TIME 0.0
+			.USE_FRACTAL 1.0
+			.FRACTAL_TIMING 0.1
+			.FRACTAL_TIMING_BIAS 0.05
+			.FRACTAL_SMOOTHNESS 0.0
+		]
+		[
+			.ID 157
+			.NOMBRE "flak88"
+			.TIPO "LIGHT"
+			.FILE ""
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				232
+				183
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.RADIUS 1000.0
+			.DURATION 0.1
+			.FADEIN_TIME 0.0
+			.FADEOUT_TIME 0.0
+			.USE_FRACTAL 0.0
+			.FRACTAL_TIMING 0.0
+			.FRACTAL_TIMING_BIAS 0.0
+			.FRACTAL_SMOOTHNESS 0.0
+		]
+		[
+			.ID 160
+			.NOMBRE "niebla2HU"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\niebla2HU.sp"
+			.DUMMY ""
+			.PRIORITY 5
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 161
+			.NOMBRE "faro vehiculo"
+			.TIPO "LIGHT"
+			.FILE ""
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				150
+				150
+				150
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.RADIUS 500.0
+			.DURATION 0.0
+			.FADEIN_TIME 0.0
+			.FADEOUT_TIME 0.0
+			.USE_FRACTAL 0.0
+			.FRACTAL_TIMING 9131685744769275000000000000000000.0
+			.FRACTAL_TIMING_BIAS 0.0
+			.FRACTAL_SMOOTHNESS 0.0
+		]
+		[
+			.ID 162
+			.NOMBRE "tabacoHU"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\vahoHU.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 163
+			.NOMBRE "Foco"
+			.TIPO "LIGHT"
+			.FILE ""
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				244
+				215
+				123
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.RADIUS 1500.0
+			.DURATION 0.0
+			.FADEIN_TIME 0.0
+			.FADEOUT_TIME 0.0
+			.USE_FRACTAL 0.0
+			.FRACTAL_TIMING 9131685744769275000000000000000000.0
+			.FRACTAL_TIMING_BIAS 0.0
+			.FRACTAL_SMOOTHNESS 0.0
+		]
+		[
+			.ID 164
+			.NOMBRE "luz verde"
+			.TIPO "LIGHT"
+			.FILE ""
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				6
+				125
+				0
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.RADIUS 30.0
+			.DURATION 0.0
+			.FADEIN_TIME 0.0
+			.FADEOUT_TIME 0.0
+			.USE_FRACTAL 0.0
+			.FRACTAL_TIMING 9131685744769275000000000000000000.0
+			.FRACTAL_TIMING_BIAS 0.0
+			.FRACTAL_SMOOTHNESS 0.0
+		]
+		[
+			.ID 165
+			.NOMBRE "luz roja"
+			.TIPO "LIGHT"
+			.FILE ""
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				145
+				0
+				0
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.RADIUS 30.0
+			.DURATION 0.0
+			.FADEIN_TIME 0.0
+			.FADEOUT_TIME 0.0
+			.USE_FRACTAL 0.0
+			.FRACTAL_TIMING 9131685744769275000000000000000000.0
+			.FRACTAL_TIMING_BIAS 0.0
+			.FRACTAL_SMOOTHNESS 0.0
+		]
+		[
+			.ID 166
+			.NOMBRE "glow_vehiculo"
+			.TIPO "GLOW"
+			.FILE "Gfx\Textures\glow2.png"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.WIDTH 250.0
+			.HEIGHT 250.0
+			.RADIUS 20.0
+			.FALLOUT_INI 45.0
+			.FALLOUT_END 90.0
+			.FADE_DIST 0.0
+			.FADE_DIST_MIN 0.0
+			.FADE_DIST_ALPHA 0.0
+			.FADEIN_TIME 0.1
+			.COLOR_INI
+			(
+				166
+				166
+				159
+			)
+		]
+		[
+			.ID 167
+			.NOMBRE "luz_roja_parpad_1"
+			.TIPO "BILLBOARD"
+			.FILE "Gfx\Textures\lroja_parp_1.png"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.WIDTH 75.0
+			.HEIGHT 75.0
+			.ADITIVO 1
+			.CAM_ALIGNED 1
+			.FALLOUT_INI 0.0
+			.FALLOUT_END 0.0
+			.FADE_DIST 0.0
+			.FADE_DIST_MIN 0.0
+			.FADE_DIST_ALPHA 0.0
+			.NUM_FRAMES 2
+			.NUM_ROWS 2
+			.FRAMES_PER_ROW 1
+			.FPS 2
+			.COLOR_INI
+			(
+				196
+				60
+				60
+			)
+		]
+		[
+			.ID 168
+			.NOMBRE "luz_roja_parpad_2"
+			.TIPO "BILLBOARD"
+			.FILE "Gfx\Textures\lroja_parp_2.png"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.WIDTH 75.0
+			.HEIGHT 75.0
+			.ADITIVO 1
+			.CAM_ALIGNED 1
+			.FALLOUT_INI 0.0
+			.FALLOUT_END 0.0
+			.FADE_DIST 0.0
+			.FADE_DIST_MIN 0.0
+			.FADE_DIST_ALPHA 0.0
+			.NUM_FRAMES 2
+			.NUM_ROWS 2
+			.FRAMES_PER_ROW 1
+			.FPS 2
+			.COLOR_INI
+			(
+				196
+				60
+				60
+			)
+		]
+		[
+			.ID 170
+			.NOMBRE "glow_lampara"
+			.TIPO "GLOW"
+			.FILE "Gfx\Textures\glow.png"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.WIDTH 110.0
+			.HEIGHT 110.0
+			.RADIUS 20.0
+			.FALLOUT_INI 80.0
+			.FALLOUT_END 90.0
+			.FADE_DIST 0.0
+			.FADE_DIST_MIN 0.0
+			.FADE_DIST_ALPHA 0.0
+			.FADEIN_TIME 0.001
+			.COLOR_INI
+			(
+				143
+				143
+				143
+			)
+		]
+		[
+			.ID 171
+			.NOMBRE "MorteroAgua1"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\expagua.sp"
+			.DUMMY ""
+			.PRIORITY 1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 172
+			.NOMBRE "MorteroAguaHU"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\expaguaHU.sp"
+			.DUMMY ""
+			.PRIORITY 1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 173
+			.NOMBRE "PFX_WATER_SPLASH"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\splash.sp"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 174
+			.NOMBRE "Chorro_fuente"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\Chorro_fuente.sp"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 175
+			.NOMBRE "Fuente"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\Fuente.sp"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 176
+			.NOMBRE "Ondas"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\Ondas.sp"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 177
+			.NOMBRE "Fuente02"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\Fuente02.sp"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 178
+			.NOMBRE "PFX_VAHO_SOLDADO"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\vahoHU.sp"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 179
+			.NOMBRE "PFX_VAHO_PLAYER"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\vahoHU.sp"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 180
+			.NOMBRE "Agua_Arrastra"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\Agua_Arrastra.sp"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 181
+			.NOMBRE "Agua_Arrastra_Boya"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\Agua_Arrastra_Boya.sp"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 182
+			.NOMBRE "Agua_Arrastra_Larga"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\Agua_Arrastra_Larga.sp"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 183
+			.NOMBRE "Presa"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\Presa.sp"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 184
+			.NOMBRE "Presa_Chapoteo02"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\Presa_Chapoteo02.sp"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 185
+			.NOMBRE "Estrellas"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\Estrellas.sp"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 1
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 186
+			.NOMBRE "PFX_CASQUILLOS"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\Balas.sp"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 187
+			.NOMBRE "Vino"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\Vino.sp"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 188
+			.NOMBRE "luz roja grande"
+			.TIPO "LIGHT"
+			.FILE ""
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				145
+				0
+				0
+			)
+			.COLOR_END
+			(
+				66
+				0
+				0
+			)
+			.RADIUS 800.0
+			.DURATION 0.0
+			.FADEIN_TIME 0.0
+			.FADEOUT_TIME 0.0
+			.USE_FRACTAL 0.0
+			.FRACTAL_TIMING 0.0
+			.FRACTAL_TIMING_BIAS 0.0
+			.FRACTAL_SMOOTHNESS 0.0
+		]
+		[
+			.ID 189
+			.NOMBRE "luz verde grande"
+			.TIPO "LIGHT"
+			.FILE ""
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				6
+				125
+				0
+			)
+			.COLOR_END
+			(
+				66
+				0
+				0
+			)
+			.RADIUS 250.0
+			.DURATION 0.0
+			.FADEIN_TIME 0.0
+			.FADEOUT_TIME 0.0
+			.USE_FRACTAL 0.0
+			.FRACTAL_TIMING 0.0
+			.FRACTAL_TIMING_BIAS 0.0
+			.FRACTAL_SMOOTHNESS 0.0
+		]
+		[
+			.ID 190
+			.NOMBRE "PFX_VEHICLE_HUMO_DAMAGE"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\molotoHU.sp"
+			.DUMMY ""
+			.PRIORITY 5
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 191
+			.NOMBRE "PFX_EXPLOSION_AGUA_1"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\expagua.sp"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 192
+			.NOMBRE "PFX_EXPLOSION_AGUA_2"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\expaguaHU.sp"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 193
+			.NOMBRE "PFX_EXPLOSION_AGUA_UNDER_1"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\cañonazoHU1.sp"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 194
+			.NOMBRE "PFX_EXPLOSION_AGUA_UNDER_2"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\cañonazoHU2.sp"
+			.DUMMY ""
+			.PRIORITY -1
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 0
+			.AUTOSTART 0
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 195
+			.NOMBRE "1HU_Mov"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\1HU_Mov.sp"
+			.DUMMY ""
+			.PRIORITY 5
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 196
+			.NOMBRE "1FU_Mov"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\1FU_Mov.sp"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 198
+			.NOMBRE "rastro_lanchaHU"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\rastro_lanchaHU.sp"
+			.DUMMY ""
+			.PRIORITY 5
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 199
+			.NOMBRE "rastro_nieveHU"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\rastro_nieveHU.sp"
+			.DUMMY ""
+			.PRIORITY 5
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 1
+		]
+		[
+			.ID 200
+			.NOMBRE "Nubes2"
+			.TIPO "PARTICLE_SYSTEM"
+			.FILE "Gfx\Nubes2.sp"
+			.DUMMY ""
+			.PRIORITY 5
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.USE_STATIC_ANIM 0
+			.START_IN_LOOP 0
+			.ALPHA_INI 255
+			.ALPHA_END 255
+			.USE_ALPHA_COLOR 0
+			.USE_GLOBAL_POS 0
+			.FOLLOW_ROT 0
+		]
+		[
+			.ID 201
+			.NOMBRE "luz roja redonda"
+			.TIPO "GLOW"
+			.FILE "Gfx\Textures\lroja.png"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.WIDTH 50.0
+			.HEIGHT 50.0
+			.RADIUS 20.0
+			.FALLOUT_INI 0.0
+			.FALLOUT_END 0.0
+			.FADE_DIST 0.0
+			.FADE_DIST_MIN 0.0
+			.FADE_DIST_ALPHA 0.0
+			.FADEIN_TIME 0.01
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+		]
+		[
+			.ID 202
+			.NOMBRE "luz verde redonda"
+			.TIPO "GLOW"
+			.FILE "Gfx\Textures\lverde.png"
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 1
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.WIDTH 50.0
+			.HEIGHT 50.0
+			.RADIUS 20.0
+			.FALLOUT_INI 0.0
+			.FALLOUT_END 0.0
+			.FADE_DIST 0.0
+			.FADE_DIST_MIN 0.0
+			.FADE_DIST_ALPHA 0.0
+			.FADEIN_TIME 0.01
+			.COLOR_INI
+			(
+				255
+				255
+				255
+			)
+		]
+		[
+			.ID 203
+			.NOMBRE "pistol_shot"
+			.TIPO "LIGHT"
+			.FILE ""
+			.DUMMY ""
+			.PRIORITY 0
+			.REFLEXION 0
+			.BACKPLANE 0
+			.LOOP 0
+			.AUTOSTART 1
+			.AUTOSTART 1
+			.QUALITY_CFG 0
+			.COLOR_INI
+			(
+				255
+				232
+				183
+			)
+			.COLOR_END
+			(
+				255
+				255
+				255
+			)
+			.RADIUS 200.0
+			.DURATION 0.1
+			.FADEIN_TIME 0.0
+			.FADEOUT_TIME 0.0
+			.USE_FRACTAL 0.0
+			.FRACTAL_TIMING 0.0
+			.FRACTAL_TIMING_BIAS 0.0
+			.FRACTAL_SMOOTHNESS 0.0
+		]
+	)
+]

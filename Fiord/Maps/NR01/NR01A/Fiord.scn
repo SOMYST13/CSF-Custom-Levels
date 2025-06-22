@@ -1635,12 +1635,24 @@
 		(
 			[
 				.ID 1
-				.NOMBRE "shot_glow"
+				.NOMBRE "shot_blood"
 				.POS
 				(
-					9366.519
-					1045.145
-					426.722
+					9376.044
+					1043.792
+					412.121
+				) 
+				.ROT 0.0
+				.ROT_X -1.5
+			]
+			[
+				.ID 2
+				.NOMBRE "shot_light"
+				.POS
+				(
+					9365.978
+					1045.923
+					425.219
 				) 
 				.ROT 0.0
 				.ROT_X 0.0
