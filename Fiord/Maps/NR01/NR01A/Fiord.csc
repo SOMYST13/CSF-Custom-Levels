@@ -13,13 +13,7 @@
 			] 
 			.ACCIONES
 			(
-				(
-					"CAMARA_EN_DUMMY"
-					(
-						"DUMMY"
-						336
-					) 
-				)     
+				( "CAMARA_EN_DUMMY" ( "DUMMY" 336 ) )     
 			) 
 		]
 		[
@@ -34,13 +28,7 @@
 			] 
 			.ACCIONES
 			(
-				(
-					"CAMARA_EN_DUMMY"
-					(
-						"DUMMY"
-						337
-					) 
-				)     
+				( "CAMARA_EN_DUMMY" ( "DUMMY" 337 ) )     
 			) 
 		]
 		[
@@ -55,39 +43,9 @@
 			] 
 			.ACCIONES
 			(
-				(
-					"CREATE_VIEWPOINT"
-					(
-						"DUMMY"
-						338
-					) 
-					(
-						"BICHO"
-						8
-					) 
-					(
-						"BICHO"
-						9
-					) 
-					(
-						"NUMERO"
-						0.7
-					) 
-				) 
-				(
-					"CAMARA_EN_DUMMY"
-					(
-						"DUMMY"
-						338
-					) 
-				)
-				(
-					"TRIGGER_EXE"
-					(
-						"TRIGGER"
-						21
-					) 
-				)
+				( "CREATE_VIEWPOINT" ( "DUMMY" 338 ) ( "BICHO" 8 ) ( "BICHO" 9 ) ( "NUMERO" 0.7 ) ) 
+				( "CAMARA_EN_DUMMY" ( "DUMMY" 338 ) )
+				( "TRIGGER_EXE" ( "TRIGGER" 21 ) )
 			) 
 		]
 		[
@@ -102,178 +60,14 @@
 			] 
 			.ACCIONES
 			(
-				(
-					"CREATE_VIEWPOINT"
-					(
-						"DUMMY"
-						339
-					) 
-					(
-						"BICHO"
-						10
-					) 
-					(
-						"BICHO"
-						11
-					) 
-					(
-						"NUMERO"
-						0.7
-					) 
-				) 
-				(
-					"CAMARA_EN_DUMMY"
-					(
-						"DUMMY"
-						339
-					) 
-				)
-				(
-					"PAUSE"
-					(
-						"NUMERO"
-						3.0
-					)
-				)
-				(
-					"CAMARA_EN_DUMMY"
-					(
-						"DUMMY"
-						340
-					) 
-				)
-				(
-					"SUBTITULO"
-					(
-						"FLI"
-						"0010"
-					) 
-					(
-						"NUMERO"
-						3.0
-					) 
-				)
-				(
-					"PAUSE"
-					(
-						"NUMERO"
-						4.0
-					)
-				)
-				(
-					"SUBTITULO"
-					(
-						"FLI"
-						"0011"
-					) 
-					(
-						"NUMERO"
-						3.0
-					) 
-				)
-				(
-					"PAUSE"
-					(
-						"NUMERO"
-						4.0
-					)
-				)
-				(
-					"FX_FADE" // black fading screen
-					(
-						"NUMERO"
-						1.0
-					) 
-					(
-						"BOOL"
-						"TRUE"
-					) 
-					(
-						"VECTOR"
-						0.0
-						0.0
-						0.0
-					) 
-				)
-				(
-					"PAUSE"
-					(
-						"NUMERO"
-						1.0
-					)
-				)
-				(
-					"CUTSCENE_NO_INTERACTIVA" // go back to gameplay
-					(
-						"BOOL"
-						"FALSE"
-					) 
-				) 
-				(
-					"PLAYER_TERCERA" // go to first-person mode
-					(
-						"BOOL"
-						"FALSE"
-					) 
-				)
-				(
-					"SET_INVISIBLE"
-					(
-						"BICHO"
-						18
-					) 
-					(
-						"BOOL"
-						"FALSE"
-					) 
-				)
-				(
-					"SET_INVISIBLE"
-					(
-						"BICHO"
-						6
-					) 
-					(
-						"BOOL"
-						"TRUE"
-					) 
-				)
-				(
-					"FX_FADE" // ayo give me my eyes back
-					(
-						"NUMERO"
-						1.0
-					) 
-					(
-						"BOOL"
-						"FALSE"
-					) 
-					(
-						"VECTOR"
-						0.0
-						0.0
-						0.0
-					) 
-				)
-				(
-					"VENTANA_BANNER"
-					(
-						"FLI"
-						"g099"
-					) 
-					(
-						"FLI"
-						"0013"
-					) 
-					(
-						"FLI"
-						"0001"
-					) 
-					(
-						"NUMERO"
-						5.0
-					) 
-				)
+				( "CREATE_VIEWPOINT" ( "DUMMY" 339 ) ( "BICHO" 10 ) ( "BICHO" 11 ) ( "NUMERO" 0.7 ) ) 
+				( "CAMARA_EN_DUMMY" ( "DUMMY" 339 ) )
+				( "PAUSE" ( "NUMERO" 3.0 ) )
+				( "CAMARA_EN_DUMMY" ( "DUMMY" 340 ) )
+				( "PAUSE" ( "NUMERO" 8.0 ) )
+				( "FX_FADE" ( "NUMERO" 1.0 ) ( "BOOL" "TRUE" ) ( "VECTOR" 0.0 0.0 0.0 ) )
+				( "PAUSE" ( "NUMERO" 1.0 ) )
+				( "FX_FADE" ( "NUMERO" 1.0 ) ( "BOOL" "FALSE" ) ( "VECTOR" 0.0 0.0 0.0 ) )
 			) 
 		]
 	) 

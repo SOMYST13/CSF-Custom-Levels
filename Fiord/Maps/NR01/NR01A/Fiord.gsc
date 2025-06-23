@@ -694,7 +694,17 @@
 			(
 				( "SET_WANTED_VEL" ( "BICHO" 9 ) ( "NUMERO" 100.0 ) ) // Sets the target movement speed for the camera object  
 				( "IR_A_PATHPOINT" ( "BICHO" 9 ) ( "PATHPOINT" 6 3 ) )
-				( "CUTSCENE_EXE" ( "CUTSCENE" 4 ) )
+				( "CONTINUE" ( "CUTSCENE_EXE" ( "CUTSCENE" 4 ) ) )
+				( "PAUSE" ( "NUMERO" 3.0 ) )
+				( "SUBTITULO" ( "FLI" "0010" ) ( "NUMERO" 3.0 ) ) // 'Clean up the territory from nazis, to steal the truck.'
+				( "PAUSE" ( "NUMERO" 4.0 ) )
+				( "SUBTITULO" ( "FLI" "0011" ) ( "NUMERO" 3.0 ) ) // 'Don't raise the alarm!'
+				( "PAUSE" ( "NUMERO" 5.0 ) )
+				( "CUTSCENE_NO_INTERACTIVA" ( "BOOL" "FALSE" ) ) 
+				( "PLAYER_TERCERA" ( "BOOL" "FALSE" ) )
+				( "SET_INVISIBLE" ( "BICHO" 18 ) ( "BOOL" "FALSE" ) )
+				( "SET_INVISIBLE" ( "BICHO" 6 ) ( "BOOL" "TRUE" ) )
+				( "VENTANA_BANNER" ( "FLI" "g099" ) ( "FLI" "0013" ) ( "FLI" "0001" ) ( "NUMERO" 5.0 ) )
 			) 
 		]
 		[
