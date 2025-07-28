@@ -12,12 +12,12 @@
 - [herbert3000](https://github.com/herbert3000) - CSFFBS Script Decoder and a lot of another useful stuff
 ###
 ### How to make it work?
-- Decode the Juego.cfg file from Config folder with CSFFBS Script Decoder.
+- Decode the Juego.cfg file from Config folder with [CSFFBS Script Decoder](https://forums.revora.net/topic/117956-csffbs-script-decoder/).
 - Look for the .bFirstOutPak function
 - Set 1 instead of 0 and save it
 - Put all **folders** from main level folder (not the whole folder itself)
 - Done
-- (Alternative way) Pack the contents into Patch.pak using the PAK Creator tool, if you don't want to change the config.
+- (Alternative way) Pack the contents into Patch.pak using the [PAK Creator](https://forums.revora.net/topic/118162-csf-pak-creator/), if you don't want to change the config.
 ###
 ### Notes
 So far, the only level that can be completed to the end is Fiord.\
