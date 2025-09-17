@@ -17,22 +17,15 @@
 		) 
 		.ARMACLASSID
 		(
-			6
-			26
-			25
-			70
-			40
 			16
-			102
+			21
+			37
+			40
+			42
 			45
 			64
-			42
-			37
-			49
-			48
-			21
-			44
 			70
+			102
 		) 
 		.EFECTO
 		(
@@ -84,149 +77,22 @@
 			] 
 			.EVENTOS
 			(
-				(
-					"START_GAME"
-				) 
+				( "START_GAME" )
 			) 
 			.ACCIONES
-			( 
-				(
-					"TIMED_STRING_INITPOS"
-					(
-						"NUMERO"
-						0.115
-					) 
-					(
-						"NUMERO"
-						0.25
-					) 
-				)
-				(
-					"ADD_ARMA"
-					(
-						"PLAYER"
-					) 
-					(
-						"ARMA_CLASSID"
-						40
-					) 
-				) 
-				(
-					"SET_MUNICION_ARMA"
-					(
-						"PLAYER"
-					) 
-					(
-						"ARMA_CLASSID"
-						40
-					) 
-					(
-						"NUMERO"
-						100.0
-					) 
-					(
-						"NUMERO"
-						100.0
-					) 
-				) 
-				(
-					"ADD_ARMA"
-					(
-						"PLAYER"
-					) 
-					(
-						"ARMA_CLASSID"
-						16
-					) 
-				) 
-				(
-					"ADD_ARMA"
-					(
-						"PLAYER"
-					) 
-					(
-						"ARMA_CLASSID"
-						102
-					) 
-				) 
-				(
-					"SET_MUNICION_ARMA"
-					(
-						"PLAYER"
-					) 
-					(
-						"ARMA_CLASSID"
-						102
-					) 
-					(
-						"NUMERO"
-						100.0
-					) 
-					(
-						"NUMERO"
-						100.0
-					) 
-				) 
-				(
-					"ADD_ARMA"
-					(
-						"PLAYER"
-					) 
-					(
-						"ARMA_CLASSID"
-						45
-					) 
-				) 
-				(
-					"ADD_ARMA"
-					(
-						"PLAYER"
-					) 
-					(
-						"ARMA_CLASSID"
-						64
-					) 
-				) 
-				(
-					"ADD_ARMA"
-					(
-						"PLAYER"
-					) 
-					(
-						"ARMA_CLASSID"
-						42
-					) 
-				) 
-				(
-					"ADD_ARMA"
-					(
-						"PLAYER"
-					) 
-					(
-						"ARMA_CLASSID"
-						37
-					) 
-				) 
-				(
-					"SELECT_ARMA"
-					(
-						"PLAYER"
-					) 
-					(
-						"ARMA_CLASSID"
-						40
-					) 
-				)
-				(
-					"ADD_ARMA"
-					(
-						"PLAYER"
-					) 
-					(
-						"ARMA_CLASSID"
-						70
-					) 
-				)
+			(
+				( "TIMED_STRING_INITPOS" ( "NUMERO" 0.115 ) ( "NUMERO" 0.25 ) )
+				( "ADD_ARMA" ( "PLAYER" ) ( "ARMA_CLASSID" 40 ) )
+				( "SET_MUNICION_ARMA" ( "PLAYER" ) ( "ARMA_CLASSID" 40 ) ( "NUMERO" 100.0 ) ( "NUMERO" 100.0 ) )
+				( "ADD_ARMA" ( "PLAYER" ) ( "ARMA_CLASSID" 16 ) )
+				( "ADD_ARMA" ( "PLAYER" ) ( "ARMA_CLASSID" 102 ) )
+				( "SET_MUNICION_ARMA" ( "PLAYER" ) ( "ARMA_CLASSID" 102 ) ( "NUMERO" 100.0 ) ( "NUMERO" 100.0 ) )
+				( "ADD_ARMA" ( "PLAYER" ) ( "ARMA_CLASSID" 45 ) )
+				( "ADD_ARMA" ( "PLAYER" ) ( "ARMA_CLASSID" 64 ) )
+				( "ADD_ARMA" ( "PLAYER" ) ( "ARMA_CLASSID" 42 ) )
+				( "ADD_ARMA" ( "PLAYER" ) ( "ARMA_CLASSID" 37 ) )
+				( "SELECT_ARMA" ( "PLAYER" ) ( "ARMA_CLASSID" 40 ) )
+				( "ADD_ARMA" ( "PLAYER" ) ( "ARMA_CLASSID" 70 ) )
 			) 
 		]
 		[
@@ -241,56 +107,14 @@
 			] 
 			.EVENTOS
 			(
-				(
-					"START_GAME"
-				) 
+				( "START_GAME" )
 			) 
 			.ACCIONES
-			( 
-				(
-					"ARRAY_ADD"
-					(
-						"ARRAYID"
-						8388637
-					) 
-					(
-						"BICHO"
-						3
-					) 
-				)
-				(
-					"ARRAY_ADD"
-					(
-						"ARRAYID"
-						8388637
-					) 
-					(
-						"BICHO"
-						4
-					) 
-				)
-				(
-					"ARRAY_ADD"
-					(
-						"ARRAYID"
-						8388637
-					) 
-					(
-						"BICHO"
-						5
-					) 
-				)
-				(
-					"ARRAY_ADD"
-					(
-						"ARRAYID"
-						8388637
-					) 
-					(
-						"BICHO"
-						9
-					) 
-				)
+			(
+				( "ARRAY_ADD" ( "ARRAYID" 8388637 ) ( "BICHO" 3 ) )
+				( "ARRAY_ADD" ( "ARRAYID" 8388637 ) ( "BICHO" 4 ) )
+				( "ARRAY_ADD" ( "ARRAYID" 8388637 ) ( "BICHO" 5 ) )
+				( "ARRAY_ADD" ( "ARRAYID" 8388637 ) ( "BICHO" 9 ) )
 			) 
 		]
 		[
@@ -305,37 +129,12 @@
 			] 
 			.EVENTOS
 			(
-				(
-					"START_GAME"
-				) 
+				( "START_GAME" )
 			) 
 			.ACCIONES
-			( 
-				(
-					"CONTINUE"
-					(
-						"PLAY_ANMBDD"
-						(
-							"BICHO"
-							4
-						) 
-						(
-							"ANM_BDD"
-							1934
-						) 
-					)
-				)
-				(
-					"PLAY_ANMBDD"
-					(
-						"BICHO"
-						5
-					) 
-					(
-						"ANM_BDD"
-						1934
-					) 
-				)
+			(
+				( "CONTINUE" ( "PLAY_ANMBDD" ( "BICHO" 4 ) ( "ANM_BDD" 1934 ) ) )
+				( "PLAY_ANMBDD" ( "BICHO" 5 ) ( "ANM_BDD" 1934 ) )
 			) 
 		]
 		[
@@ -350,78 +149,15 @@
 			] 
 			.EVENTOS
 			(
-				(
-					"MUERTO"
-				) 
+				( "MUERTO" )
 			) 
 			.ACCIONES
-			( 
-				(
-					"IF"
-					(
-						"OR"
-						(
-							"NOT"
-							(
-								"ESTA_VIVO"
-								(
-									"BICHO"
-									3
-								) 
-							) 
-						)
-						(
-							"OR"
-							(
-								"NOT"
-								(
-									"ESTA_VIVO"
-									(
-										"BICHO"
-										4
-									) 
-								) 
-							)
-							(
-								"NOT"
-								(
-									"ESTA_VIVO"
-									(
-										"BICHO"
-										5
-									) 
-								) 
-							)
-						)
-					)
-				)
-				(
-					"FOREACH"
-					(
-						"ARRAYID"
-						8388637
-					)
-				)
-				(
-					"SET_ACTITUD"
-					(
-						"ARRAY_CURRENT_ITEM"
-						(
-							"ARRAYID"
-							8388637
-						) 
-					) 
-					(
-						"ACTITUD"
-						"COMBATIENDO"
-					) 
-				)
-				(
-					"ENDFOR"
-				)
-				(
-					"ENDIF"
-				)
+			(
+				( "IF" ( "OR" ( "NOT" ( "ESTA_VIVO" ( "BICHO" 3 ) ) ) ( "OR" ( "NOT" ( "ESTA_VIVO" ( "BICHO" 4 ) ) ) ( "NOT" ( "ESTA_VIVO" ( "BICHO" 5 ) ) ) ) ) )
+				( "FOREACH" ( "ARRAYID" 8388637 ) )
+				( "SET_ACTITUD" ( "ARRAY_CURRENT_ITEM" ( "ARRAYID" 8388637 ) ) ( "ACTITUD" "COMBATIENDO" ) )
+				( "ENDFOR" )
+				( "ENDIF" )
 			) 
 		]
 		[
@@ -436,90 +172,17 @@
 			] 
 			.EVENTOS
 			(
-				(
-					"START_GAME"
-				) 
+				( "START_GAME" )
 			) 
 			.ACCIONES
-			(  
-				(
-					"LINK_A_HABITACULO"
-					(
-						"BICHO" // npc id
-						7
-					) 
-					(
-						"BICHO" // vehicle id
-						6
-					) 
-					(
-						"NUMERO"
-						1.0 // ( 0.0 = driver place)
-					) 
-				)
-				(
-					"LINK_A_HABITACULO"
-					(
-						"BICHO" // npc id
-						8
-					) 
-					(
-						"BICHO" // vehicle id
-						6
-					) 
-					(
-						"NUMERO"
-						0.0 // ( 0.0 = driver place)
-					) 
-				)
-				(
-					"IR_A_PATHPOINT"
-					(
-						"BICHO"
-						6
-					) 
-					(
-						"PATHPOINT"
-						1
-						5
-					) 
-				)
-				(
-					"BAJAR_DE_HABITACULO"
-					(
-						"BICHO"
-						7
-					) 
-				)
-				(
-					"SEND_EVENT"
-					(
-						"EVENT"
-						"GENERAL_GO"
-					)
-				)
-				(
-					"ACTIVAR_VEHICULO"
-					(
-						"BICHO"
-						6
-					) 
-					(
-						"BOOL"
-						"FALSE"
-					) 
-				)
-				(
-					"SET"
-					(
-						"VAR"
-						8388638
-					) 
-					(
-						"BOOL"
-						"TRUE"
-					) 
-				)
+			(
+				( "LINK_A_HABITACULO" ( "BICHO" 7 ) ( "BICHO" 6 ) ( "NUMERO" 1.0 ) )
+				( "LINK_A_HABITACULO" ( "BICHO" 8 ) ( "BICHO" 6 ) ( "NUMERO" 0.0 ) )
+				( "IR_A_PATHPOINT" ( "BICHO" 6 ) ( "PATHPOINT" 1 5 ) )
+				( "BAJAR_DE_HABITACULO" ( "BICHO" 7 ) )
+				( "SEND_EVENT" ( "EVENT" "GENERAL_GO" ) )
+				( "ACTIVAR_VEHICULO" ( "BICHO" 6 ) ( "BOOL" "FALSE" ) )
+				( "SET" ( "VAR" 8388638 ) ( "BOOL" "TRUE" ) )
 			) 
 		]
 		[
@@ -534,57 +197,14 @@
 			] 
 			.EVENTOS
 			(
-				(
-					"IA_CHANGE_STATE"
-				) 
+				( "IA_CHANGE_STATE" )
 			) 
 			.ACCIONES
-			(  
-				(
-					"IF"
-						(
-							"CMP_OP_ACTITUD"
-							(
-								"GET_ACTITUD"
-								(
-									"BICHO"
-									7
-								) 
-							) 
-							(
-								"OP_BOOLEAN"
-								0
-							) 
-							(
-								"ACTITUD"
-								"COMBATIENDO"
-							) 
-						)  
-				) 
-				(
-					"CONTINUE"
-					(
-						"BAJAR_DE_HABITACULO"
-						(
-							"BICHO"
-							8
-						) 
-					)
-				)
-				(
-					"SET_ACTITUD"
-					(
-						"BICHO"
-						8
-					)
-					(
-						"ACTITUD"
-						"COMBATIENDO"
-					) 
-				)
-				(
-					"ENDIF"
-				)
+			(
+				( "IF" ( "CMP_OP_ACTITUD" ( "GET_ACTITUD" ( "BICHO" 7 ) ) ( "OP_BOOLEAN" 0 ) ( "ACTITUD" "COMBATIENDO" ) ) )
+				( "CONTINUE" ( "BAJAR_DE_HABITACULO" ( "BICHO" 8 ) ) )
+				( "SET_ACTITUD" ( "BICHO" 8 ) ( "ACTITUD" "COMBATIENDO" ) )
+				( "ENDIF" )
 			) 
 		]
 		[
@@ -599,68 +219,14 @@
 			]  
 			.EVENTOS
 			(
-				(
-					"GENERAL_GO"
-				) 
+				( "GENERAL_GO" )
 			)
 			.ACCIONES
-			(  
-				(
-					"IR_A_PATHPOINT"
-					(
-						"BICHO"
-						7
-					) 
-					(
-						"PATHPOINT"
-						2
-						3
-					) 
-					(
-						"BOOL"
-						"TRUE"
-					) 
-				)
-				(
-					"CONTINUE"
-					(
-						"PLAY_ANMBDD"
-						(
-							"BICHO"
-							7
-						) 
-						(
-							"ANM_BDD"
-							1378
-						) 
-					)
-				)
-				(
-					"TIMED_STRING_V2"
-					(
-						"FLI"
-						"0004"
-					) 
-					(
-						"NUMERO"
-						5.0
-					) 
-					(
-						"NUMERO"
-						1.0
-					) 
-				)
-				(
-					"PLAY_ANMBDD"
-					(
-						"BICHO"
-						3
-					) 
-					(
-						"ANM_BDD"
-						1378
-					) 
-				)
+			(
+				( "IR_A_PATHPOINT" ( "BICHO" 7 ) ( "PATHPOINT" 2 3 ) ( "BOOL" "TRUE" ) )
+				( "CONTINUE" ( "PLAY_ANMBDD" ( "BICHO" 7 ) ( "ANM_BDD" 1378 ) ) )
+				( "TIMED_STRING_V2" ( "FLI" "0004" ) ( "NUMERO" 5.0 ) ( "NUMERO" 1.0 ) )
+				( "PLAY_ANMBDD" ( "BICHO" 3 ) ( "ANM_BDD" 1378 ) )
 			) 
 		]
 		[
@@ -675,142 +241,24 @@
 			] 
 			.EVENTOS
 			(
-				(
-					"MUERTO"
-				) 
+				( "MUERTO" )
 			) 
 			.ACCIONES
-			(  
-				(
-					"IF"
-						(
-							"NOT"
-							(
-								"ESTA_VIVO"
-								(
-									"BICHO"
-									7
-								) 
-							) 
-						)  
-				) 
-				(
-					"NAVEGACION_STOP"
-					(
-						"BICHO"
-						6
-					) 
-				)
-				(
-					"TRIGGER_OFF"
-					(
-						"TRIGGER"
-						7
-					)
-				)
-				(
-					"CONTINUE"
-					(
-						"BAJAR_DE_HABITACULO"
-						(
-							"BICHO"
-							8
-						) 
-					)
-				)
-				(
-					"SET_ACTITUD"
-					(
-						"BICHO"
-						8
-					)
-					(
-						"ACTITUD"
-						"COMBATIENDO"
-					) 
-				)
-				(
-					"SET_ACTITUD"
-					(
-						"ARRAY_CURRENT_ITEM"
-						(
-							"ARRAYID"
-							8388637
-						) 
-					) 
-					(
-						"ACTITUD"
-						"COMBATIENDO"
-					) 
-				)
-				(
-					"ENDIF"
-				)
-				(
-					"IF"
-						(
-							"NOT"
-							(
-								"ESTA_VIVO"
-								(
-									"BICHO"
-									8
-								) 
-							) 
-						)  
-				)  
-				(
-					"NAVEGACION_STOP"
-					(
-						"BICHO"
-						6
-					) 
-				)
-				(
-					"TRIGGER_OFF"
-					(
-						"TRIGGER"
-						7
-					)
-				)
-				(
-					"CONTINUE"
-					(
-						"BAJAR_DE_HABITACULO"
-						(
-							"BICHO"
-							7
-						) 
-					)
-				)
-				(
-					"SET_ACTITUD"
-					(
-						"BICHO"
-						7
-					)
-					(
-						"ACTITUD"
-						"COMBATIENDO"
-					) 
-				)
-				(
-					"SET_ACTITUD"
-					(
-						"ARRAY_CURRENT_ITEM"
-						(
-							"ARRAYID"
-							8388637
-						) 
-					) 
-					(
-						"ACTITUD"
-						"COMBATIENDO"
-					) 
-				)
-				(
-					"ENDIF"
-				)
+			(
+				( "IF" ( "NOT" ( "ESTA_VIVO" ( "BICHO" 7 ) ) ) )
+				( "NAVEGACION_STOP" ( "BICHO" 6 ) )
+				( "TRIGGER_OFF" ( "TRIGGER" 7 ) )
+				( "CONTINUE" ( "BAJAR_DE_HABITACULO" ( "BICHO" 8 ) ) )
+				( "SET_ACTITUD" ( "BICHO" 8 ) ( "ACTITUD" "COMBATIENDO" ) )
+				( "SET_ACTITUD" ( "ARRAY_CURRENT_ITEM" ( "ARRAYID" 8388637 ) ) ( "ACTITUD" "COMBATIENDO" ) )
+				( "ENDIF" )
+				( "IF" ( "NOT" ( "ESTA_VIVO" ( "BICHO" 8 ) ) ) )
+				( "NAVEGACION_STOP" ( "BICHO" 6 ) )
+				( "TRIGGER_OFF" ( "TRIGGER" 7 ) )
+				( "CONTINUE" ( "BAJAR_DE_HABITACULO" ( "BICHO" 7 ) ) )
+				( "SET_ACTITUD" ( "BICHO" 7 ) ( "ACTITUD" "COMBATIENDO" ) )
+				( "SET_ACTITUD" ( "ARRAY_CURRENT_ITEM" ( "ARRAYID" 8388637 ) ) ( "ACTITUD" "COMBATIENDO" ) )
+				( "ENDIF" )
 			) 
 		]
 		[
@@ -825,47 +273,14 @@
 			] 
 			.EVENTOS
 			(
-				(
-					"START_GAME"
-				) 
+				( "START_GAME" )
 			) 
 			.ACCIONES
-			(  
-				(
-					"WHILE"
-					(
-						"BOOL"
-						"TRUE"
-					) 
-				)
-				(
-					"CONTINUE"
-					(
-						"TRIGGER_EXE"
-						(
-							"TRIGGER"
-							14
-						)
-					)
-				)
-				(
-					"PLAY_ANMBDD_CICLOS"
-					(
-						"BICHO"
-						9
-					) 
-					(
-						"ANM_BDD"
-						1385
-					) 
-					(
-						"NUMERO"
-						1.0
-					) 
-				) 
-				(
-					"WEND"
-				)
+			(
+				( "WHILE" ( "BOOL" "TRUE" ) )
+				( "CONTINUE" ( "TRIGGER_EXE" ( "TRIGGER" 14 ) ) )
+				( "PLAY_ANMBDD_CICLOS" ( "BICHO" 9 ) ( "ANM_BDD" 1385 ) ( "NUMERO" 1.0 ) )
+				( "WEND" )
 			)
 		]
 		[
@@ -880,27 +295,11 @@
 			] 
 			.EVENTOS
 			(
-				(
-					"START_GAME"
-				) 
+				( "START_GAME" )
 			) 
 			.ACCIONES
 			(
-				(
-					"PLAY_SONIDOID" // Play ambient sfx
-					(
-						"SONIDO_BDD"
-						559
-					) 
-					(
-						"NUMERO"
-						0.0
-					) 
-					(
-						"NUMERO"
-						-1.0 // ID (probably)
-					) 
-				) 
+				( "PLAY_SONIDOID" ( "SONIDO_BDD" 559 ) ( "NUMERO" 0.0 ) ( "NUMERO" -1.0 ) )
 			) 
 		]
 		[
@@ -915,28 +314,11 @@
 			] 
 			.EVENTOS
 			(
-				(
-					"START_GAME"
-				) 
+				( "START_GAME" )
 			) 
 			.ACCIONES
 			(
-				(
-					"LINK_A_OBJETO"
-					(
-						"BICHO"
-						10
-					) 
-					(
-						"BICHO"
-						3
-					) 
-					(
-						"DUMMY_BICHO"
-						60
-						"Hueso 60"
-					) 
-				) 
+				( "LINK_A_OBJETO" ( "BICHO" 10 ) ( "BICHO" 3 ) ( "DUMMY_BICHO" 60 "Hueso 60" ) )
 			)
 		]
 		[
@@ -951,68 +333,16 @@
 			] 
 			.EVENTOS
 			(
-				(
-					"MUERTO"
-				) 
+				( "MUERTO" )
 			) 
 			.ACCIONES
 			(
-				(
-					"IF"
-					(
-						"NOT"
-						(
-							"ESTA_VIVO"
-							(
-								"BICHO"
-								3
-							) 
-						) 
-					)  
-				) 
-				(
-					"DESTRUIR_BICHO"
-					(
-						"BICHO"
-						10
-					) 
-				)
-				(
-					"SET_OBJETIVO_SUCCESS"
-					(
-						"NUMERO"
-						1.0
-					) 
-					(
-						"BOOL"
-						"TRUE"
-					) 
-				)
-				(
-					"TIMED_STRING_V2"
-					(
-						"FLI"
-						"g016"
-					) 
-					(
-						"NUMERO"
-						5.0
-					) 
-					(
-						"NUMERO"
-						6.0
-					) 
-				)
-				(
-					"TRIGGER_OFF"
-					(
-						"TRIGGER"
-						12
-					)
-				)
-				(
-					"ENDIF"
-				)
+				( "IF" ( "NOT" ( "ESTA_VIVO" ( "BICHO" 3 ) ) ) )
+				( "DESTRUIR_BICHO" ( "BICHO" 10 ) )
+				( "SET_OBJETIVO_SUCCESS" ( "NUMERO" 1.0 ) ( "BOOL" "TRUE" ) )
+				( "TIMED_STRING_V2" ( "FLI" "g016" ) ( "NUMERO" 5.0 ) ( "NUMERO" 6.0 ) )
+				( "TRIGGER_OFF" ( "TRIGGER" 12 ) )
+				( "ENDIF" )
 			)
 		]
 		[
@@ -1027,38 +357,12 @@
 			] 
 			.EVENTOS
 			(
-				(
-					"START_GAME"
-				) 
+				( "START_GAME" )
 			) 
 			.ACCIONES
 			(
-				(
-					"SET_OBJETIVO"
-					(
-						"NUMERO"
-						1.0
-					) 
-					(
-						"BOOL"
-						"FALSE" 
-					) 
-					(
-						"NUMERO"
-						4.0
-					) 
-				)
-				(
-					"SET_OBJETIVO_LABEL"
-					(
-						"NUMERO"
-						1.0
-					) 
-					(
-						"FLI"
-						"0003"
-					) 
-				)
+				( "SET_OBJETIVO" ( "NUMERO" 1.0 ) ( "BOOL" "FALSE" ) ( "NUMERO" 4.0 ) )
+				( "SET_OBJETIVO_LABEL" ( "NUMERO" 1.0 ) ( "FLI" "0003" ) )
 			)
 		]
 		[
@@ -1072,33 +376,9 @@
 				.VALIDO 1
 			]  
 			.ACCIONES
-			(  
-				(
-					"PAUSE"
-					(
-						"NUMERO"
-						2.4
-					) 
-				) 
-				(
-					"CONTINUE"
-					(
-						"EFFECTO_DUMMY_BICHO"
-						(
-							"BICHO"
-							9
-						) 
-						(
-							"DUMMY_BICHO"
-							60
-							"Hueso 60"
-						) 
-						(
-							"EFECTO_CLASSID"
-							162
-						) 
-					)
-				)
+			(
+				( "PAUSE" ( "NUMERO" 2.4 ) )
+				( "CONTINUE" ( "EFFECTO_DUMMY_BICHO" ( "BICHO" 9 ) ( "DUMMY_BICHO" 60 "Hueso 60" ) ( "EFECTO_CLASSID" 162 ) ) )
 			)
 		]
 		[
@@ -1113,42 +393,14 @@
 			] 
 			.EVENTOS
 			(
-				(
-					"MUERTO"
-				) 
+				( "MUERTO" )
 			) 
 			.ACCIONES
 			(
-				(
-					"IF"
-					(
-						"NOT"
-						(
-							"ESTA_VIVO"
-							(
-								"BICHO"
-								9
-							) 
-						) 
-					)  
-				) 
-				(
-					"TRIGGER_OFF"
-					(
-						"TRIGGER"
-						9
-					)
-				)
-				(
-					"TRIGGER_OFF"
-					(
-						"TRIGGER"
-						15
-					)
-				)
-				(
-					"ENDIF"
-				)
+				( "IF" ( "NOT" ( "ESTA_VIVO" ( "BICHO" 9 ) ) ) )
+				( "TRIGGER_OFF" ( "TRIGGER" 9 ) )
+				( "TRIGGER_OFF" ( "TRIGGER" 15 ) )
+				( "ENDIF" )
 			)
 		]
 		[
@@ -1163,34 +415,12 @@
 			] 
 			.EVENTOS
 			(
-				(
-					"START_GAME"
-				) 
+				( "START_GAME" )
 			) 
 			.ACCIONES
-			(  
-				(
-					"ADD_ARMA"
-					(
-						"BICHO"
-						9
-					) 
-					(
-						"ARMA_CLASSID"
-						21
-					) 
-				) 
-				(
-					"SELECT_ARMA"
-					(
-						"BICHO"
-						9
-					) 
-					(
-						"ARMA_CLASSID"
-						21
-					) 
-				)
+			(
+				( "ADD_ARMA" ( "BICHO" 9 ) ( "ARMA_CLASSID" 21 ) )
+				( "SELECT_ARMA" ( "BICHO" 9 ) ( "ARMA_CLASSID" 21 ) )
 			)
 		]
 	) 
